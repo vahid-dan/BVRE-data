@@ -821,3 +821,111 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 14.269/15.658/16.693/1.020 ms
+
+############################ bjorn - 07/25/20 12:00:01 EDT -0400 ############################
+
+ 12:00:01 up 20:31,  1 user,  load average: 0.02, 0.02, 0.00
+
+
+reboot   system boot  5.4.0-42-generic Fri Jul 24 15:28   still running
+reboot   system boot  5.4.0-42-generic Fri Jul 24 12:27 - 15:28  (03:00)
+reboot   system boot  5.4.0-42-generic Fri Jul 24 01:03 - 12:27  (11:24)
+reboot   system boot  5.4.0-42-generic Thu Jul 23 21:13 - 01:02  (03:49)
+reboot   system boot  5.4.0-42-generic Thu Jul 23 21:08 - 21:10  (00:02)
+
+
+
+
+
+
+[   18.192869] rfkill: input handler disabled
+[   19.519392] iTCO_vendor_support: vendor-support=0
+[   19.525007] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[ 9965.199053] Bluetooth: RFCOMM TTY layer initialized
+[ 9965.199064] Bluetooth: RFCOMM socket layer initialized
+[ 9965.199078] Bluetooth: RFCOMM ver 1.11
+[17710.726863] rfkill: input handler enabled
+[17716.515284] rfkill: input handler disabled
+[30681.565619] kauditd_printk_skb: 20 callbacks suppressed
+[30681.565622] audit: type=1400 audit(1595649602.321:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=16049 comm="cups-browsed" capability=23  capname="sys_nice"
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  7.4G   48G  14% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   53M   56G   1% /data
+
+
+IN-USE  BSSID              SSID           MODE   CHAN  RATE        SIGNAL  BARS  SECURITY         
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G  Infra  157   540 Mbit/s  38      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AC  xfinitywifi    Infra  1     130 Mbit/s  35      ▂▄__  --               
+        AE:63:BE:8E:0A:CD  --             Infra  1     130 Mbit/s  35      ▂▄__  WPA2             
+        14:59:C0:97:86:CA  NETGEAR23      Infra  11    54 Mbit/s   35      ▂▄__  WPA2             
+        04:A2:22:D9:81:4E  Fios-2gTCf     Infra  40    540 Mbit/s  35      ▂▄__  WPA2             
+        62:A2:22:D9:81:4F  --             Infra  40    540 Mbit/s  35      ▂▄__  WPA2             
+        72:A2:22:D9:81:4F  --             Infra  153   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B7  --             Infra  157   540 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        3C:9A:77:EF:F1:B5  --             Infra  157   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B4  xfinitywifi    Infra  157   540 Mbit/s  35      ▂▄__  --               
+        3C:9A:77:EF:F1:B2  Xfinity1       Infra  157   540 Mbit/s  35      ▂▄__  WPA2             
+        42:86:8C:DC:30:BD  XFINITY        Infra  157   405 Mbit/s  35      ▂▄__  WPA2 802.1X      
+        52:86:8C:DC:30:BD  --             Infra  157   405 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        32:86:8C:DC:30:BD  --             Infra  157   405 Mbit/s  35      ▂▄__  WPA1 WPA2        
+        04:A2:22:D9:81:4C  Fios-2gTCf     Infra  11    540 Mbit/s  30      ▂___  WPA2             
+        EC:A9:40:36:BC:47  ARRIS-1B49     Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        B8:F8:53:16:BA:FC  Fios-BsLS6     Infra  11    540 Mbit/s  29      ▂___  WPA2             
+
+
+
+
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2039ms
+
+
+
+PING github.com (140.82.114.3) 56(84) bytes of data.
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=1 ttl=52 time=19.9 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=2 ttl=52 time=19.5 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=3 ttl=52 time=18.3 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 18.297/19.257/19.943/0.699 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=115 time=15.7 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=115 time=20.0 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=115 time=13.2 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 13.237/16.320/20.026/2.806 ms
