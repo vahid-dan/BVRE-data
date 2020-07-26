@@ -1021,3 +1021,96 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 13.505/15.031/15.959/1.087 ms
+
+############################ bjorn - 07/26/20 00:00:01 EST ############################
+
+ 00:00:01 up 1 day,  9:31,  1 user,  load average: 0.10, 0.05, 0.01
+
+
+reboot   system boot  5.4.0-42-generic Fri Jul 24 14:28   still running
+reboot   system boot  5.4.0-42-generic Fri Jul 24 11:27 - 14:28  (03:00)
+reboot   system boot  5.4.0-42-generic Fri Jul 24 00:03 - 11:27  (11:24)
+reboot   system boot  5.4.0-42-generic Thu Jul 23 20:13 - 00:02  (03:49)
+reboot   system boot  5.4.0-42-generic Thu Jul 23 20:08 - 20:10  (00:02)
+
+
+
+
+
+
+[ 9965.199078] Bluetooth: RFCOMM ver 1.11
+[17710.726863] rfkill: input handler enabled
+[17716.515284] rfkill: input handler disabled
+[30681.565619] kauditd_printk_skb: 20 callbacks suppressed
+[30681.565622] audit: type=1400 audit(1595649602.321:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=16049 comm="cups-browsed" capability=23  capname="sys_nice"
+[94973.763953] perf: interrupt took too long (2555 > 2500), lowering kernel.perf_event_max_sample_rate to 78250
+[104442.054058] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX/TX
+[104442.054360] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[111918.040136] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[111920.860550] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX/TX
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  7.4G   48G  14% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   54M   56G   1% /data
+
+
+IN-USE  BSSID              SSID           MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G  Infra  157   540 Mbit/s  34      ▂▄__  WPA2     
+
+
+
+
+
+
+enp2s0:
+192.168.5.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2053ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING github.com (140.82.112.4) 56(84) bytes of data.
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=1 ttl=52 time=18.7 ms
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=2 ttl=52 time=20.1 ms
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=3 ttl=52 time=19.2 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 18.721/19.354/20.100/0.568 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=115 time=15.3 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=115 time=15.7 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=115 time=14.7 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 14.732/15.248/15.706/0.399 ms
