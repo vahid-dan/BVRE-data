@@ -1393,3 +1393,118 @@ IN-USE  BSSID              SSID           MODE   CHAN  RATE        SIGNAL  BARS 
 enp2s0:
 
 
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2053ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING github.com (140.82.114.3) 56(84) bytes of data.
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=1 ttl=52 time=19.1 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=2 ttl=52 time=19.1 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=3 ttl=52 time=19.6 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 19.060/19.235/19.566/0.234 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=115 time=16.3 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=115 time=18.3 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=115 time=13.0 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 12.955/15.848/18.304/2.205 ms
+
+############################ bjorn - 07/26/20 09:25:07 EST ############################
+
+ 09:25:07 up 4 min,  1 user,  load average: 0.22, 0.32, 0.17
+
+
+reboot   system boot  5.4.0-42-generic Sun Jul 26 09:20   still running
+reboot   system boot  5.4.0-42-generic Sun Jul 26 08:36 - 09:20  (00:43)
+reboot   system boot  5.4.0-42-generic Sun Jul 26 08:29 - 08:34  (00:05)
+reboot   system boot  5.4.0-42-generic Sun Jul 26 08:27 - 08:28  (00:00)
+reboot   system boot  5.4.0-42-generic Fri Jul 24 14:28 - 08:27 (1+17:58)
+
+
+
+
+
+
+[   15.932380] wlp1s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 60:d2:48:f5:51:5f
+[   15.988602] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[   19.014733] rfkill: input handler disabled
+[   20.336106] iTCO_vendor_support: vendor-support=0
+[   20.341091] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   20.341148] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   20.341361] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[  156.474502] Bluetooth: RFCOMM TTY layer initialized
+[  156.474514] Bluetooth: RFCOMM socket layer initialized
+[  156.474522] Bluetooth: RFCOMM ver 1.11
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  7.4G   48G  14% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   54M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                        MODE   CHAN  RATE        SIGNAL  BARS  SECURITY         
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G               Infra  157   540 Mbit/s  36      ▂▄__  WPA2             
+        AE:63:BE:8E:0A:CD  --                          Infra  1     130 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AA  Xfinity1                    Infra  6     130 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AF  --                          Infra  6     130 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        3C:9A:77:EF:F1:AD  --                          Infra  6     130 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AC  xfinitywifi                 Infra  6     130 Mbit/s  35      ▂▄__  --               
+        DA:31:34:CF:65:0D  --                          Infra  11    65 Mbit/s   35      ▂▄__  WPA2             
+        72:A2:22:D9:81:4F  --                          Infra  153   540 Mbit/s  35      ▂▄__  WPA2             
+        B8:F8:53:16:BA:FD  Fios-BsLS6                  Infra  153   540 Mbit/s  35      ▂▄__  WPA2             
+        6A:F8:53:16:BA:FE  --                          Infra  153   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B7  --                          Infra  157   540 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        3C:9A:77:EF:F1:B5  --                          Infra  157   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B2  Xfinity1                    Infra  157   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B4  xfinitywifi                 Infra  157   540 Mbit/s  35      ▂▄__  --               
+        52:86:8C:DC:30:BD  --                          Infra  157   405 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        10:86:8C:DC:30:BD  Home3329                    Infra  157   405 Mbit/s  35      ▂▄__  WPA2             
+        32:86:8C:DC:30:BD  --                          Infra  157   405 Mbit/s  35      ▂▄__  WPA1 WPA2        
+        42:86:8C:DC:30:BD  XFINITY                     Infra  157   405 Mbit/s  35      ▂▄__  WPA2 802.1X      
+        04:A2:22:D9:81:4C  Fios-2gTCf                  Infra  11    540 Mbit/s  32      ▂▄__  WPA2             
+        EC:A9:40:36:BC:47  ARRIS-1B49                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        60:D2:48:F5:51:5E  ARRIS-0B1D                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        18:78:D4:18:A0:12  Fios-P51XD                  Infra  1     195 Mbit/s  29      ▂___  WPA2             
+        58:20:B1:3C:FE:C2  HP-Print-C2-Officejet 4630  Infra  1     54 Mbit/s   29      ▂___  WPA2             
+        14:59:C0:97:86:CA  NETGEAR23                   Infra  11    52 Mbit/s   29      ▂___  WPA2             
+
+
+
+
+
+
+enp2s0:
+
+
