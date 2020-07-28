@@ -2310,3 +2310,95 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2004ms
 rtt min/avg/max/mdev = 14.442/17.073/21.729/3.301 ms
+
+############################ bjorn - 07/28/20 00:00:01 EST ############################
+
+ 00:00:01 up 1 day,  1:20,  0 users,  load average: 0.00, 0.00, 0.00
+
+
+reboot   system boot  5.4.0-42-generic Sun Jul 26 22:40   still running
+reboot   system boot  5.4.0-42-generic Sun Jul 26 09:20 - 22:32  (13:11)
+reboot   system boot  5.4.0-42-generic Sun Jul 26 08:36 - 09:20  (00:43)
+reboot   system boot  5.4.0-42-generic Sun Jul 26 08:29 - 08:34  (00:05)
+reboot   system boot  5.4.0-42-generic Sun Jul 26 08:27 - 08:28  (00:00)
+
+
+
+
+
+
+[   20.020962] rfkill: input handler disabled
+[   21.314591] iTCO_vendor_support: vendor-support=0
+[   21.318561] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   21.318620] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   21.324047] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   69.283495] Bluetooth: RFCOMM TTY layer initialized
+[   69.283505] Bluetooth: RFCOMM socket layer initialized
+[   69.283556] Bluetooth: RFCOMM ver 1.11
+[ 4801.741345] kauditd_printk_skb: 20 callbacks suppressed
+[ 4801.741347] audit: type=1400 audit(1595826002.449:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=3666 comm="cups-browsed" capability=23  capname="sys_nice"
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  7.4G   48G  14% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   54M   56G   1% /data
+
+
+IN-USE  BSSID              SSID           MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G  Infra  157   540 Mbit/s  35      ▂▄__  WPA2     
+
+
+
+
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2056ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2052ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2024ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING github.com (140.82.112.3) 56(84) bytes of data.
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=1 ttl=52 time=18.8 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=2 ttl=52 time=22.2 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=3 ttl=52 time=18.2 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 18.247/19.752/22.176/1.730 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=115 time=22.2 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=115 time=18.4 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=115 time=14.1 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 14.139/18.269/22.227/3.304 ms
