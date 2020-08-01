@@ -5057,3 +5057,100 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2004ms
 rtt min/avg/max/mdev = 13.827/15.647/16.669/1.290 ms
+
+############################ bjorn - 08/01/20 06:00:01 EST ############################
+
+ 06:00:01 up  8:16,  0 users,  load average: 0.00, 0.00, 0.00
+
+
+reboot   system boot  5.4.0-42-generic Fri Jul 31 21:43   still running
+reboot   system boot  5.4.0-42-generic Fri Jul 31 09:29 - 21:42  (12:13)
+reboot   system boot  5.4.0-42-generic Fri Jul 31 08:59 - 09:28  (00:28)
+reboot   system boot  5.4.0-42-generic Thu Jul 30 19:27 - 19:36  (00:08)
+reboot   system boot  5.4.0-42-generic Thu Jul 30 19:23 - 19:27  (00:03)
+
+
+
+
+
+
+[   16.153601] fbcon: Taking over console
+[   16.243057] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[   18.535536] iTCO_vendor_support: vendor-support=0
+[   18.545675] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   18.545734] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   18.546048] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   22.355945] rfkill: input handler disabled
+[14980.941700] Bluetooth: RFCOMM TTY layer initialized
+[14980.941714] Bluetooth: RFCOMM socket layer initialized
+[14980.941730] Bluetooth: RFCOMM ver 1.11
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  7.5G   48G  14% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   54M   56G   1% /data
+
+
+IN-USE  BSSID              SSID           MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G  Infra  40    540 Mbit/s  42      ▂▄__  WPA2     
+        04:A2:22:D9:81:4E  Fios-2gTCf     Infra  40    540 Mbit/s  35      ▂▄__  WPA2     
+        62:A2:22:D9:81:4F  --             Infra  40    540 Mbit/s  35      ▂▄__  WPA2     
+        3C:9A:77:EF:F1:B2  Xfinity1       Infra  44    540 Mbit/s  35      ▂▄__  WPA2     
+        EC:A9:40:36:BC:47  ARRIS-1B49     Infra  1     405 Mbit/s  29      ▂___  WPA2     
+        14:59:C0:97:86:CA  NETGEAR23      Infra  6     52 Mbit/s   29      ▂___  WPA2     
+
+
+
+
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2039ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2026ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING github.com (140.82.113.3) 56(84) bytes of data.
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=1 ttl=52 time=23.7 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=2 ttl=52 time=19.3 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=3 ttl=52 time=17.3 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 17.250/20.094/23.704/2.689 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=115 time=15.6 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=115 time=15.4 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=115 time=14.4 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 14.430/15.148/15.578/0.511 ms

@@ -23,3 +23,8 @@
 
 2020-07-31 15:23:46 350 packets transmitted, 349 received, 0.285714% packet loss, time 20959053ms
 2020-07-31 15:23:46 rtt min/avg/max/mdev = 14.887/20.083/108.732/9.647 ms
+
+############## bjorn - 07/31/20 21:47:23 EST -0500 ##############
+
+2020-08-01 03:36:41 350 packets transmitted, 350 received, 0% packet loss, time 20957438ms
+2020-08-01 03:36:41 rtt min/avg/max/mdev = 14.116/19.687/138.521/12.322 ms
