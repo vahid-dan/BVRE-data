@@ -4844,3 +4844,67 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 14.012/15.161/15.841/0.817 ms
+
+############################ bjorn - 07/31/20 21:47:23 EST ############################
+
+ 21:47:23 up 4 min,  0 users,  load average: 0.20, 0.20, 0.10
+
+
+reboot   system boot  5.4.0-42-generic Fri Jul 31 21:43   still running
+reboot   system boot  5.4.0-42-generic Fri Jul 31 09:29 - 21:42  (12:13)
+reboot   system boot  5.4.0-42-generic Fri Jul 31 08:59 - 09:28  (00:28)
+reboot   system boot  5.4.0-42-generic Thu Jul 30 19:27 - 19:36  (00:08)
+reboot   system boot  5.4.0-42-generic Thu Jul 30 19:23 - 19:27  (00:03)
+
+
+
+
+
+
+[   16.029440] wlp1s0: RX AssocResp from 60:d2:48:f5:51:5f (capab=0x931 status=0 aid=1)
+[   16.034440] wlp1s0: associated
+[   16.121747] wlp1s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 60:d2:48:f5:51:5f
+[   16.153601] fbcon: Taking over console
+[   16.243057] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[   18.535536] iTCO_vendor_support: vendor-support=0
+[   18.545675] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   18.545734] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   18.546048] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   22.355945] rfkill: input handler disabled
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  7.5G   48G  14% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   56M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                        MODE   CHAN  RATE        SIGNAL  BARS  SECURITY         
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G               Infra  40    540 Mbit/s  41      ▂▄__  WPA2             
+        AE:63:BE:8E:0A:CD  --                          Infra  1     130 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AF  --                          Infra  6     130 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        04:A2:22:D9:81:4E  Fios-2gTCf                  Infra  40    540 Mbit/s  35      ▂▄__  WPA2             
+        62:A2:22:D9:81:4F  --                          Infra  40    540 Mbit/s  35      ▂▄__  WPA2             
+        EC:A9:40:36:BC:48  ARRIS-B22                   Infra  48    405 Mbit/s  35      ▂▄__  WPA2             
+        72:A2:22:D9:81:4F  --                          Infra  153   540 Mbit/s  35      ▂▄__  WPA2             
+        52:86:8C:DC:30:BD  --                          Infra  157   405 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        BC:FF:EB:F3:2E:81  TotalNerd - 5G              Infra  157   405 Mbit/s  35      ▂▄__  WPA2             
+        10:86:8C:DC:30:BD  Home3329                    Infra  157   405 Mbit/s  35      ▂▄__  WPA2             
+        32:86:8C:DC:30:BD  --                          Infra  157   405 Mbit/s  35      ▂▄__  WPA1 WPA2        
+        42:86:8C:DC:30:BD  XFINITY                     Infra  157   405 Mbit/s  35      ▂▄__  WPA2 802.1X      
+        EC:A9:40:36:BC:47  ARRIS-1B49                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        60:D2:48:F5:51:5E  ARRIS-0B1D                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        18:78:D4:18:A0:12  Fios-P51XD                  Infra  1     195 Mbit/s  29      ▂___  WPA2             
+        58:20:B1:3C:FE:C2  HP-Print-C2-Officejet 4630  Infra  1     54 Mbit/s   29      ▂___  WPA2             
+        04:A2:22:D9:81:4C  Fios-2gTCf                  Infra  6     540 Mbit/s  29      ▂___  WPA2             
+        B8:F8:53:16:BA:FC  Fios-BsLS6                  Infra  11    540 Mbit/s  29      ▂___  WPA2             
+        14:59:C0:97:86:CA  NETGEAR23                   Infra  11    54 Mbit/s   29      ▂___  WPA2             
+
+
+
+
+
+
+enp2s0:
+
+
