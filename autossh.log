@@ -1416,3 +1416,4 @@
 2020/08/02 01:55:29 autossh[1534]: check on child 1902
 2020/08/02 01:55:29 autossh[1534]: clear alarm timer (0 secs left)
 2020/08/02 01:55:29 autossh[1534]: set alarm for 600 secs
+2020/08/02 02:05:29 autossh[1534]: received SIGALRM (end-of-life 0)
