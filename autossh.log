@@ -1979,3 +1979,34 @@
 2020/08/02 15:24:02 autossh[1822]: clear alarm timer (0 secs left)
 2020/08/02 15:24:02 autossh[1822]: set alarm for 600 secs
 2020/08/02 15:24:02 autossh[1823]: child of 1822 execing /usr/bin/ssh
+2020/08/02 15:34:02 autossh[1822]: received SIGALRM (end-of-life 0)
+2020/08/02 15:34:17 autossh[1822]: timeout polling to accept read connection
+2020/08/02 15:34:17 autossh[1822]: port down, restarting ssh
+2020/08/02 15:34:17 autossh[1822]: clear alarm timer (0 secs left)
+2020/08/02 15:34:17 autossh[1822]: checking for grace period, tries = 0
+2020/08/02 15:34:17 autossh[1822]: starting ssh (count 2)
+2020/08/02 15:34:17 autossh[1822]: ssh child pid is 2354
+2020/08/02 15:34:17 autossh[1822]: check on child 2354
+2020/08/02 15:34:17 autossh[1822]: clear alarm timer (0 secs left)
+2020/08/02 15:34:17 autossh[1822]: set alarm for 600 secs
+2020/08/02 15:34:17 autossh[2354]: child of 1822 execing /usr/bin/ssh
+2020/08/02 15:35:18 autossh[1822]: check on child 2354
+2020/08/02 15:35:18 autossh[1822]: clear alarm timer (539 secs left)
+2020/08/02 15:35:18 autossh[1822]: set alarm for 539 secs
+2020/08/02 15:35:18 autossh[1822]: signalled to exit
+2020/08/02 15:35:18 autossh[1822]: check on child 2354
+2020/08/02 15:35:18 autossh[1822]: clear alarm timer (539 secs left)
+2020/08/02 15:35:18 autossh[1822]: set alarm for 539 secs
+2020/08/02 15:35:18 autossh[1822]: signalled to exit
+2020/08/02 15:35:18 autossh[1822]: waitpid() not successful: No child processes
+2020/08/02 15:35:18 autossh[1822]: clear alarm timer (539 secs left)
+
+############################ bjorn - 08/02/20 15:40:06 EST ############################
+
+2020/08/02 15:40:06 autossh[1948]: checking for grace period, tries = 0
+2020/08/02 15:40:06 autossh[1948]: starting ssh (count 1)
+2020/08/02 15:40:06 autossh[1948]: ssh child pid is 1951
+2020/08/02 15:40:06 autossh[1948]: check on child 1951
+2020/08/02 15:40:06 autossh[1948]: clear alarm timer (0 secs left)
+2020/08/02 15:40:06 autossh[1948]: set alarm for 600 secs
+2020/08/02 15:40:06 autossh[1951]: child of 1948 execing /usr/bin/ssh
