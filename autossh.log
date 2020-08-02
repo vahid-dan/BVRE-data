@@ -1897,3 +1897,85 @@
 2020/08/02 13:57:51 autossh[1534]: clear alarm timer (0 secs left)
 2020/08/02 13:57:51 autossh[1534]: set alarm for 600 secs
 2020/08/02 13:57:51 autossh[35938]: child of 1534 execing /usr/bin/ssh
+2020/08/02 14:07:51 autossh[1534]: received SIGALRM (end-of-life 0)
+2020/08/02 14:08:06 autossh[1534]: timeout polling to accept read connection
+2020/08/02 14:08:06 autossh[1534]: port down, restarting ssh
+2020/08/02 14:08:06 autossh[1534]: clear alarm timer (0 secs left)
+2020/08/02 14:08:06 autossh[1534]: checking for grace period, tries = 0
+2020/08/02 14:08:06 autossh[1534]: starting ssh (count 14)
+2020/08/02 14:08:06 autossh[1534]: ssh child pid is 38091
+2020/08/02 14:08:06 autossh[1534]: check on child 38091
+2020/08/02 14:08:06 autossh[1534]: clear alarm timer (0 secs left)
+2020/08/02 14:08:06 autossh[1534]: set alarm for 600 secs
+2020/08/02 14:08:06 autossh[38091]: child of 1534 execing /usr/bin/ssh
+2020/08/02 14:18:06 autossh[1534]: received SIGALRM (end-of-life 0)
+2020/08/02 14:18:21 autossh[1534]: timeout polling to accept read connection
+2020/08/02 14:18:21 autossh[1534]: port down, restarting ssh
+2020/08/02 14:18:21 autossh[1534]: clear alarm timer (0 secs left)
+2020/08/02 14:18:21 autossh[1534]: checking for grace period, tries = 0
+2020/08/02 14:18:21 autossh[1534]: starting ssh (count 15)
+2020/08/02 14:18:21 autossh[1534]: ssh child pid is 38298
+2020/08/02 14:18:21 autossh[1534]: check on child 38298
+2020/08/02 14:18:21 autossh[1534]: clear alarm timer (0 secs left)
+2020/08/02 14:18:21 autossh[1534]: set alarm for 600 secs
+2020/08/02 14:18:21 autossh[38298]: child of 1534 execing /usr/bin/ssh
+2020/08/02 14:28:21 autossh[1534]: received SIGALRM (end-of-life 0)
+2020/08/02 14:28:36 autossh[1534]: timeout polling to accept read connection
+2020/08/02 14:28:36 autossh[1534]: port down, restarting ssh
+2020/08/02 14:28:36 autossh[1534]: clear alarm timer (0 secs left)
+2020/08/02 14:28:36 autossh[1534]: checking for grace period, tries = 0
+2020/08/02 14:28:36 autossh[1534]: starting ssh (count 16)
+2020/08/02 14:28:36 autossh[1534]: ssh child pid is 38540
+2020/08/02 14:28:36 autossh[1534]: check on child 38540
+2020/08/02 14:28:36 autossh[1534]: clear alarm timer (0 secs left)
+2020/08/02 14:28:36 autossh[1534]: set alarm for 600 secs
+2020/08/02 14:28:36 autossh[38540]: child of 1534 execing /usr/bin/ssh
+2020/08/02 14:38:36 autossh[1534]: received SIGALRM (end-of-life 0)
+2020/08/02 14:38:37 autossh[1534]: connection ok
+2020/08/02 14:38:37 autossh[1534]: check on child 38540
+2020/08/02 14:38:37 autossh[1534]: clear alarm timer (0 secs left)
+2020/08/02 14:38:37 autossh[1534]: set alarm for 600 secs
+2020/08/02 14:48:37 autossh[1534]: received SIGALRM (end-of-life 0)
+2020/08/02 14:48:37 autossh[1534]: connection ok
+2020/08/02 14:48:37 autossh[1534]: check on child 38540
+2020/08/02 14:48:37 autossh[1534]: clear alarm timer (0 secs left)
+2020/08/02 14:48:37 autossh[1534]: set alarm for 600 secs
+2020/08/02 14:58:37 autossh[1534]: received SIGALRM (end-of-life 0)
+2020/08/02 14:58:37 autossh[1534]: connection ok
+2020/08/02 14:58:37 autossh[1534]: check on child 38540
+2020/08/02 14:58:37 autossh[1534]: clear alarm timer (0 secs left)
+2020/08/02 14:58:37 autossh[1534]: set alarm for 600 secs
+2020/08/02 15:08:37 autossh[1534]: received SIGALRM (end-of-life 0)
+2020/08/02 15:08:37 autossh[1534]: connection ok
+2020/08/02 15:08:37 autossh[1534]: check on child 38540
+2020/08/02 15:08:37 autossh[1534]: clear alarm timer (0 secs left)
+2020/08/02 15:08:37 autossh[1534]: set alarm for 600 secs
+2020/08/02 15:18:37 autossh[1534]: received SIGALRM (end-of-life 0)
+2020/08/02 15:18:37 autossh[1534]: connection ok
+2020/08/02 15:18:37 autossh[1534]: check on child 38540
+2020/08/02 15:18:37 autossh[1534]: clear alarm timer (0 secs left)
+2020/08/02 15:18:37 autossh[1534]: set alarm for 600 secs
+2020/08/02 15:19:13 autossh[1534]: check on child 38540
+2020/08/02 15:19:13 autossh[1534]: clear alarm timer (564 secs left)
+2020/08/02 15:19:13 autossh[1534]: set alarm for 564 secs
+2020/08/02 15:19:13 autossh[1534]: signalled to exit
+2020/08/02 15:19:13 autossh[1534]: check on child 38540
+2020/08/02 15:19:13 autossh[1534]: clear alarm timer (564 secs left)
+2020/08/02 15:19:13 autossh[1534]: set alarm for 564 secs
+2020/08/02 15:19:13 autossh[1534]: signalled to exit
+2020/08/02 15:19:13 autossh[1534]: check on child 38540
+2020/08/02 15:19:13 autossh[1534]: clear alarm timer (564 secs left)
+2020/08/02 15:19:13 autossh[1534]: set alarm for 564 secs
+2020/08/02 15:19:13 autossh[1534]: signalled to exit
+2020/08/02 15:19:13 autossh[1534]: waitpid() not successful: No child processes
+2020/08/02 15:19:13 autossh[1534]: clear alarm timer (564 secs left)
+
+############################ bjorn - 08/02/20 15:24:02 EST ############################
+
+2020/08/02 15:24:02 autossh[1822]: checking for grace period, tries = 0
+2020/08/02 15:24:02 autossh[1822]: starting ssh (count 1)
+2020/08/02 15:24:02 autossh[1822]: ssh child pid is 1823
+2020/08/02 15:24:02 autossh[1822]: check on child 1823
+2020/08/02 15:24:02 autossh[1822]: clear alarm timer (0 secs left)
+2020/08/02 15:24:02 autossh[1822]: set alarm for 600 secs
+2020/08/02 15:24:02 autossh[1823]: child of 1822 execing /usr/bin/ssh
