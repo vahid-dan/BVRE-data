@@ -5911,3 +5911,153 @@ IN-USE  BSSID              SSID            MODE   CHAN  RATE        SIGNAL  BARS
 enp2s0:
 
 
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2031ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2039ms
+
+
+
+PING github.com (140.82.113.3) 56(84) bytes of data.
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=1 ttl=52 time=20.2 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=2 ttl=52 time=21.8 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=3 ttl=52 time=16.8 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 16.793/19.613/21.817/2.096 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=115 time=16.0 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=115 time=16.3 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=115 time=13.5 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 13.508/15.274/16.314/1.255 ms
+
+############################ bjorn - 08/02/20 18:00:02 EST ############################
+
+ 18:00:02 up  2:24,  1 user,  load average: 0.08, 0.08, 0.01
+
+
+reboot   system boot  5.4.0-42-generic Sun Aug  2 15:35   still running
+reboot   system boot  5.4.0-42-generic Sun Aug  2 15:19 - 15:35  (00:15)
+reboot   system boot  5.4.0-42-generic Sat Aug  1 12:00 - 15:19 (1+03:18)
+reboot   system boot  5.4.0-42-generic Fri Jul 31 21:43 - 12:00  (14:17)
+reboot   system boot  5.4.0-42-generic Fri Jul 31 09:29 - 21:42  (12:13)
+
+
+
+
+
+
+[ 4443.265500] device edgbr101000F entered promiscuous mode
+[ 4443.341055] device brl101000F entered promiscuous mode
+[ 5635.361490] device brl101000F left promiscuous mode
+[ 5635.431466] device edgbr101000F left promiscuous mode
+[ 5635.460093] device ovs-system left promiscuous mode
+[ 5705.979296] device ovs-system entered promiscuous mode
+[ 5705.980473] No such timeout policy "ovs_test_tp"
+[ 5705.980477] Failed to associated timeout policy `ovs_test_tp'
+[ 5705.991343] device edgbr101000F entered promiscuous mode
+[ 5706.072927] device brl101000F entered promiscuous mode
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  8.5G   47G  16% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   55M   56G   1% /data
+
+
+IN-USE  BSSID              SSID           MODE   CHAN  RATE        SIGNAL  BARS  SECURITY         
+        DA:31:34:CF:65:0D  --             Infra  6     65 Mbit/s   35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AD  --             Infra  11    130 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AF  --             Infra  11    130 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        04:A2:22:D9:81:4E  Fios-2gTCf     Infra  40    540 Mbit/s  35      ▂▄__  WPA2             
+        62:A2:22:D9:81:4F  --             Infra  40    540 Mbit/s  35      ▂▄__  WPA2             
+        72:A2:22:D9:81:4F  --             Infra  153   540 Mbit/s  35      ▂▄__  WPA2             
+        B8:F8:53:16:BA:FD  Fios-BsLS6     Infra  153   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B7  --             Infra  157   540 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        52:86:8C:DC:30:BD  --             Infra  157   405 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G  Infra  48    540 Mbit/s  34      ▂▄__  WPA2             
+        14:59:C0:97:86:CA  NETGEAR23      Infra  6     52 Mbit/s   30      ▂___  WPA2             
+        04:A2:22:D9:81:4C  Fios-2gTCf     Infra  6     540 Mbit/s  29      ▂___  WPA2             
+        B8:F8:53:16:BA:FC  Fios-BsLS6     Infra  11    540 Mbit/s  29      ▂___  WPA2             
+
+
+
+
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING github.com (140.82.113.4) 56(84) bytes of data.
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=1 ttl=52 time=19.0 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=2 ttl=52 time=22.0 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=3 ttl=52 time=16.3 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 16.319/19.110/22.038/2.336 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=115 time=20.0 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=115 time=16.7 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=115 time=115 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 16.664/50.435/114.689/45.454 ms
