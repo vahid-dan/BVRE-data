@@ -2146,3 +2146,35 @@
 2020/08/02 20:00:24 autossh[1948]: check on child 2412
 2020/08/02 20:00:24 autossh[1948]: clear alarm timer (0 secs left)
 2020/08/02 20:00:24 autossh[1948]: set alarm for 600 secs
+2020/08/02 20:10:24 autossh[1948]: received SIGALRM (end-of-life 0)
+2020/08/02 20:10:24 autossh[1948]: connection ok
+2020/08/02 20:10:24 autossh[1948]: check on child 2412
+2020/08/02 20:10:24 autossh[1948]: clear alarm timer (0 secs left)
+2020/08/02 20:10:24 autossh[1948]: set alarm for 600 secs
+2020/08/02 20:20:24 autossh[1948]: received SIGALRM (end-of-life 0)
+2020/08/02 20:20:24 autossh[1948]: connection ok
+2020/08/02 20:20:24 autossh[1948]: check on child 2412
+2020/08/02 20:20:24 autossh[1948]: clear alarm timer (0 secs left)
+2020/08/02 20:20:24 autossh[1948]: set alarm for 600 secs
+2020/08/02 20:30:24 autossh[1948]: received SIGALRM (end-of-life 0)
+2020/08/02 20:30:24 autossh[1948]: connection ok
+2020/08/02 20:30:24 autossh[1948]: check on child 2412
+2020/08/02 20:30:24 autossh[1948]: clear alarm timer (0 secs left)
+2020/08/02 20:30:24 autossh[1948]: set alarm for 600 secs
+2020/08/02 20:40:24 autossh[1948]: received SIGALRM (end-of-life 0)
+2020/08/02 20:40:24 autossh[1948]: connection ok
+2020/08/02 20:40:24 autossh[1948]: check on child 2412
+2020/08/02 20:40:24 autossh[1948]: clear alarm timer (0 secs left)
+2020/08/02 20:40:24 autossh[1948]: set alarm for 600 secs
+2020/08/02 20:44:09 autossh[1948]: received signal to exit (15)
+2020/08/02 20:44:09 autossh[1948]: clear alarm timer (375 secs left)
+
+############################ bjorn - 08/03/20 14:15:56 EST ############################
+
+2020/08/03 14:15:56 autossh[1679]: checking for grace period, tries = 0
+2020/08/03 14:15:56 autossh[1679]: starting ssh (count 1)
+2020/08/03 14:15:56 autossh[1679]: ssh child pid is 1680
+2020/08/03 14:15:56 autossh[1679]: check on child 1680
+2020/08/03 14:15:56 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/03 14:15:56 autossh[1679]: set alarm for 600 secs
+2020/08/03 14:15:56 autossh[1680]: child of 1679 execing /usr/bin/ssh
