@@ -3520,3 +3520,7 @@
 2020-08-03 20:02:24 64 bytes from 8.8.8.8: icmp_seq=347 ttl=115 time=16.4 ms
 2020-08-03 20:03:24 64 bytes from 8.8.8.8: icmp_seq=348 ttl=115 time=18.0 ms
 2020-08-03 20:04:24 64 bytes from 8.8.8.8: icmp_seq=349 ttl=115 time=17.1 ms
+2020-08-03 20:05:25 64 bytes from 8.8.8.8: icmp_seq=350 ttl=115 time=16.2 ms
+2020-08-03 20:06:25 --- 8.8.8.8 ping statistics ---
+2020-08-03 20:06:25 350 packets transmitted, 337 received, 3.71429% packet loss, time 20968582ms
+2020-08-03 20:06:25 rtt min/avg/max/mdev = 14.024/20.786/143.663/15.918 ms
