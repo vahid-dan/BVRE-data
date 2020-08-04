@@ -2708,3 +2708,183 @@
 2020/08/04 07:56:07 autossh[1679]: check on child 1680
 2020/08/04 07:56:07 autossh[1679]: clear alarm timer (0 secs left)
 2020/08/04 07:56:07 autossh[1679]: set alarm for 600 secs
+2020/08/04 08:06:07 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 08:06:07 autossh[1679]: connection ok
+2020/08/04 08:06:07 autossh[1679]: check on child 1680
+2020/08/04 08:06:07 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 08:06:07 autossh[1679]: set alarm for 600 secs
+2020/08/04 08:16:07 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 08:16:07 autossh[1679]: connection ok
+2020/08/04 08:16:07 autossh[1679]: check on child 1680
+2020/08/04 08:16:07 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 08:16:07 autossh[1679]: set alarm for 600 secs
+2020/08/04 08:26:07 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 08:26:07 autossh[1679]: connection ok
+2020/08/04 08:26:07 autossh[1679]: check on child 1680
+2020/08/04 08:26:07 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 08:26:07 autossh[1679]: set alarm for 600 secs
+2020/08/04 08:36:07 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 08:36:07 autossh[1679]: connection ok
+2020/08/04 08:36:07 autossh[1679]: check on child 1680
+2020/08/04 08:36:07 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 08:36:07 autossh[1679]: set alarm for 600 secs
+2020/08/04 08:46:07 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 08:46:07 autossh[1679]: connection ok
+2020/08/04 08:46:07 autossh[1679]: check on child 1680
+2020/08/04 08:46:07 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 08:46:07 autossh[1679]: set alarm for 600 secs
+2020/08/04 08:56:07 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 08:56:07 autossh[1679]: connection ok
+2020/08/04 08:56:07 autossh[1679]: check on child 1680
+2020/08/04 08:56:07 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 08:56:07 autossh[1679]: set alarm for 600 secs
+2020/08/04 09:06:07 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 09:06:07 autossh[1679]: connection ok
+2020/08/04 09:06:07 autossh[1679]: check on child 1680
+2020/08/04 09:06:07 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 09:06:07 autossh[1679]: set alarm for 600 secs
+2020/08/04 09:16:07 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 09:16:08 autossh[1679]: connection ok
+2020/08/04 09:16:08 autossh[1679]: check on child 1680
+2020/08/04 09:16:08 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 09:16:08 autossh[1679]: set alarm for 600 secs
+2020/08/04 09:26:08 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 09:26:08 autossh[1679]: connection ok
+2020/08/04 09:26:08 autossh[1679]: check on child 1680
+2020/08/04 09:26:08 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 09:26:08 autossh[1679]: set alarm for 600 secs
+2020/08/04 09:36:08 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 09:36:08 autossh[1679]: connection ok
+2020/08/04 09:36:08 autossh[1679]: check on child 1680
+2020/08/04 09:36:08 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 09:36:08 autossh[1679]: set alarm for 600 secs
+2020/08/04 09:46:08 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 09:46:08 autossh[1679]: connection ok
+2020/08/04 09:46:08 autossh[1679]: check on child 1680
+2020/08/04 09:46:08 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 09:46:08 autossh[1679]: set alarm for 600 secs
+2020/08/04 09:56:08 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 09:56:08 autossh[1679]: connection ok
+2020/08/04 09:56:08 autossh[1679]: check on child 1680
+2020/08/04 09:56:08 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 09:56:08 autossh[1679]: set alarm for 600 secs
+2020/08/04 10:06:08 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 10:06:08 autossh[1679]: connection ok
+2020/08/04 10:06:08 autossh[1679]: check on child 1680
+2020/08/04 10:06:08 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 10:06:08 autossh[1679]: set alarm for 600 secs
+2020/08/04 10:16:08 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 10:16:08 autossh[1679]: connection ok
+2020/08/04 10:16:08 autossh[1679]: check on child 1680
+2020/08/04 10:16:08 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 10:16:08 autossh[1679]: set alarm for 600 secs
+2020/08/04 10:26:08 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 10:26:08 autossh[1679]: connection ok
+2020/08/04 10:26:08 autossh[1679]: check on child 1680
+2020/08/04 10:26:08 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 10:26:08 autossh[1679]: set alarm for 600 secs
+2020/08/04 10:36:08 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 10:36:08 autossh[1679]: connection ok
+2020/08/04 10:36:08 autossh[1679]: check on child 1680
+2020/08/04 10:36:08 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 10:36:08 autossh[1679]: set alarm for 600 secs
+2020/08/04 10:46:08 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 10:46:08 autossh[1679]: connection ok
+2020/08/04 10:46:08 autossh[1679]: check on child 1680
+2020/08/04 10:46:08 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 10:46:08 autossh[1679]: set alarm for 600 secs
+2020/08/04 10:56:08 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 10:56:08 autossh[1679]: connection ok
+2020/08/04 10:56:08 autossh[1679]: check on child 1680
+2020/08/04 10:56:08 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 10:56:08 autossh[1679]: set alarm for 600 secs
+2020/08/04 11:06:08 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 11:06:09 autossh[1679]: connection ok
+2020/08/04 11:06:09 autossh[1679]: check on child 1680
+2020/08/04 11:06:09 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 11:06:09 autossh[1679]: set alarm for 600 secs
+2020/08/04 11:16:09 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 11:16:09 autossh[1679]: connection ok
+2020/08/04 11:16:09 autossh[1679]: check on child 1680
+2020/08/04 11:16:09 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 11:16:09 autossh[1679]: set alarm for 600 secs
+2020/08/04 11:26:09 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 11:26:09 autossh[1679]: connection ok
+2020/08/04 11:26:09 autossh[1679]: check on child 1680
+2020/08/04 11:26:09 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 11:26:09 autossh[1679]: set alarm for 600 secs
+2020/08/04 11:36:09 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 11:36:09 autossh[1679]: connection ok
+2020/08/04 11:36:09 autossh[1679]: check on child 1680
+2020/08/04 11:36:09 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 11:36:09 autossh[1679]: set alarm for 600 secs
+2020/08/04 11:46:09 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 11:46:09 autossh[1679]: connection ok
+2020/08/04 11:46:09 autossh[1679]: check on child 1680
+2020/08/04 11:46:09 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 11:46:09 autossh[1679]: set alarm for 600 secs
+2020/08/04 11:56:09 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 11:56:09 autossh[1679]: connection ok
+2020/08/04 11:56:09 autossh[1679]: check on child 1680
+2020/08/04 11:56:09 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 11:56:09 autossh[1679]: set alarm for 600 secs
+2020/08/04 12:06:09 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 12:06:09 autossh[1679]: connection ok
+2020/08/04 12:06:09 autossh[1679]: check on child 1680
+2020/08/04 12:06:09 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 12:06:09 autossh[1679]: set alarm for 600 secs
+2020/08/04 12:16:09 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 12:16:09 autossh[1679]: connection ok
+2020/08/04 12:16:09 autossh[1679]: check on child 1680
+2020/08/04 12:16:09 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 12:16:09 autossh[1679]: set alarm for 600 secs
+2020/08/04 12:26:09 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 12:26:09 autossh[1679]: connection ok
+2020/08/04 12:26:09 autossh[1679]: check on child 1680
+2020/08/04 12:26:09 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 12:26:09 autossh[1679]: set alarm for 600 secs
+2020/08/04 12:36:09 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 12:36:09 autossh[1679]: connection ok
+2020/08/04 12:36:09 autossh[1679]: check on child 1680
+2020/08/04 12:36:09 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 12:36:09 autossh[1679]: set alarm for 600 secs
+2020/08/04 12:46:09 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 12:46:09 autossh[1679]: connection ok
+2020/08/04 12:46:09 autossh[1679]: check on child 1680
+2020/08/04 12:46:09 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 12:46:09 autossh[1679]: set alarm for 600 secs
+2020/08/04 12:56:09 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 12:56:10 autossh[1679]: connection ok
+2020/08/04 12:56:10 autossh[1679]: check on child 1680
+2020/08/04 12:56:10 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 12:56:10 autossh[1679]: set alarm for 600 secs
+2020/08/04 13:06:10 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 13:06:10 autossh[1679]: connection ok
+2020/08/04 13:06:10 autossh[1679]: check on child 1680
+2020/08/04 13:06:10 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 13:06:10 autossh[1679]: set alarm for 600 secs
+2020/08/04 13:16:10 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 13:16:10 autossh[1679]: connection ok
+2020/08/04 13:16:10 autossh[1679]: check on child 1680
+2020/08/04 13:16:10 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 13:16:10 autossh[1679]: set alarm for 600 secs
+2020/08/04 13:26:10 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 13:26:10 autossh[1679]: connection ok
+2020/08/04 13:26:10 autossh[1679]: check on child 1680
+2020/08/04 13:26:10 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 13:26:10 autossh[1679]: set alarm for 600 secs
+2020/08/04 13:36:10 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 13:36:10 autossh[1679]: connection ok
+2020/08/04 13:36:10 autossh[1679]: check on child 1680
+2020/08/04 13:36:10 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 13:36:10 autossh[1679]: set alarm for 600 secs
+2020/08/04 13:46:10 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 13:46:10 autossh[1679]: connection ok
+2020/08/04 13:46:10 autossh[1679]: check on child 1680
+2020/08/04 13:46:10 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 13:46:10 autossh[1679]: set alarm for 600 secs
+2020/08/04 13:56:10 autossh[1679]: received SIGALRM (end-of-life 0)
+2020/08/04 13:56:10 autossh[1679]: connection ok
+2020/08/04 13:56:10 autossh[1679]: check on child 1680
+2020/08/04 13:56:10 autossh[1679]: clear alarm timer (0 secs left)
+2020/08/04 13:56:10 autossh[1679]: set alarm for 600 secs
