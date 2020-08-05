@@ -1589,3 +1589,7 @@ Everything up-to-date
 Logs:
 
 Already up to date.
+[bjorn-logs 5af23c9] 08/05/20 12:30:36 EST: Logs
+ 4 files changed, 281 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   fdf716e..5af23c9  bjorn-logs -> bjorn-logs
