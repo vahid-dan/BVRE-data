@@ -6879,3 +6879,110 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 14.090/15.375/16.248/0.928 ms
+
+############################ bjorn - 08/05/20 12:00:01 EST ############################
+
+ 12:00:01 up 1 day, 21:48,  1 user,  load average: 0.00, 0.01, 0.00
+
+
+reboot   system boot  5.4.0-42-generic Mon Aug  3 14:11   still running
+reboot   system boot  5.4.0-42-generic Mon Aug  3 14:05 - 14:06  (00:01)
+reboot   system boot  5.4.0-42-generic Mon Aug  3 11:31 - 14:03  (02:31)
+reboot   system boot  5.4.0-42-generic Mon Aug  3 11:27 - 14:03  (02:35)
+reboot   system boot  5.4.0-42-generic Mon Aug  3 11:23 - 11:27  (00:03)
+
+
+
+
+
+
+
+
+[148859.532117] iwlwifi 0000:01:00.0: 0x03000000 | CNVI_AUX_MISC_CHIP
+[148859.532224] iwlwifi 0000:01:00.0: 0x0BADCAFE | CNVR_AUX_MISC_CHIP
+[148859.532332] iwlwifi 0000:01:00.0: 0x0BADCAFE | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+[148859.532439] iwlwifi 0000:01:00.0: 0x0BADCAFE | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+[148859.532546] iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+[148859.532561] ieee80211 phy0: Hardware restart was requested
+[148860.066336] iwlwifi 0000:01:00.0: Applying debug destination EXTERNAL_DRAM
+[148860.215636] iwlwifi 0000:01:00.0: Applying debug destination EXTERNAL_DRAM
+[148860.296341] iwlwifi 0000:01:00.0: FW already configured (0) - re-configuring
+[154121.230388] perf: interrupt took too long (4990 > 4960), lowering kernel.perf_event_max_sample_rate to 40000
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  8.6G   47G  16% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   55M   56G   1% /data
+
+
+IN-USE  BSSID              SSID           MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G  Infra  48    540 Mbit/s  36      ▂▄__  WPA2     
+
+
+
+
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2048ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING github.com (140.82.114.3) 56(84) bytes of data.
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=1 ttl=52 time=19.5 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=2 ttl=52 time=21.2 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=3 ttl=52 time=17.8 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 17.786/19.507/21.231/1.406 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=15.7 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=117 time=15.4 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=117 time=14.4 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 14.357/15.163/15.735/0.586 ms
+
+############################ bjorn - 08/05/20 12:30:36 EST ############################
+
+ 12:30:36 up 4 min,  0 users,  load average: 0.07, 0.27, 0.15
+
+
+reboot   system boot  5.4.0-42-generic Wed Aug  5 12:26   still running
+reboot   system boot  5.4.0-42-generic Mon Aug  3 14:11 - 12:25 (1+22:13)
+reboot   system boot  5.4.0-42-generic Mon Aug  3 14:05 - 14:06  (00:01)
+reboot   system boot  5.4.0-42-generic Mon Aug  3 11:31 - 14:03  (02:31)
+reboot   system boot  5.4.0-42-generic Mon Aug  3 11:27 - 14:03  (02:35)
+
+
