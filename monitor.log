@@ -6785,3 +6785,97 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2004ms
 rtt min/avg/max/mdev = 14.401/16.790/18.227/1.700 ms
+
+############################ bjorn - 08/05/20 06:00:01 EST ############################
+
+ 06:00:01 up 1 day, 15:48,  1 user,  load average: 0.00, 0.01, 0.00
+
+
+reboot   system boot  5.4.0-42-generic Mon Aug  3 14:11   still running
+reboot   system boot  5.4.0-42-generic Mon Aug  3 14:05 - 14:06  (00:01)
+reboot   system boot  5.4.0-42-generic Mon Aug  3 11:31 - 14:03  (02:31)
+reboot   system boot  5.4.0-42-generic Mon Aug  3 11:27 - 14:03  (02:35)
+reboot   system boot  5.4.0-42-generic Mon Aug  3 11:23 - 11:27  (00:03)
+
+
+
+
+
+
+
+
+[ 1333.071527] Bluetooth: RFCOMM ver 1.11
+[ 1333.143396] rfkill: input handler enabled
+[ 1339.006174] rfkill: input handler disabled
+[35294.186144] kauditd_printk_skb: 20 callbacks suppressed
+[35294.186147] audit: type=1400 audit(1596517202.228:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=16464 comm="cups-browsed" capability=23  capname="sys_nice"
+[57718.610428] perf: interrupt took too long (2527 > 2500), lowering kernel.perf_event_max_sample_rate to 79000
+[69426.474647] usb 1-5: USB disconnect, device number 2
+[76523.519778] perf: interrupt took too long (3167 > 3158), lowering kernel.perf_event_max_sample_rate to 63000
+[107392.488630] perf: interrupt took too long (3968 > 3958), lowering kernel.perf_event_max_sample_rate to 50250
+[121691.677333] audit: type=1400 audit(1596603602.405:33): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=46903 comm="cups-browsed" capability=23  capname="sys_nice"
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  8.6G   47G  16% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   55M   56G   1% /data
+
+
+IN-USE  BSSID              SSID           MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G  Infra  48    540 Mbit/s  37      ▂▄__  WPA2     
+
+
+
+
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2046ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING github.com (140.82.114.3) 56(84) bytes of data.
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=1 ttl=52 time=19.4 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=2 ttl=52 time=19.0 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=3 ttl=52 time=17.5 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 17.487/18.620/19.415/0.822 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=16.2 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=117 time=15.8 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=117 time=14.1 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 14.090/15.375/16.248/0.928 ms
