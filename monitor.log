@@ -7510,3 +7510,1869 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2004ms
 rtt min/avg/max/mdev = 13.113/14.651/15.664/1.105 ms
+
+############################ bjorn - 08/06/20 09:57:40 EST ############################
+
+ 09:57:40 up 4 min,  1 user,  load average: 0.97, 0.59, 0.26
+
+
+reboot   system boot  5.4.0-42-generic Thu Aug  6 09:53   still running
+reboot   system boot  5.4.0-42-generic Wed Aug  5 12:26 - 09:52  (21:26)
+reboot   system boot  5.4.0-42-generic Mon Aug  3 14:11 - 12:25 (1+22:13)
+reboot   system boot  5.4.0-42-generic Mon Aug  3 14:05 - 14:06  (00:01)
+reboot   system boot  5.4.0-42-generic Mon Aug  3 11:31 - 14:03  (02:31)
+
+
+
+
+
+
+
+
+[  146.956624] input: Telink Wireless Receiver as /devices/pci0000:00/0000:00:15.0/usb1/1-5/1-5:1.1/0003:248A:8367.0002/input/input19
+[  147.015541] hid-generic 0003:248A:8367.0002: input,hidraw1: USB HID v1.11 Keyboard [Telink Wireless Receiver] on usb-0000:00:15.0-5/input1
+[  190.518759] fbcon: i915drmfb (fb0) is primary device
+[  190.518984] Console: switching to colour frame buffer device 240x67
+[  190.519002] i915 0000:00:02.0: fb0: i915drmfb frame buffer device
+[  214.879100] Bluetooth: RFCOMM TTY layer initialized
+[  214.879111] Bluetooth: RFCOMM socket layer initialized
+[  214.879121] Bluetooth: RFCOMM ver 1.11
+[  214.940877] rfkill: input handler enabled
+[  220.667778] rfkill: input handler disabled
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  8.8G   47G  16% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   63M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                        MODE   CHAN  RATE        SIGNAL  BARS  SECURITY         
+        DA:31:34:CF:65:0D  --                          Infra  6     65 Mbit/s   35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AA  Xfinity1                    Infra  11    130 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AF  --                          Infra  11    130 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        3C:9A:77:EF:F1:AD  --                          Infra  11    130 Mbit/s  35      ▂▄__  WPA2             
+        EC:A9:40:36:BC:48  ARRIS-B22                   Infra  36    405 Mbit/s  35      ▂▄__  WPA2             
+        18:78:D4:18:A0:10  Fios-P51XD-5G               Infra  44    405 Mbit/s  35      ▂▄__  WPA2             
+        1A:78:D4:18:A0:11  --                          Infra  44    405 Mbit/s  35      ▂▄__  WPA2             
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G               Infra  48    540 Mbit/s  35      ▂▄__  WPA2             
+        04:A2:22:D9:81:4E  Fios-2gTCf                  Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        62:A2:22:D9:81:4F  --                          Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        72:F8:53:16:BA:FC  --                          Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        72:A2:22:D9:81:4F  --                          Infra  132   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B2  Xfinity1                    Infra  157   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B7  --                          Infra  157   540 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        3C:9A:77:EF:F1:B5  --                          Infra  157   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B4  xfinitywifi                 Infra  157   540 Mbit/s  35      ▂▄__  --               
+        52:86:8C:DC:30:BD  --                          Infra  157   405 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        10:86:8C:DC:30:BD  Home3329                    Infra  157   405 Mbit/s  35      ▂▄__  WPA2             
+        42:86:8C:DC:30:BD  XFINITY                     Infra  157   405 Mbit/s  35      ▂▄__  WPA2 802.1X      
+        14:59:C0:97:86:CA  NETGEAR23                   Infra  6     54 Mbit/s   30      ▂___  WPA2             
+        B8:F8:53:16:BA:FC  Fios-BsLS6                  Infra  1     540 Mbit/s  29      ▂___  WPA2             
+        60:D2:48:F5:51:5E  ARRIS-0B1D                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        EC:A9:40:36:BC:47  ARRIS-1B49                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        58:20:B1:3C:FE:C2  HP-Print-C2-Officejet 4630  Infra  1     54 Mbit/s   29      ▂___  WPA2             
+        04:A2:22:D9:81:4C  Fios-2gTCf                  Infra  6     540 Mbit/s  29      ▂___  WPA2             
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=40.6 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=42.8 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=46.1 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 40.555/43.136/46.060/2.260 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=185 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=86.2 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=80.9 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+rtt min/avg/max/mdev = 80.919/117.499/185.346/48.024 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=120 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=81.5 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=74.1 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 74.067/92.034/120.491/20.352 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2050ms
+
+
+
+PING github.com (140.82.112.4) 56(84) bytes of data.
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=1 ttl=52 time=19.4 ms
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=2 ttl=52 time=21.4 ms
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=3 ttl=52 time=15.8 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 15.766/18.844/21.412/2.333 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=15.8 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=117 time=16.5 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=117 time=12.2 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 12.173/14.803/16.452/1.879 ms
+
+############################ bjorn - 08/06/20 10:27:27 EST ############################
+
+ 10:27:27 up 4 min,  1 user,  load average: 0.14, 0.19, 0.09
+
+
+reboot   system boot  5.4.0-42-generic Thu Aug  6 10:23   still running
+reboot   system boot  5.4.0-42-generic Thu Aug  6 10:09 - 10:10  (00:00)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 10:07 - 10:09  (00:01)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 09:53 - 10:06  (00:12)
+reboot   system boot  5.4.0-42-generic Wed Aug  5 12:26 - 09:52  (21:26)
+
+
+
+
+
+
+
+
+[   14.962336] wlp1s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 60:d2:48:f5:51:5f
+[   15.049824] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[   17.454382] iTCO_vendor_support: vendor-support=0
+[   17.458801] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   17.458856] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   17.460764] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   20.730705] rfkill: input handler disabled
+[   68.422018] Bluetooth: RFCOMM TTY layer initialized
+[   68.422032] Bluetooth: RFCOMM socket layer initialized
+[   68.422045] Bluetooth: RFCOMM ver 1.11
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  8.9G   47G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   60M   56G   1% /data
+
+
+IN-USE  BSSID              SSID           MODE   CHAN  RATE        SIGNAL  BARS  SECURITY         
+        60:D2:48:F5:51:5E  ARRIS-0B1D     Infra  1     405 Mbit/s  39      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AF  --             Infra  11    130 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G  Infra  48    540 Mbit/s  35      ▂▄__  WPA2             
+        04:A2:22:D9:81:4E  Fios-2gTCf     Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        62:A2:22:D9:81:4F  --             Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        72:A2:22:D9:81:4F  --             Infra  132   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B7  --             Infra  157   540 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        3C:9A:77:EF:F1:B5  --             Infra  157   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B2  Xfinity1       Infra  157   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B4  xfinitywifi    Infra  157   540 Mbit/s  35      ▂▄__  --               
+        04:A2:22:D9:81:4C  Fios-2gTCf     Infra  6     540 Mbit/s  30      ▂___  WPA2             
+        EC:A9:40:36:BC:47  ARRIS-1B49     Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        14:59:C0:97:86:CA  NETGEAR23      Infra  6     54 Mbit/s   29      ▂___  WPA2             
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=42.2 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=41.0 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=41.1 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 40.987/41.417/42.194/0.550 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=384 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=243 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=290 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 242.674/305.381/383.782/58.666 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=68.8 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=67.8 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=73.0 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 67.801/69.870/73.020/2.263 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2029ms
+
+
+
+PING github.com (140.82.114.4) 56(84) bytes of data.
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=1 ttl=52 time=18.4 ms
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=2 ttl=52 time=24.5 ms
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=3 ttl=52 time=15.7 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 15.684/19.528/24.458/3.663 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=15.2 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=117 time=15.6 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=117 time=12.1 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 12.096/14.281/15.572/1.553 ms
+
+############################ bjorn - 08/06/20 11:36:02 EST ############################
+
+ 11:36:02 up  1:12,  2 users,  load average: 0.01, 0.08, 0.09
+
+
+reboot   system boot  5.4.0-42-generic Thu Aug  6 10:23   still running
+reboot   system boot  5.4.0-42-generic Thu Aug  6 10:09 - 10:10  (00:00)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 10:07 - 10:09  (00:01)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 09:53 - 10:06  (00:12)
+reboot   system boot  5.4.0-42-generic Wed Aug  5 12:26 - 09:52  (21:26)
+
+
+
+
+
+
+
+
+[   17.458801] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   17.458856] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   17.460764] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   20.730705] rfkill: input handler disabled
+[   68.422018] Bluetooth: RFCOMM TTY layer initialized
+[   68.422032] Bluetooth: RFCOMM socket layer initialized
+[   68.422045] Bluetooth: RFCOMM ver 1.11
+[ 1801.009658] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX/TX
+[ 1801.009967] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[ 3474.143802] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  8.9G   47G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   60M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                        MODE   CHAN  RATE        SIGNAL  BARS  SECURITY         
+        04:A2:22:D9:81:4C  Fios-2gTCf                  Infra  6     540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AD  --                          Infra  11    130 Mbit/s  35      ▂▄__  WPA2             
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G               Infra  48    540 Mbit/s  35      ▂▄__  WPA2             
+        04:A2:22:D9:81:4E  Fios-2gTCf                  Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        62:A2:22:D9:81:4F  --                          Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        72:A2:22:D9:81:4F  --                          Infra  132   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B7  --                          Infra  157   540 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        EC:A9:40:36:BC:47  ARRIS-1B49                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        58:20:B1:3C:FE:C2  HP-Print-C2-Officejet 4630  Infra  1     54 Mbit/s   29      ▂___  WPA2             
+        14:59:C0:97:86:CA  NETGEAR23                   Infra  6     52 Mbit/s   29      ▂___  WPA2             
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=45.8 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=40.7 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=42.6 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 40.721/43.045/45.847/2.119 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=110 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=91.7 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=130 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 91.708/110.344/129.582/15.467 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=121 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=266 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=161 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 121.456/182.831/266.340/61.184 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2044ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.087 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.087/0.093/0.097/0.004 ms
+
+
+PING github.com (140.82.114.4) 56(84) bytes of data.
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=1 ttl=52 time=20.4 ms
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=2 ttl=52 time=18.0 ms
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=3 ttl=52 time=15.8 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 15.827/18.089/20.406/1.869 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=17.6 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=117 time=16.1 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=117 time=14.7 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 14.713/16.112/17.563/1.164 ms
+
+############################ bjorn - 08/06/20 12:43:50 EST ############################
+
+ 12:43:50 up 4 min,  0 users,  load average: 0.09, 0.37, 0.20
+
+
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:39   still running
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:35 - 12:37  (00:02)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:28 - 12:37  (00:09)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:21 - 12:23  (00:02)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 10:23 - 11:39  (01:16)
+
+
+
+
+
+
+
+
+[   14.445801] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[   14.659827] IPv6: wlp1s0: IPv6 duplicate address fe80::a82c:bf10:b7f0:859d used by ac:67:5d:d0:31:80 detected!
+[   15.582636] IPv6: wlp1s0: IPv6 duplicate address fe80::a82c:bf10:b7f0:859d used by ac:67:5d:d0:31:80 detected!
+[   16.238406] IPv6: wlp1s0: IPv6 duplicate address 2601:4a:4200:e540:f8b6:eece:3817:438c used by ac:67:5d:d0:31:80 detected!
+[   16.240497] IPv6: ipv6_create_tempaddr: retry temporary address regeneration
+[   18.747529] rfkill: input handler disabled
+[   20.103972] iTCO_vendor_support: vendor-support=0
+[   20.109839] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   20.109899] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   20.110073] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  8.9G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   60M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                        MODE   CHAN  RATE        SIGNAL  BARS  SECURITY         
+        EC:A9:40:36:BC:48  ARRIS-B22                   Infra  36    405 Mbit/s  39      ▂▄__  WPA2             
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G               Infra  48    540 Mbit/s  38      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AA  Xfinity1                    Infra  11    130 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AD  --                          Infra  11    130 Mbit/s  35      ▂▄__  WPA2             
+        04:A2:22:D9:81:4E  Fios-2gTCf                  Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        62:A2:22:D9:81:4F  --                          Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        72:A2:22:D9:81:4F  --                          Infra  132   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B5  --                          Infra  157   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B2  Xfinity1                    Infra  157   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B7  --                          Infra  157   540 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        3C:9A:77:EF:F1:B4  xfinitywifi                 Infra  157   540 Mbit/s  35      ▂▄__  --               
+        14:59:C0:97:86:CA  NETGEAR23                   Infra  6     54 Mbit/s   30      ▂___  WPA2             
+        EC:A9:40:36:BC:47  ARRIS-1B49                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        60:D2:48:F5:51:5E  ARRIS-0B1D                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        18:78:D4:18:A0:12  Fios-P51XD                  Infra  1     195 Mbit/s  29      ▂___  WPA2             
+        58:20:B1:3C:FE:C2  HP-Print-C2-Officejet 4630  Infra  1     54 Mbit/s   29      ▂___  WPA2             
+        04:A2:22:D9:81:4C  Fios-2gTCf                  Infra  6     540 Mbit/s  29      ▂___  WPA2             
+        B8:F8:53:56:E6:6B  Skynet                      Infra  11    540 Mbit/s  29      ▂___  WPA2             
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2027ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2056ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.089 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.096 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.089/0.094/0.097/0.003 ms
+
+
+PING github.com (140.82.114.3) 56(84) bytes of data.
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=1 ttl=52 time=19.3 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=2 ttl=52 time=19.0 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=3 ttl=52 time=20.2 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 19.047/19.520/20.177/0.479 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=16.4 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=117 time=16.3 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=117 time=16.8 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 16.274/16.463/16.760/0.212 ms
+
+############################ bjorn - 08/06/20 13:02:34 EST ############################
+
+ 13:02:34 up 4 min,  0 users,  load average: 0.11, 0.43, 0.23
+
+
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:58   still running
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:39 - 12:57  (00:18)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:35 - 12:37  (00:02)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:28 - 12:37  (00:09)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:21 - 12:23  (00:02)
+
+
+
+
+
+
+
+
+[   14.452178] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[   15.350245] IPv6: wlp1s0: IPv6 duplicate address fe80::a82c:bf10:b7f0:859d used by ac:67:5d:d0:31:80 detected!
+[   17.344485] IPv6: wlp1s0: IPv6 duplicate address 2601:4a:4200:e540:f8b6:eece:3817:438c used by ac:67:5d:d0:31:80 detected!
+[   17.346364] IPv6: ipv6_create_tempaddr: retry temporary address regeneration
+[   18.760148] rfkill: input handler disabled
+[   20.126048] iTCO_vendor_support: vendor-support=0
+[   20.129781] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   20.129839] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   20.136180] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   73.849568] usb 1-6: USB disconnect, device number 2
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  8.9G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   60M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                        MODE   CHAN  RATE        SIGNAL  BARS  SECURITY         
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G               Infra  48    540 Mbit/s  41      ▂▄__  WPA2             
+        DA:31:34:CF:65:0D  --                          Infra  6     65 Mbit/s   35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AA  Xfinity1                    Infra  11    130 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AF  --                          Infra  11    130 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        3C:9A:77:EF:F1:AD  --                          Infra  11    130 Mbit/s  35      ▂▄__  WPA2             
+        04:A2:22:D9:81:4E  Fios-2gTCf                  Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        62:A2:22:D9:81:4F  --                          Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        72:A2:22:D9:81:4F  --                          Infra  132   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B2  Xfinity1                    Infra  157   540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B7  --                          Infra  157   540 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        3C:9A:77:EF:F1:B4  xfinitywifi                 Infra  157   540 Mbit/s  35      ▂▄__  --               
+        EC:A9:40:36:BC:47  ARRIS-1B49                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        60:D2:48:F5:51:5E  ARRIS-0B1D                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        58:20:B1:3C:FE:C2  HP-Print-C2-Officejet 4630  Infra  1     54 Mbit/s   29      ▂___  WPA2             
+        04:A2:22:D9:81:4C  Fios-2gTCf                  Infra  6     540 Mbit/s  29      ▂___  WPA2             
+        14:59:C0:97:86:CA  NETGEAR23                   Infra  6     54 Mbit/s   29      ▂___  WPA2             
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2036ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.087 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.085 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.095 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.085/0.089/0.095/0.004 ms
+
+
+PING github.com (140.82.113.3) 56(84) bytes of data.
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=1 ttl=52 time=20.8 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=2 ttl=52 time=23.9 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=3 ttl=52 time=24.6 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 20.805/23.106/24.592/1.650 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=17.3 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=117 time=21.5 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=117 time=20.7 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 17.271/19.813/21.517/1.831 ms
+
+############################ bjorn - 08/06/20 15:12:54 EST ############################
+
+ 15:12:54 up 4 min,  1 user,  load average: 0.28, 0.54, 0.28
+
+
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:08   still running
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:58 - 15:08  (02:09)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:39 - 12:57  (00:18)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:35 - 12:37  (00:02)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:28 - 12:37  (00:09)
+
+
+
+
+
+
+
+
+[   21.752840] IPv6: wlp1s0: IPv6 duplicate address 2601:4a:4200:e540:f8b6:eece:3817:438c used by ac:67:5d:d0:31:80 detected!
+[   21.754788] IPv6: ipv6_create_tempaddr: retry temporary address regeneration
+[   22.920252] rfkill: input handler disabled
+[   24.204458] iTCO_vendor_support: vendor-support=0
+[   24.211187] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   24.211245] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   24.213222] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   44.255573] Bluetooth: RFCOMM TTY layer initialized
+[   44.255588] Bluetooth: RFCOMM socket layer initialized
+[   44.255601] Bluetooth: RFCOMM ver 1.11
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  8.9G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   60M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                        MODE   CHAN  RATE        SIGNAL  BARS  SECURITY         
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G               Infra  48    540 Mbit/s  39      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AA  Xfinity1                    Infra  1     130 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AF  --                          Infra  1     130 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        DA:31:34:CF:65:0D  --                          Infra  6     65 Mbit/s   35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B5  --                          Infra  44    540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B4  xfinitywifi                 Infra  44    540 Mbit/s  35      ▂▄__  --               
+        04:A2:22:D9:81:4E  Fios-2gTCf                  Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        62:A2:22:D9:81:4F  --                          Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        72:A2:22:D9:81:4F  --                          Infra  132   540 Mbit/s  35      ▂▄__  WPA2             
+        EC:A9:40:36:BC:47  ARRIS-1B49                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        60:D2:48:F5:51:5E  ARRIS-0B1D                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        58:20:B1:3C:FE:C2  HP-Print-C2-Officejet 4630  Infra  1     54 Mbit/s   29      ▂___  WPA2             
+        04:A2:22:D9:81:4C  Fios-2gTCf                  Infra  6     540 Mbit/s  29      ▂___  WPA2             
+        14:59:C0:97:86:CA  NETGEAR23                   Infra  6     54 Mbit/s   29      ▂___  WPA2             
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2029ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.088 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.095 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.096 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.088/0.093/0.096/0.003 ms
+
+
+PING github.com (140.82.114.4) 56(84) bytes of data.
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=1 ttl=52 time=20.4 ms
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=2 ttl=52 time=20.9 ms
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=3 ttl=52 time=18.3 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 18.344/19.887/20.895/1.108 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=17.0 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=117 time=18.7 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=117 time=13.3 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 13.255/16.330/18.713/2.281 ms
+
+############################ bjorn - 08/06/20 15:48:50 EST ############################
+
+ 15:48:50 up 4 min,  0 users,  load average: 0.11, 0.20, 0.10
+
+
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:44   still running
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:08 - 15:44  (00:35)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:58 - 15:08  (02:09)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:39 - 12:57  (00:18)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:35 - 12:37  (00:02)
+
+
+
+
+
+
+
+
+[   16.293417] wlp1s0: associated
+[   16.379380] wlp1s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 60:d2:48:f5:51:5f
+[   16.436760] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[   18.762287] iTCO_vendor_support: vendor-support=0
+[   18.766897] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   18.766957] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   18.767150] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   19.013640] IPv6: wlp1s0: IPv6 duplicate address 2601:4a:4200:e540:f8b6:eece:3817:438c used by ac:67:5d:d0:31:80 detected!
+[   19.016520] IPv6: ipv6_create_tempaddr: retry temporary address regeneration
+[   22.340407] rfkill: input handler disabled
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  8.9G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   61M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                        MODE   CHAN  RATE        SIGNAL  BARS  SECURITY         
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G               Infra  48    540 Mbit/s  37      ▂▄__  WPA2             
+        60:D2:48:F5:51:5E  ARRIS-0B1D                  Infra  1     405 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AD  --                          Infra  1     130 Mbit/s  35      ▂▄__  WPA2             
+        DA:31:34:CF:65:0D  --                          Infra  6     65 Mbit/s   35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B7  --                          Infra  44    540 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        04:A2:22:D9:81:4E  Fios-2gTCf                  Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        62:A2:22:D9:81:4F  --                          Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        72:A2:22:D9:81:4F  --                          Infra  132   540 Mbit/s  35      ▂▄__  WPA2             
+        0A:C0:3E:3B:2E:70  xfinitywifi                 Infra  157   540 Mbit/s  35      ▂▄__  --               
+        42:86:8C:DC:30:BD  XFINITY                     Infra  157   405 Mbit/s  35      ▂▄__  WPA2 802.1X      
+        EC:A9:40:36:BC:47  ARRIS-1B49                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        58:20:B1:3C:FE:C2  HP-Print-C2-Officejet 4630  Infra  1     54 Mbit/s   29      ▂___  WPA2             
+        04:A2:22:D9:81:4C  Fios-2gTCf                  Infra  6     540 Mbit/s  29      ▂___  WPA2             
+        14:59:C0:97:86:CA  NETGEAR23                   Infra  6     52 Mbit/s   29      ▂___  WPA2             
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=44.5 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=41.8 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=42.7 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 41.762/42.993/44.476/1.122 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=190 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=104 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=227 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+rtt min/avg/max/mdev = 104.099/173.711/226.958/51.474 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=237 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=203 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=162 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 162.155/200.634/236.701/30.481 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2043ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.089 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.093 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.089/0.093/0.097/0.003 ms
+
+
+PING github.com (140.82.113.3) 56(84) bytes of data.
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=1 ttl=52 time=22.5 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=2 ttl=52 time=23.4 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=3 ttl=52 time=16.0 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 15.990/20.632/23.369/3.300 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=15.2 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=117 time=19.0 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=117 time=14.4 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 14.431/16.211/18.958/1.970 ms
+
+############################ bjorn - 08/06/20 16:12:52 EST ############################
+
+ 16:12:52 up 4 min,  0 users,  load average: 0.20, 0.39, 0.19
+
+
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:08   still running
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:44 - 16:07  (00:23)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:08 - 15:44  (00:35)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:58 - 15:08  (02:09)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:39 - 12:57  (00:18)
+
+
+
+
+
+
+
+
+[   17.314734] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[   17.898083] IPv6: wlp1s0: IPv6 duplicate address fe80::a82c:bf10:b7f0:859d used by ac:67:5d:d0:31:80 detected!
+[   18.602701] IPv6: wlp1s0: IPv6 duplicate address fe80::a82c:bf10:b7f0:859d used by ac:67:5d:d0:31:80 detected!
+[   19.695997] iTCO_vendor_support: vendor-support=0
+[   19.701916] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   19.701979] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   19.705802] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   21.035736] IPv6: wlp1s0: IPv6 duplicate address 2601:4a:4200:e540:f8b6:eece:3817:438c used by ac:67:5d:d0:31:80 detected!
+[   21.037677] IPv6: ipv6_create_tempaddr: retry temporary address regeneration
+[   23.839897] rfkill: input handler disabled
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  8.9G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   61M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                        MODE   CHAN  RATE        SIGNAL  BARS  SECURITY    
+        EC:A9:40:36:BC:48  ARRIS-B22                   Infra  36    405 Mbit/s  39      ▂▄__  WPA2        
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G               Infra  48    540 Mbit/s  37      ▂▄__  WPA2        
+        3C:9A:77:EF:F1:AD  --                          Infra  1     130 Mbit/s  35      ▂▄__  WPA2        
+        3C:9A:77:EF:F1:AA  Xfinity1                    Infra  1     130 Mbit/s  35      ▂▄__  WPA2        
+        DA:31:34:CF:65:0D  --                          Infra  6     65 Mbit/s   35      ▂▄__  WPA2        
+        3C:9A:77:EF:F1:B2  Xfinity1                    Infra  44    540 Mbit/s  35      ▂▄__  WPA2        
+        3C:9A:77:EF:F1:B6  XFINITY                     Infra  44    540 Mbit/s  35      ▂▄__  WPA2 802.1X 
+        3C:9A:77:EF:F1:B5  --                          Infra  44    540 Mbit/s  35      ▂▄__  WPA2        
+        04:A2:22:D9:81:4E  Fios-2gTCf                  Infra  52    540 Mbit/s  35      ▂▄__  WPA2        
+        62:A2:22:D9:81:4F  --                          Infra  52    540 Mbit/s  35      ▂▄__  WPA2        
+        72:A2:22:D9:81:4F  --                          Infra  132   540 Mbit/s  35      ▂▄__  WPA2        
+        42:86:8C:DC:30:BD  XFINITY                     Infra  157   405 Mbit/s  35      ▂▄__  WPA2 802.1X 
+        32:86:8C:DC:30:BD  --                          Infra  157   405 Mbit/s  35      ▂▄__  WPA1 WPA2   
+        EC:A9:40:36:BC:47  ARRIS-1B49                  Infra  1     405 Mbit/s  29      ▂___  WPA2        
+        60:D2:48:F5:51:5E  ARRIS-0B1D                  Infra  1     405 Mbit/s  29      ▂___  WPA2        
+        58:20:B1:3C:FE:C2  HP-Print-C2-Officejet 4630  Infra  1     54 Mbit/s   29      ▂___  WPA2        
+        04:A2:22:D9:81:4C  Fios-2gTCf                  Infra  6     540 Mbit/s  29      ▂___  WPA2        
+        14:59:C0:97:86:CA  NETGEAR23                   Infra  6     54 Mbit/s   29      ▂___  WPA2        
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=41.6 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=44.5 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=43.0 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 41.567/43.023/44.505/1.199 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=186 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=112 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=239 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 111.582/178.830/239.177/52.318 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=151 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=194 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=114 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 114.008/153.012/194.391/32.859 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2043ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.087 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.096 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.087/0.093/0.097/0.004 ms
+
+
+PING github.com (140.82.112.3) 56(84) bytes of data.
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=1 ttl=52 time=18.9 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=2 ttl=52 time=18.7 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=3 ttl=52 time=17.4 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 17.429/18.343/18.930/0.655 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=15.5 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=117 time=13.8 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=117 time=11.9 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 11.900/13.737/15.480/1.463 ms
+
+############################ bjorn - 08/06/20 16:39:59 EST ############################
+
+ 16:39:59 up 4 min,  0 users,  load average: 0.20, 0.68, 0.37
+
+
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:35   still running
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:08 - 16:35  (00:26)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:44 - 16:07  (00:23)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:08 - 15:44  (00:35)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 12:58 - 15:08  (02:09)
+
+
+
+
+
+
+
+
+[   21.471696] wlp1s0: associate with 60:d2:48:f5:51:5f (try 1/3)
+[   21.475332] wlp1s0: RX AssocResp from 60:d2:48:f5:51:5f (capab=0x931 status=0 aid=2)
+[   21.478054] wlp1s0: associated
+[   21.523353] wlp1s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 60:d2:48:f5:51:5f
+[   21.617005] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[   23.948630] iTCO_vendor_support: vendor-support=0
+[   23.965296] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   23.965353] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   23.965507] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   26.977110] rfkill: input handler disabled
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  8.9G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   61M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                        MODE   CHAN  RATE        SIGNAL  BARS  SECURITY         
+*       60:D2:48:F5:51:5F  ARRIS-0B1D-5G               Infra  48    540 Mbit/s  40      ▂▄__  WPA2             
+        60:D2:48:F5:51:5E  ARRIS-0B1D                  Infra  1     405 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:AF  --                          Infra  1     130 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        04:A2:22:D9:81:4C  Fios-2gTCf                  Infra  6     540 Mbit/s  35      ▂▄__  WPA2             
+        DA:31:34:CF:65:0D  --                          Infra  6     65 Mbit/s   35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B5  --                          Infra  44    540 Mbit/s  35      ▂▄__  WPA2             
+        3C:9A:77:EF:F1:B7  --                          Infra  44    540 Mbit/s  35      ▂▄__  WPA1 WPA2 802.1X 
+        04:A2:22:D9:81:4E  Fios-2gTCf                  Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        62:A2:22:D9:81:4F  --                          Infra  52    540 Mbit/s  35      ▂▄__  WPA2             
+        72:A2:22:D9:81:4F  --                          Infra  132   540 Mbit/s  35      ▂▄__  WPA2             
+        EC:A9:40:36:BC:47  ARRIS-1B49                  Infra  1     405 Mbit/s  29      ▂___  WPA2             
+        58:20:B1:3C:FE:C2  HP-Print-C2-Officejet 4630  Infra  1     54 Mbit/s   29      ▂___  WPA2             
+        14:59:C0:97:86:CA  NETGEAR23                   Infra  6     104 Mbit/s  29      ▂___  WPA2             
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=41.7 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=40.4 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=42.6 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 40.379/41.547/42.611/0.914 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=114 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=228 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=247 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 114.365/196.664/247.443/58.722 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=936 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=699 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=707 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 699.308/780.719/936.172/109.962 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2053ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.083 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.095 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2056ms
+rtt min/avg/max/mdev = 0.083/0.091/0.097/0.006 ms
+
+
+PING github.com (140.82.112.3) 56(84) bytes of data.
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=1 ttl=52 time=19.5 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=2 ttl=52 time=20.5 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=3 ttl=52 time=15.5 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 15.472/18.502/20.491/2.177 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=15.1 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=117 time=14.1 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=117 time=12.7 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 12.678/13.954/15.128/1.002 ms
+
+############################ bjorn - 08/11/20 14:04:14 EST ############################
+
+ 14:04:14 up 4 min,  0 users,  load average: 0.10, 0.31, 0.16
+
+
+reboot   system boot  5.4.0-42-generic Tue Aug 11 14:00   still running
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:35 - 16:44  (00:08)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:08 - 16:35  (00:26)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:44 - 16:07  (00:23)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:08 - 15:44  (00:35)
+
+
+
+
+Bus 001 Device 005: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[  126.819047] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+[  127.797391] rndis_host 1-4:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-4, RNDIS device
+[  155.773590] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+
+
+[  130.620324] usb 1-4: USB disconnect, device number 4
+[  155.552026] usb 1-4: new high-speed USB device number 5 using xhci_hcd
+[  155.708578] usb 1-4: New USB device found, idVendor=1410, idProduct=9032, bcdDevice= 3.10
+[  155.708587] usb 1-4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  155.708592] usb 1-4: Product: MiFi USB730L
+[  155.708597] usb 1-4: Manufacturer: Novatel Wireless
+[  155.708602] usb 1-4: SerialNumber: 0123456789ABCDEF
+[  155.727810] rndis_host 1-4:1.0 eth0: register 'rndis_host' at usb-0000:00:15.0-4, RNDIS device, 00:15:ff:02:59:68
+[  155.742970] hid-generic 0003:1410:9032.0002: hiddev0,hidraw0: USB HID v1.01 Device [Novatel Wireless MiFi USB730L] on usb-0000:00:15.0-4/input2
+[  155.773590] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.0G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   61M   56G   1% /data
+
+
+IN-USE  BSSID              SSID          MODE   CHAN  RATE        SIGNAL  BARS  SECURITY    
+        40:E3:D6:59:E6:70  eduroam       Infra  44    540 Mbit/s  35      ▂▄__  WPA2 802.1X 
+        40:E3:D6:59:E6:71  VirginiaTech  Infra  44    540 Mbit/s  35      ▂▄__  --          
+
+
+enx0015ff025968:
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2050ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2040ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.088 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.096 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.096 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.088/0.093/0.096/0.003 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
+
+############################ bjorn - 08/11/20 18:00:01 EST ############################
+
+ 18:00:01 up  3:59,  1 user,  load average: 0.20, 0.08, 0.04
+
+
+reboot   system boot  5.4.0-42-generic Tue Aug 11 14:00   still running
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:35 - 16:44  (00:08)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:08 - 16:35  (00:26)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:44 - 16:07  (00:23)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:08 - 15:44  (00:35)
+
+
+
+
+Bus 001 Device 028: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[  126.819047] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+[  127.797391] rndis_host 1-4:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-4, RNDIS device
+[  155.773590] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+[ 3089.477285] rndis_host 1-4:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-4, RNDIS device
+[ 3285.367645] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 3286.355376] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 3314.590044] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 4915.647478] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 4981.570552] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 4982.572712] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5010.836215] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5052.020166] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5052.965191] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5074.480500] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5075.389969] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5097.768544] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5098.744870] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5108.579528] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5109.493512] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5117.643681] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5118.562519] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5128.110041] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5129.020772] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5138.244831] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5139.267872] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5153.233582] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5154.170036] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5174.884294] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5175.808684] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5191.457942] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5192.379788] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5216.110035] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5217.100581] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5241.206317] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5242.136904] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5262.179739] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5263.174641] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5277.388436] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5278.346067] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5284.822153] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5313.552126] cdc_ether 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5314.555294] cdc_ether 1-3:1.0 enx0015ff025968: unregister 'cdc_ether' usb-0000:00:15.0-3, CDC Ethernet Device
+[ 5342.829875] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[ 7296.882742] wlp1s0: associate with 40:e3:d6:59:e6:61 (try 1/3)
+[ 7296.883707] wlp1s0: RX AssocResp from 40:e3:d6:59:e6:61 (capab=0x421 status=0 aid=1)
+[ 7296.892267] wlp1s0: associated
+[ 7327.627520] wlp1s0: disconnect from AP 40:e3:d6:59:e6:61 for new auth to 40:e3:d6:59:e6:71
+[ 7327.642564] wlp1s0: authenticate with 40:e3:d6:59:e6:71
+[ 7327.655662] wlp1s0: send auth to 40:e3:d6:59:e6:71 (try 1/3)
+[ 7327.661827] wlp1s0: authenticated
+[ 7327.663180] wlp1s0: associate with 40:e3:d6:59:e6:71 (try 1/3)
+[ 7327.664388] wlp1s0: RX ReassocResp from 40:e3:d6:59:e6:71 (capab=0x401 status=0 aid=1)
+[ 7327.667900] wlp1s0: associated
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.0G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   61M   56G   1% /data
+
+
+IN-USE  BSSID              SSID          MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+*       40:E3:D6:59:E6:71  VirginiaTech  Infra  44    540 Mbit/s  48      ▂▄__  --       
+
+
+enx0015ff025968:
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2039ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.087 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.096 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.095 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.087/0.092/0.096/0.004 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2044ms
+
+
+############################ bjorn - 08/12/20 00:00:01 EST ############################
+
+ 00:00:01 up  9:59,  1 user,  load average: 0.00, 0.02, 0.00
+
+
+reboot   system boot  5.4.0-42-generic Tue Aug 11 14:00   still running
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:35 - 16:44  (00:08)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:08 - 16:35  (00:26)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:44 - 16:07  (00:23)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:08 - 15:44  (00:35)
+
+
+
+
+Bus 001 Device 028: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[  126.819047] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+[  127.797391] rndis_host 1-4:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-4, RNDIS device
+[  155.773590] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+[ 3089.477285] rndis_host 1-4:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-4, RNDIS device
+[ 3285.367645] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 3286.355376] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 3314.590044] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 4915.647478] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 4981.570552] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 4982.572712] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5010.836215] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5052.020166] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5052.965191] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5074.480500] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5075.389969] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5097.768544] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5098.744870] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5108.579528] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5109.493512] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5117.643681] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5118.562519] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5128.110041] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5129.020772] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5138.244831] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5139.267872] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5153.233582] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5154.170036] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5174.884294] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5175.808684] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5191.457942] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5192.379788] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5216.110035] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5217.100581] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5241.206317] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5242.136904] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5262.179739] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5263.174641] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5277.388436] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5278.346067] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5284.822153] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5313.552126] cdc_ether 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5314.555294] cdc_ether 1-3:1.0 enx0015ff025968: unregister 'cdc_ether' usb-0000:00:15.0-3, CDC Ethernet Device
+[ 5342.829875] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[ 7296.882742] wlp1s0: associate with 40:e3:d6:59:e6:61 (try 1/3)
+[ 7296.883707] wlp1s0: RX AssocResp from 40:e3:d6:59:e6:61 (capab=0x421 status=0 aid=1)
+[ 7296.892267] wlp1s0: associated
+[ 7327.627520] wlp1s0: disconnect from AP 40:e3:d6:59:e6:61 for new auth to 40:e3:d6:59:e6:71
+[ 7327.642564] wlp1s0: authenticate with 40:e3:d6:59:e6:71
+[ 7327.655662] wlp1s0: send auth to 40:e3:d6:59:e6:71 (try 1/3)
+[ 7327.661827] wlp1s0: authenticated
+[ 7327.663180] wlp1s0: associate with 40:e3:d6:59:e6:71 (try 1/3)
+[ 7327.664388] wlp1s0: RX ReassocResp from 40:e3:d6:59:e6:71 (capab=0x401 status=0 aid=1)
+[ 7327.667900] wlp1s0: associated
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.0G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   61M   56G   1% /data
+
+
+IN-USE  BSSID              SSID          MODE   CHAN  RATE        SIGNAL  BARS  SECURITY    
+*       40:E3:D6:59:E6:71  VirginiaTech  Infra  44    540 Mbit/s  44      ▂▄__  --          
+        40:E3:D6:59:E6:61  VirginiaTech  Infra  6     260 Mbit/s  35      ▂▄__  --          
+        40:E3:D6:59:E6:60  eduroam       Infra  6     260 Mbit/s  35      ▂▄__  WPA2 802.1X 
+
+
+enx0015ff025968:
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2051ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.087 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.087/0.093/0.097/0.004 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2033ms
+
+
+############################ bjorn - 08/12/20 06:00:01 EST ############################
+
+ 06:00:01 up 15:59,  1 user,  load average: 0.10, 0.05, 0.06
+
+
+reboot   system boot  5.4.0-42-generic Tue Aug 11 14:00   still running
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:35 - 16:44  (00:08)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:08 - 16:35  (00:26)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:44 - 16:07  (00:23)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:08 - 15:44  (00:35)
+
+
+
+
+Bus 001 Device 028: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[  126.819047] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+[  127.797391] rndis_host 1-4:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-4, RNDIS device
+[  155.773590] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+[ 3089.477285] rndis_host 1-4:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-4, RNDIS device
+[ 3285.367645] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 3286.355376] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 3314.590044] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 4915.647478] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 4981.570552] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 4982.572712] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5010.836215] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5052.020166] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5052.965191] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5074.480500] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5075.389969] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5097.768544] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5098.744870] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5108.579528] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5109.493512] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5117.643681] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5118.562519] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5128.110041] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5129.020772] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5138.244831] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5139.267872] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5153.233582] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5154.170036] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5174.884294] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5175.808684] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5191.457942] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5192.379788] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5216.110035] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5217.100581] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5241.206317] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5242.136904] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5262.179739] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5263.174641] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5277.388436] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5278.346067] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5284.822153] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[ 5313.552126] cdc_ether 1-3:1.0 enx0015ff025968: renamed from eth0
+[ 5314.555294] cdc_ether 1-3:1.0 enx0015ff025968: unregister 'cdc_ether' usb-0000:00:15.0-3, CDC Ethernet Device
+[ 5342.829875] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[ 7327.627520] wlp1s0: disconnect from AP 40:e3:d6:59:e6:61 for new auth to 40:e3:d6:59:e6:71
+[ 7327.642564] wlp1s0: authenticate with 40:e3:d6:59:e6:71
+[ 7327.655662] wlp1s0: send auth to 40:e3:d6:59:e6:71 (try 1/3)
+[ 7327.661827] wlp1s0: authenticated
+[ 7327.663180] wlp1s0: associate with 40:e3:d6:59:e6:71 (try 1/3)
+[ 7327.664388] wlp1s0: RX ReassocResp from 40:e3:d6:59:e6:71 (capab=0x401 status=0 aid=1)
+[ 7327.667900] wlp1s0: associated
+[36091.104111] kauditd_printk_skb: 20 callbacks suppressed
+[36091.104114] audit: type=1400 audit(1597208494.343:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=23312 comm="cups-browsed" capability=23  capname="sys_nice"
+[41936.846838] perf: interrupt took too long (2568 > 2500), lowering kernel.perf_event_max_sample_rate to 77750
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.0G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   61M   56G   1% /data
+
+
+IN-USE  BSSID              SSID          MODE   CHAN  RATE        SIGNAL  BARS  SECURITY    
+*       40:E3:D6:59:E6:71  VirginiaTech  Infra  44    540 Mbit/s  45      ▂▄__  --          
+        40:E3:D6:59:E6:60  eduroam       Infra  6     260 Mbit/s  35      ▂▄__  WPA2 802.1X 
+        40:E3:D6:59:E6:61  VirginiaTech  Infra  6     260 Mbit/s  35      ▂▄__  --          
+
+
+enx0015ff025968:
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2041ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.115 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.099 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.096 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.096/0.103/0.115/0.008 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2047ms
+
+
+############################ bjorn - 08/12/20 10:51:45 EST ############################
+
+ 10:51:45 up 4 min,  0 users,  load average: 0.16, 0.46, 0.24
+
+
+reboot   system boot  5.4.0-42-generic Wed Aug 12 10:47   still running
+reboot   system boot  5.4.0-42-generic Tue Aug 11 14:00   still running
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:35 - 16:44  (00:08)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:08 - 16:35  (00:26)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:44 - 16:07  (00:23)
+
+
+
+
+Bus 001 Device 005: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    8.137825] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+[   11.295703] rndis_host 1-4:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-4, RNDIS device
+[   39.301121] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+
+
+[   20.504699] rfkill: input handler disabled
+[   39.071129] usb 1-4: new high-speed USB device number 5 using xhci_hcd
+[   39.226907] usb 1-4: New USB device found, idVendor=1410, idProduct=9032, bcdDevice= 3.10
+[   39.226916] usb 1-4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[   39.226921] usb 1-4: Product: MiFi USB730L
+[   39.226926] usb 1-4: Manufacturer: Novatel Wireless
+[   39.226930] usb 1-4: SerialNumber: 0123456789ABCDEF
+[   39.244457] rndis_host 1-4:1.0 eth0: register 'rndis_host' at usb-0000:00:15.0-4, RNDIS device, 00:15:ff:02:59:68
+[   39.258897] hid-generic 0003:1410:9032.0002: hiddev0,hidraw0: USB HID v1.01 Device [Novatel Wireless MiFi USB730L] on usb-0000:00:15.0-4/input2
+[   39.301121] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.1G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   61M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2033ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.080 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.096 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2055ms
+rtt min/avg/max/mdev = 0.080/0.091/0.097/0.007 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
+
+############################ bjorn - 08/12/20 12:00:01 EST ############################
+
+ 12:00:01 up  1:12,  2 users,  load average: 0.45, 0.32, 0.13
+
+
+reboot   system boot  5.4.0-42-generic Wed Aug 12 10:47   still running
+reboot   system boot  5.4.0-42-generic Tue Aug 11 14:00   still running
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:35 - 16:44  (00:08)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 16:08 - 16:35  (00:26)
+reboot   system boot  5.4.0-42-generic Thu Aug  6 15:44 - 16:07  (00:23)
+
+
+
+
+Bus 001 Device 011: ID 1410:b020 Novatel Wireless 
+
+
+[    8.137825] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+[   11.295703] rndis_host 1-4:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-4, RNDIS device
+[   39.301121] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+[ 2157.075020] rndis_host 1-4:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-4, RNDIS device
+[ 2183.774594] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+[ 2184.779772] rndis_host 1-4:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-4, RNDIS device
+[ 2213.075748] rndis_host 1-4:1.0 enx0015ff025968: renamed from eth0
+[ 4161.502615] rndis_host 1-5.3:1.0 enx0015ff357651: renamed from eth0
+[ 4171.472300] rndis_host 1-4:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-4, RNDIS device
+
+
+[ 4181.592629] rfkill: input handler enabled
+[ 4187.055595] rfkill: input handler disabled
+[ 4311.334334] wlp1s0: authenticate with 28:80:a2:86:4c:16
+[ 4311.348065] wlp1s0: send auth to 28:80:a2:86:4c:16 (try 1/3)
+[ 4311.354097] wlp1s0: authenticated
+[ 4311.356819] wlp1s0: associate with 28:80:a2:86:4c:16 (try 1/3)
+[ 4311.358910] wlp1s0: RX AssocResp from 28:80:a2:86:4c:16 (capab=0x11 status=0 aid=1)
+[ 4311.362610] wlp1s0: associated
+[ 4311.430726] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[ 4311.459260] wlp1s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 28:80:a2:86:4c:16
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.1G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   61M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        28:80:A2:86:4C:17  Verizon-MiFi8800L-4C16  Infra  11    130 Mbit/s  64      ▂▄▆_  WPA2     
+*       28:80:A2:86:4C:16  Verizon-MiFi8800L-4C16  Infra  157   270 Mbit/s  59      ▂▄▆_  WPA2     
+
+
+enx0015ff357651:
+192.168.1.5/24
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=85.9 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=85.2 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=76.2 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+rtt min/avg/max/mdev = 76.220/82.466/85.933/4.425 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2053ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=79.6 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=88.5 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=112 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 79.571/93.472/112.367/13.846 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2041ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.087 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.096 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.087/0.093/0.097/0.004 ms
+
+
+PING github.com (140.82.112.3) 56(84) bytes of data.
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=1 ttl=49 time=44.2 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=2 ttl=49 time=52.3 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=3 ttl=49 time=38.4 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 38.366/44.951/52.315/5.721 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=113 time=47.6 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=113 time=45.7 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=113 time=43.3 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 43.258/45.488/47.555/1.758 ms
