@@ -11147,3 +11147,607 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 42.338/45.864/51.570/4.071 ms
+
+############################ bjorn - 08/13/20 13:23:09 EST ############################
+
+ 13:23:09 up 4 min,  2 users,  load average: 0.34, 0.54, 0.27
+
+
+reboot   system boot  5.4.0-42-generic Thu Aug 13 13:19   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 12:50   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 12:32   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 11:19   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 05:56   still running
+
+
+
+
+Bus 001 Device 003: ID 1410:9031 Novatel Wireless MiFi USB730L
+Bus 001 Device 002: ID 1410:b020 Novatel Wireless MiFi 8800L
+
+
+[    8.174087] rndis_host 1-4:1.0 enx0015ff357651: renamed from eth0
+[    8.199301] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth1
+
+
+[   15.792676] wlp1s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 28:80:a2:86:4c:16
+[   15.840744] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[   21.516779] rfkill: input handler disabled
+[   30.684323] iTCO_vendor_support: vendor-support=0
+[   30.689013] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   30.689073] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   30.689281] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   99.835533] Bluetooth: RFCOMM TTY layer initialized
+[   99.835552] Bluetooth: RFCOMM socket layer initialized
+[   99.835565] Bluetooth: RFCOMM ver 1.11
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.2G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   62M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+*       28:80:A2:86:4C:16  Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  70      ▂▄▆_  WPA2     
+        28:80:A2:86:4C:17  Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  50      ▂▄__  WPA2     
+
+
+enx0015ff357651:
+192.168.1.5/24
+enx0015ff030033:
+100.87.43.49/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=73.3 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=63.2 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=60.1 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 60.057/65.501/73.257/5.631 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=63.9 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=81.3 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=78.8 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 63.904/74.662/81.264/7.672 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2047ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.089 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.096 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.089/0.094/0.097/0.003 ms
+
+
+PING github.com (140.82.112.3) 56(84) bytes of data.
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=1 ttl=50 time=47.7 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=2 ttl=50 time=45.0 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=3 ttl=50 time=43.8 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 43.820/45.500/47.721/1.637 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=111 time=44.8 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=111 time=53.8 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=111 time=44.2 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 44.178/47.589/53.814/4.408 ms
+
+############################ bjorn - 08/13/20 13:30:01 EST ############################
+
+ 13:30:01 up 11 min,  2 users,  load average: 0.04, 0.17, 0.19
+
+
+reboot   system boot  5.4.0-42-generic Thu Aug 13 13:19   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 12:50   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 12:32   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 11:19   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 05:56   still running
+
+
+
+
+Bus 001 Device 003: ID 1410:9031 Novatel Wireless MiFi USB730L
+Bus 001 Device 002: ID 1410:b020 Novatel Wireless MiFi 8800L
+
+
+[    8.174087] rndis_host 1-4:1.0 enx0015ff357651: renamed from eth0
+[    8.199301] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth1
+
+
+[   15.792676] wlp1s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 28:80:a2:86:4c:16
+[   15.840744] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[   21.516779] rfkill: input handler disabled
+[   30.684323] iTCO_vendor_support: vendor-support=0
+[   30.689013] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   30.689073] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   30.689281] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   99.835533] Bluetooth: RFCOMM TTY layer initialized
+[   99.835552] Bluetooth: RFCOMM socket layer initialized
+[   99.835565] Bluetooth: RFCOMM ver 1.11
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.2G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   62M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+*       28:80:A2:86:4C:16  Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  70      ▂▄▆_  WPA2     
+
+
+enx0015ff357651:
+192.168.1.5/24
+enx0015ff030033:
+100.87.43.49/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=68.3 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=65.8 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=66.8 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 65.814/66.959/68.288/1.018 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=83.5 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=168 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=68.3 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 68.306/106.746/168.471/44.082 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2047ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.088 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.098 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.088/0.094/0.098/0.004 ms
+
+
+PING github.com (140.82.113.4) 56(84) bytes of data.
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=1 ttl=50 time=43.4 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=2 ttl=50 time=48.3 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=3 ttl=50 time=38.6 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 38.605/43.452/48.308/3.961 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=111 time=32.7 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=111 time=40.1 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=111 time=38.8 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 32.704/37.208/40.078/3.224 ms
+
+############################ bjorn - 08/13/20 13:43:51 EST ############################
+
+ 13:43:51 up 4 min,  0 users,  load average: 0.24, 0.47, 0.25
+
+
+reboot   system boot  5.4.0-42-generic Thu Aug 13 13:39   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 13:19   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 12:50   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 12:32   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 11:19   still running
+
+
+
+
+Bus 001 Device 006: ID 1410:9031 Novatel Wireless MiFi USB730L
+Bus 001 Device 002: ID 1410:b020 Novatel Wireless MiFi 8800L
+
+
+[    8.025462] rndis_host 1-4:1.0 enx0015ff357651: renamed from eth0
+[    8.039302] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth1
+[  119.619553] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+[  120.796333] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+
+
+[  120.698992] usb 1-6: config 1 has no interface number 7
+[  120.700281] usb 1-6: New USB device found, idVendor=1410, idProduct=9031, bcdDevice= 3.10
+[  120.700289] usb 1-6: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  120.700295] usb 1-6: Product: MiFi USB730L
+[  120.700300] usb 1-6: Manufacturer: Novatel Wireless
+[  120.700304] usb 1-6: SerialNumber: 0123456789ABCDEF
+[  120.738069] rndis_host 1-6:1.0 eth0: register 'rndis_host' at usb-0000:00:15.0-6, RNDIS device, 00:15:ff:03:00:33
+[  120.751677] cdc_acm 1-6:1.12: ttyACM0: USB ACM device
+[  120.756335] hid-generic 0003:1410:9031.0003: hiddev1,hidraw1: USB HID v1.01 Device [Novatel Wireless MiFi USB730L] on usb-0000:00:15.0-6/input14
+[  120.796333] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.2G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   62M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+*       28:80:A2:86:4C:16  Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  63      ▂▄▆_  WPA2     
+        28:80:A2:86:4C:17  Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  60      ▂▄▆_  WPA2     
+        00:D0:2C:11:32:E6  CR6_13030               Infra  1     54 Mbit/s   42      ▂▄__  --       
+
+
+enx0015ff357651:
+192.168.1.5/24
+enx0015ff030033:
+100.98.72.99/29
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+192.168.5.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2047ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2026ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.089 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.089/0.094/0.097/0.003 ms
+
+
+PING github.com (140.82.112.3) 56(84) bytes of data.
+
+--- github.com ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2049ms
+
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=113 time=36.9 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=113 time=35.2 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=113 time=34.3 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 34.287/35.476/36.904/1.081 ms
+
+############################ bjorn - 08/13/20 14:08:12 EST ############################
+
+ 14:08:12 up 4 min,  0 users,  load average: 0.38, 0.40, 0.20
+
+
+reboot   system boot  5.4.0-42-generic Thu Aug 13 14:04   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 13:39   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 13:19   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 12:50   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 12:32   still running
+
+
+
+
+Bus 001 Device 002: ID 1410:b020 Novatel Wireless MiFi 8800L
+
+
+[    7.960931] rndis_host 1-4:1.0 enx0015ff357651: renamed from eth0
+
+
+[   15.468128] wlp1s0: associate with 28:80:a2:86:4c:16 (try 1/3)
+[   15.470125] wlp1s0: RX AssocResp from 28:80:a2:86:4c:16 (capab=0x11 status=0 aid=1)
+[   15.472998] wlp1s0: associated
+[   15.489783] wlp1s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 28:80:a2:86:4c:16
+[   15.564266] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[   21.428228] rfkill: input handler disabled
+[   22.591302] iTCO_vendor_support: vendor-support=0
+[   22.608648] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   22.608743] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   22.610767] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.2G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   62M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        28:80:A2:86:4C:17  Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  67      ▂▄▆_  WPA2     
+*       28:80:A2:86:4C:16  Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  53      ▂▄__  WPA2     
+
+
+enx0015ff357651:
+192.168.1.5/24
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=167 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=86.7 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=211 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 86.696/154.668/210.802/51.352 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=78.0 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=85.9 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=85.7 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 77.953/83.199/85.916/3.710 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2038ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.087 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.096 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.095 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2055ms
+rtt min/avg/max/mdev = 0.087/0.092/0.096/0.004 ms
+
+
+PING github.com (140.82.114.4) 56(84) bytes of data.
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=1 ttl=49 time=46.5 ms
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=2 ttl=49 time=43.1 ms
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=3 ttl=49 time=49.2 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 43.093/46.248/49.163/2.483 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=111 time=37.9 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=111 time=47.6 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=111 time=44.6 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 37.882/43.367/47.628/4.071 ms
+
+############################ bjorn - 08/13/20 14:11:17 EST ############################
+
+ 14:11:17 up 7 min,  1 user,  load average: 0.18, 0.34, 0.21
+
+
+reboot   system boot  5.4.0-42-generic Thu Aug 13 14:04   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 13:39   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 13:19   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 12:50   still running
+reboot   system boot  5.4.0-42-generic Thu Aug 13 12:32   still running
+
+
+
+
+Bus 001 Device 002: ID 1410:b020 Novatel Wireless MiFi 8800L
+
+
+[    7.960931] rndis_host 1-4:1.0 enx0015ff357651: renamed from eth0
+
+
+[   15.489783] wlp1s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 28:80:a2:86:4c:16
+[   15.564266] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[   21.428228] rfkill: input handler disabled
+[   22.591302] iTCO_vendor_support: vendor-support=0
+[   22.608648] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   22.608743] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   22.610767] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[  270.270585] Bluetooth: RFCOMM TTY layer initialized
+[  270.270595] Bluetooth: RFCOMM socket layer initialized
+[  270.270608] Bluetooth: RFCOMM ver 1.11
+
+
+Thu Aug 13 13:40:04 2020 [pid 1314] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 311 bytes, 89.67Kbyte/sec
+Thu Aug 13 13:40:05 2020 [pid 1314] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 318 bytes, 92.65Kbyte/sec
+Thu Aug 13 13:40:06 2020 [pid 1314] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 297 bytes, 88.43Kbyte/sec
+Thu Aug 13 13:40:07 2020 [pid 1314] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 310 bytes, 94.57Kbyte/sec
+Thu Aug 13 13:40:08 2020 [pid 1314] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 313 bytes, 94.55Kbyte/sec
+Thu Aug 13 13:40:09 2020 [pid 1314] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 314 bytes, 97.04Kbyte/sec
+Thu Aug 13 13:40:10 2020 [pid 1314] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 314 bytes, 88.73Kbyte/sec
+Thu Aug 13 13:40:11 2020 [pid 1314] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 310 bytes, 88.91Kbyte/sec
+Thu Aug 13 13:40:12 2020 [pid 1314] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 320 bytes, 98.61Kbyte/sec
+Thu Aug 13 13:50:13 2020 [pid 2388] CONNECT: Client "::ffff:192.168.5.2"
+Thu Aug 13 13:50:13 2020 [pid 2387] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Thu Aug 13 13:50:15 2020 [pid 2389] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 313 bytes, 91.98Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.2G   46G  17% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G   62M   56G   1% /data
+
+
+IN-USE  BSSID              SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+*       28:80:A2:86:4C:16  Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  53      ▂▄__  WPA2     
+
+
+enx0015ff357651:
+192.168.1.5/24
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=78.2 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=69.8 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=189 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 69.778/112.385/189.180/54.410 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=78.5 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=69.7 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=136 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 69.695/94.571/135.537/29.188 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2029ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.088 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.094 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.096 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.088/0.092/0.096/0.003 ms
+
+
+PING github.com (140.82.113.3) 56(84) bytes of data.
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=1 ttl=49 time=47.5 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=2 ttl=49 time=44.3 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=3 ttl=49 time=50.0 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 44.318/47.267/49.955/2.308 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=111 time=45.4 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=111 time=49.8 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=111 time=43.5 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 43.500/46.205/49.752/2.620 ms

@@ -12409,3 +12409,77 @@
 2020/08/13 13:20:01 autossh[1625]: clear alarm timer (0 secs left)
 2020/08/13 13:20:01 autossh[1625]: set alarm for 600 secs
 2020/08/13 13:20:01 autossh[1626]: child of 1625 execing /usr/bin/ssh
+
+############################ bjorn - 08/13/20 13:23:09 EST ############################
+
+2020/08/13 13:23:09 autossh[2582]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 08/13/20 13:25:01 EST ############################
+
+2020/08/13 13:25:01 autossh[2770]: bind on 127.0.0.1:61001: Address already in use
+2020/08/13 13:30:01 autossh[1625]: received SIGALRM (end-of-life 0)
+
+############################ bjorn - 08/13/20 13:30:01 EST ############################
+
+2020/08/13 13:30:01 autossh[2940]: bind on 127.0.0.1:61001: Address already in use
+2020/08/13 13:30:16 autossh[1625]: timeout polling to accept read connection
+2020/08/13 13:30:16 autossh[1625]: port down, restarting ssh
+2020/08/13 13:30:16 autossh[1625]: clear alarm timer (0 secs left)
+2020/08/13 13:30:16 autossh[1625]: checking for grace period, tries = 0
+2020/08/13 13:30:16 autossh[1625]: starting ssh (count 2)
+2020/08/13 13:30:16 autossh[1625]: ssh child pid is 3027
+2020/08/13 13:30:16 autossh[1625]: check on child 3027
+2020/08/13 13:30:16 autossh[1625]: clear alarm timer (0 secs left)
+2020/08/13 13:30:16 autossh[1625]: set alarm for 600 secs
+2020/08/13 13:30:16 autossh[3027]: child of 1625 execing /usr/bin/ssh
+
+############################ bjorn - 08/13/20 13:40:01 EST ############################
+
+2020/08/13 13:40:01 autossh[1465]: checking for grace period, tries = 0
+2020/08/13 13:40:01 autossh[1465]: starting ssh (count 1)
+2020/08/13 13:40:01 autossh[1465]: ssh child pid is 1466
+2020/08/13 13:40:01 autossh[1465]: check on child 1466
+2020/08/13 13:40:01 autossh[1465]: clear alarm timer (0 secs left)
+2020/08/13 13:40:01 autossh[1465]: set alarm for 600 secs
+2020/08/13 13:40:01 autossh[1466]: child of 1465 execing /usr/bin/ssh
+
+############################ bjorn - 08/13/20 13:43:51 EST ############################
+
+2020/08/13 13:43:51 autossh[1963]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 08/13/20 13:45:01 EST ############################
+
+2020/08/13 13:45:01 autossh[2147]: bind on 127.0.0.1:61001: Address already in use
+2020/08/13 13:50:00 autossh[1465]: received SIGALRM (end-of-life 0)
+
+############################ bjorn - 08/13/20 13:50:01 EST ############################
+
+2020/08/13 13:50:01 autossh[2328]: bind on 127.0.0.1:61001: Address already in use
+2020/08/13 13:50:15 autossh[1465]: timeout polling to accept read connection
+2020/08/13 13:50:15 autossh[1465]: port down, restarting ssh
+2020/08/13 13:50:15 autossh[1465]: clear alarm timer (0 secs left)
+2020/08/13 13:50:15 autossh[1465]: checking for grace period, tries = 0
+2020/08/13 13:50:15 autossh[1465]: starting ssh (count 2)
+2020/08/13 13:50:15 autossh[1465]: ssh child pid is 2404
+2020/08/13 13:50:15 autossh[1465]: check on child 2404
+2020/08/13 13:50:15 autossh[1465]: clear alarm timer (0 secs left)
+2020/08/13 13:50:15 autossh[1465]: set alarm for 600 secs
+2020/08/13 13:50:15 autossh[2404]: child of 1465 execing /usr/bin/ssh
+
+############################ bjorn - 08/13/20 14:05:02 EST ############################
+
+2020/08/13 14:05:02 autossh[1608]: checking for grace period, tries = 0
+2020/08/13 14:05:02 autossh[1608]: starting ssh (count 1)
+2020/08/13 14:05:02 autossh[1609]: child of 1608 execing /usr/bin/ssh
+2020/08/13 14:05:02 autossh[1608]: ssh child pid is 1609
+2020/08/13 14:05:02 autossh[1608]: check on child 1609
+2020/08/13 14:05:02 autossh[1608]: clear alarm timer (0 secs left)
+2020/08/13 14:05:02 autossh[1608]: set alarm for 600 secs
+
+############################ bjorn - 08/13/20 14:08:12 EST ############################
+
+2020/08/13 14:08:12 autossh[1739]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 08/13/20 14:10:01 EST ############################
+
+2020/08/13 14:10:01 autossh[2162]: bind on 127.0.0.1:61001: Address already in use

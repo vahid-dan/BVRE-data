@@ -4798,3 +4798,34 @@
 2020-08-13 13:08:05 64 bytes from 8.8.8.8: icmp_seq=14 ttl=112 time=41.2 ms
 2020-08-13 13:10:05 64 bytes from 8.8.8.8: icmp_seq=16 ttl=112 time=39.9 ms
 2020-08-13 13:12:06 64 bytes from 8.8.8.8: icmp_seq=18 ttl=112 time=45.9 ms
+
+############## bjorn -  ##############
+
+2020-08-13 13:23:09 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2020-08-13 13:23:09 64 bytes from 8.8.8.8: icmp_seq=1 ttl=111 time=52.4 ms
+2020-08-13 13:24:09 64 bytes from 8.8.8.8: icmp_seq=2 ttl=111 time=42.6 ms
+2020-08-13 13:25:09 64 bytes from 8.8.8.8: icmp_seq=3 ttl=111 time=41.2 ms
+2020-08-13 13:26:09 64 bytes from 8.8.8.8: icmp_seq=4 ttl=111 time=32.2 ms
+2020-08-13 13:27:09 64 bytes from 8.8.8.8: icmp_seq=5 ttl=111 time=43.9 ms
+2020-08-13 13:28:09 64 bytes from 8.8.8.8: icmp_seq=6 ttl=111 time=49.2 ms
+2020-08-13 13:29:09 64 bytes from 8.8.8.8: icmp_seq=7 ttl=111 time=42.6 ms
+2020-08-13 13:30:09 64 bytes from 8.8.8.8: icmp_seq=8 ttl=111 time=40.8 ms
+2020-08-13 13:31:09 64 bytes from 8.8.8.8: icmp_seq=9 ttl=111 time=49.7 ms
+2020-08-13 13:32:09 64 bytes from 8.8.8.8: icmp_seq=10 ttl=111 time=48.8 ms
+                                                                            
+############## bjorn -  ##############
+
+2020-08-13 13:44:53 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2020-08-13 13:44:53 64 bytes from 8.8.8.8: icmp_seq=2 ttl=113 time=37.9 ms
+2020-08-13 13:48:57 64 bytes from 8.8.8.8: icmp_seq=6 ttl=111 time=35.6 ms
+2020-08-13 13:49:57 64 bytes from 8.8.8.8: icmp_seq=7 ttl=113 time=48.5 ms
+2020-08-13 13:54:00 64 bytes from 8.8.8.8: icmp_seq=11 ttl=112 time=52.2 ms
+
+############## bjorn -  ##############
+
+2020-08-13 14:08:13 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2020-08-13 14:08:13 64 bytes from 8.8.8.8: icmp_seq=1 ttl=111 time=36.8 ms
+2020-08-13 14:09:13 64 bytes from 8.8.8.8: icmp_seq=2 ttl=111 time=43.1 ms
+2020-08-13 14:10:13 64 bytes from 8.8.8.8: icmp_seq=3 ttl=111 time=51.5 ms
+2020-08-13 14:11:13 64 bytes from 8.8.8.8: icmp_seq=4 ttl=111 time=52.1 ms
+2020-08-13 14:12:13 64 bytes from 8.8.8.8: icmp_seq=5 ttl=111 time=57.1 ms
