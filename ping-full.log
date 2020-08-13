@@ -4829,3 +4829,4 @@
 2020-08-13 14:10:13 64 bytes from 8.8.8.8: icmp_seq=3 ttl=111 time=51.5 ms
 2020-08-13 14:11:13 64 bytes from 8.8.8.8: icmp_seq=4 ttl=111 time=52.1 ms
 2020-08-13 14:12:13 64 bytes from 8.8.8.8: icmp_seq=5 ttl=111 time=57.1 ms
+2020-08-13 14:13:13 64 bytes from 8.8.8.8: icmp_seq=6 ttl=111 time=53.4 ms

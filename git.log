@@ -3372,3 +3372,22 @@ Already up to date.
  4 files changed, 937 insertions(+)
 To github.com:FLARE-forecast/BVRE-data.git
    08b5f2c..6d86656  bjorn-logs -> bjorn-logs
+[bjorn-logs f58cb30] 08/13/20 14:12:22 EST: Logs
+ 1 file changed, 4 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   6d86656..f58cb30  bjorn-logs -> bjorn-logs
+
+############################ bjorn - 08/13/20 14:13:10 EST ############################
+
+Data:
+
+Already up to date.
+[bvre-platform-data 23761d2] 08/13/20 14:13:10 EST: Git Backup
+ 1 file changed, 19 insertions(+)
+ create mode 100644 BVRplatform.csv
+To github.com:FLARE-forecast/BVRE-data.git
+   f61af56..23761d2  bvre-platform-data -> bvre-platform-data
+
+Logs:
+
+Already up to date.
