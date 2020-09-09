@@ -11443,3 +11443,10 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[bjorn-logs d981166] 09/09/20 12:12:20 EST: Logs
+ 5 files changed, 303 insertions(+)
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
