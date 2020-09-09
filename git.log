@@ -11336,3 +11336,32 @@ Already up to date.
  2 files changed, 20 insertions(+)
 To github.com:FLARE-forecast/BVRE-data.git
    bd1a5a6..9f3c24f  bjorn-logs -> bjorn-logs
+[bjorn-logs 1a1fa1a] 09/09/20 10:52:15 EST: Logs
+ 1 file changed, 4 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   9f3c24f..1a1fa1a  bjorn-logs -> bjorn-logs
+
+############################ bjorn - 09/09/20 11:21:16 EST ############################
+
+Data:
+
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[bvre-platform-data 5b0f990] 09/09/20 11:21:16 EST: Git Backup
+ 1 file changed, 6 insertions(+)
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.

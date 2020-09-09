@@ -50471,3 +50471,16 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2004ms
 rtt min/avg/max/mdev = 123.539/131.035/135.946/5.385 ms
+
+############################ bjorn - 09/09/20 11:21:16 EST ############################
+
+ 11:21:16 up 5 min,  0 users,  load average: 0.35, 0.56, 0.32
+
+
+reboot   system boot  5.4.0-42-generic Wed Sep  9 11:16   still running
+reboot   system boot  5.4.0-42-generic Wed Sep  9 10:42   still running
+reboot   system boot  5.4.0-42-generic Wed Sep  9 10:20   still running
+reboot   system boot  5.4.0-42-generic Wed Sep  9 10:04 - 10:19  (00:14)
+reboot   system boot  5.4.0-42-generic Wed Sep  9 09:36 - 10:19  (00:43)
+
+

@@ -7803,3 +7803,11 @@
 2020-09-09 10:50:08 64 bytes from 8.8.8.8: icmp_seq=4 ttl=111 time=141 ms
 2020-09-09 10:51:08 64 bytes from 8.8.8.8: icmp_seq=5 ttl=111 time=126 ms
 2020-09-09 10:52:08 64 bytes from 8.8.8.8: icmp_seq=6 ttl=111 time=129 ms
+2020-09-09 10:53:08 64 bytes from 8.8.8.8: icmp_seq=7 ttl=111 time=139 ms
+2020-09-09 10:54:08 64 bytes from 8.8.8.8: icmp_seq=8 ttl=111 time=132 ms
+2020-09-09 10:55:08 64 bytes from 8.8.8.8: icmp_seq=9 ttl=111 time=128 ms
+2020-09-09 10:56:08 64 bytes from 8.8.8.8: icmp_seq=10 ttl=111 time=134 ms
+2020-09-09 10:57:08 64 bytes from 8.8.8.8: icmp_seq=11 ttl=111 time=139 ms
+
+############## bjorn -  ##############
+
