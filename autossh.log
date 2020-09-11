@@ -51016,3 +51016,17 @@
 2020/09/10 18:20:01 autossh[2360]: clear alarm timer (0 secs left)
 2020/09/10 18:20:01 autossh[2360]: set alarm for 600 secs
 2020/09/10 18:20:01 autossh[2361]: child of 2360 execing /usr/bin/ssh
+
+############################ bjorn - 09/10/20 18:25:01 EST ############################
+
+2020/09/10 18:25:01 autossh[3276]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/11/20 00:20:01 EST ############################
+
+2020/09/11 00:20:01 autossh[2467]: checking for grace period, tries = 0
+2020/09/11 00:20:01 autossh[2467]: starting ssh (count 1)
+2020/09/11 00:20:01 autossh[2467]: ssh child pid is 2468
+2020/09/11 00:20:01 autossh[2467]: check on child 2468
+2020/09/11 00:20:01 autossh[2467]: clear alarm timer (0 secs left)
+2020/09/11 00:20:01 autossh[2467]: set alarm for 600 secs
+2020/09/11 00:20:01 autossh[2468]: child of 2467 execing /usr/bin/ssh
