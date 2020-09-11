@@ -52035,3 +52035,162 @@
 2020/09/11 15:21:02 autossh[1778]: clear alarm timer (600 secs left)
 2020/09/11 15:21:02 autossh[1778]: checking for grace period, tries = 10
 2020/09/11 15:21:02 autossh[1778]: sleeping for grace time 50 secs
+2020/09/11 15:21:52 autossh[1778]: starting ssh (count 11)
+2020/09/11 15:21:52 autossh[1778]: ssh child pid is 2011
+2020/09/11 15:21:52 autossh[1778]: check on child 2011
+2020/09/11 15:21:52 autossh[1778]: clear alarm timer (0 secs left)
+2020/09/11 15:21:52 autossh[1778]: set alarm for 600 secs
+2020/09/11 15:21:52 autossh[2011]: child of 1778 execing /usr/bin/ssh
+2020/09/11 15:21:52 autossh[1778]: check on child 2011
+2020/09/11 15:21:52 autossh[1778]: ssh exited with error status 255; restarting ssh
+2020/09/11 15:21:52 autossh[1778]: expired child, returning 1
+2020/09/11 15:21:52 autossh[1778]: clear alarm timer (600 secs left)
+2020/09/11 15:21:52 autossh[1778]: checking for grace period, tries = 11
+2020/09/11 15:21:52 autossh[1778]: sleeping for grace time 72 secs
+2020/09/11 15:23:04 autossh[1778]: starting ssh (count 12)
+2020/09/11 15:23:04 autossh[1778]: ssh child pid is 2051
+2020/09/11 15:23:04 autossh[1778]: check on child 2051
+2020/09/11 15:23:04 autossh[1778]: clear alarm timer (0 secs left)
+2020/09/11 15:23:04 autossh[1778]: set alarm for 600 secs
+2020/09/11 15:23:04 autossh[2051]: child of 1778 execing /usr/bin/ssh
+2020/09/11 15:23:04 autossh[1778]: check on child 2051
+2020/09/11 15:23:04 autossh[1778]: ssh exited with error status 255; restarting ssh
+2020/09/11 15:23:04 autossh[1778]: expired child, returning 1
+2020/09/11 15:23:04 autossh[1778]: clear alarm timer (600 secs left)
+2020/09/11 15:23:04 autossh[1778]: checking for grace period, tries = 12
+2020/09/11 15:23:04 autossh[1778]: sleeping for grace time 98 secs
+2020/09/11 15:24:42 autossh[1778]: starting ssh (count 13)
+2020/09/11 15:24:42 autossh[1778]: ssh child pid is 2084
+2020/09/11 15:24:42 autossh[1778]: check on child 2084
+2020/09/11 15:24:42 autossh[1778]: clear alarm timer (0 secs left)
+2020/09/11 15:24:42 autossh[1778]: set alarm for 600 secs
+2020/09/11 15:24:42 autossh[2084]: child of 1778 execing /usr/bin/ssh
+2020/09/11 15:24:42 autossh[1778]: check on child 2084
+2020/09/11 15:24:42 autossh[1778]: ssh exited with error status 255; restarting ssh
+2020/09/11 15:24:42 autossh[1778]: expired child, returning 1
+2020/09/11 15:24:42 autossh[1778]: clear alarm timer (600 secs left)
+2020/09/11 15:24:42 autossh[1778]: checking for grace period, tries = 13
+2020/09/11 15:24:42 autossh[1778]: sleeping for grace time 128 secs
+
+############################ bjorn - 09/11/20 15:25:01 EST ############################
+
+2020/09/11 15:25:01 autossh[2110]: bind on 127.0.0.1:61001: Address already in use
+2020/09/11 15:26:50 autossh[1778]: starting ssh (count 14)
+2020/09/11 15:26:50 autossh[1778]: ssh child pid is 2152
+2020/09/11 15:26:50 autossh[1778]: check on child 2152
+2020/09/11 15:26:50 autossh[1778]: clear alarm timer (0 secs left)
+2020/09/11 15:26:50 autossh[1778]: set alarm for 600 secs
+2020/09/11 15:26:50 autossh[2152]: child of 1778 execing /usr/bin/ssh
+2020/09/11 15:26:50 autossh[1778]: check on child 2152
+2020/09/11 15:26:50 autossh[1778]: ssh exited with error status 255; restarting ssh
+2020/09/11 15:26:50 autossh[1778]: expired child, returning 1
+2020/09/11 15:26:50 autossh[1778]: clear alarm timer (600 secs left)
+2020/09/11 15:26:50 autossh[1778]: checking for grace period, tries = 14
+2020/09/11 15:26:50 autossh[1778]: sleeping for grace time 162 secs
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+############################ bjorn - 09/11/20 16:20:01 EST ############################
+
+2020/09/11 16:20:01 autossh[1739]: checking for grace period, tries = 0
+2020/09/11 16:20:01 autossh[1739]: starting ssh (count 1)
+2020/09/11 16:20:01 autossh[1739]: ssh child pid is 1740
+2020/09/11 16:20:01 autossh[1739]: check on child 1740
+2020/09/11 16:20:01 autossh[1739]: clear alarm timer (0 secs left)
+2020/09/11 16:20:01 autossh[1739]: set alarm for 600 secs
+2020/09/11 16:20:01 autossh[1740]: child of 1739 execing /usr/bin/ssh
+2020/09/11 16:20:01 autossh[1739]: check on child 1740
+2020/09/11 16:20:01 autossh[1739]: ssh exited with error status 255; restarting ssh
+2020/09/11 16:20:01 autossh[1739]: expired child, returning 1
+2020/09/11 16:20:01 autossh[1739]: clear alarm timer (600 secs left)
+2020/09/11 16:20:01 autossh[1739]: checking for grace period, tries = 1
+2020/09/11 16:20:01 autossh[1739]: starting ssh (count 2)
+2020/09/11 16:20:01 autossh[1739]: ssh child pid is 1742
+2020/09/11 16:20:01 autossh[1739]: check on child 1742
+2020/09/11 16:20:01 autossh[1739]: clear alarm timer (0 secs left)
+2020/09/11 16:20:01 autossh[1739]: set alarm for 600 secs
+2020/09/11 16:20:01 autossh[1742]: child of 1739 execing /usr/bin/ssh
+2020/09/11 16:20:01 autossh[1739]: check on child 1742
+2020/09/11 16:20:01 autossh[1739]: ssh exited with error status 255; restarting ssh
+2020/09/11 16:20:01 autossh[1739]: expired child, returning 1
+2020/09/11 16:20:01 autossh[1739]: clear alarm timer (600 secs left)
+2020/09/11 16:20:01 autossh[1739]: checking for grace period, tries = 2
+2020/09/11 16:20:01 autossh[1739]: starting ssh (count 3)
+2020/09/11 16:20:01 autossh[1739]: ssh child pid is 1743
+2020/09/11 16:20:01 autossh[1739]: check on child 1743
+2020/09/11 16:20:01 autossh[1739]: clear alarm timer (0 secs left)
+2020/09/11 16:20:01 autossh[1739]: set alarm for 600 secs
+2020/09/11 16:20:01 autossh[1743]: child of 1739 execing /usr/bin/ssh
+2020/09/11 16:20:01 autossh[1739]: check on child 1743
+2020/09/11 16:20:01 autossh[1739]: ssh exited with error status 255; restarting ssh
+2020/09/11 16:20:01 autossh[1739]: expired child, returning 1
+2020/09/11 16:20:01 autossh[1739]: clear alarm timer (600 secs left)
+2020/09/11 16:20:01 autossh[1739]: checking for grace period, tries = 3
+2020/09/11 16:20:01 autossh[1739]: starting ssh (count 4)
+2020/09/11 16:20:01 autossh[1739]: ssh child pid is 1744
+2020/09/11 16:20:01 autossh[1739]: check on child 1744
+2020/09/11 16:20:01 autossh[1739]: clear alarm timer (0 secs left)
+2020/09/11 16:20:01 autossh[1739]: set alarm for 600 secs
+2020/09/11 16:20:01 autossh[1744]: child of 1739 execing /usr/bin/ssh
+2020/09/11 16:20:01 autossh[1739]: check on child 1744
+2020/09/11 16:20:01 autossh[1739]: ssh exited with error status 255; restarting ssh
+2020/09/11 16:20:01 autossh[1739]: expired child, returning 1
+2020/09/11 16:20:01 autossh[1739]: clear alarm timer (600 secs left)
+2020/09/11 16:20:01 autossh[1739]: checking for grace period, tries = 4
+2020/09/11 16:20:01 autossh[1739]: starting ssh (count 5)
+2020/09/11 16:20:01 autossh[1739]: ssh child pid is 1745
+2020/09/11 16:20:01 autossh[1739]: check on child 1745
+2020/09/11 16:20:01 autossh[1739]: clear alarm timer (0 secs left)
+2020/09/11 16:20:01 autossh[1739]: set alarm for 600 secs
+2020/09/11 16:20:01 autossh[1745]: child of 1739 execing /usr/bin/ssh
+2020/09/11 16:20:01 autossh[1739]: check on child 1745
+2020/09/11 16:20:01 autossh[1739]: ssh exited with error status 255; restarting ssh
+2020/09/11 16:20:01 autossh[1739]: expired child, returning 1
+2020/09/11 16:20:01 autossh[1739]: clear alarm timer (600 secs left)
+2020/09/11 16:20:01 autossh[1739]: checking for grace period, tries = 5
+2020/09/11 16:20:01 autossh[1739]: starting ssh (count 6)
+2020/09/11 16:20:01 autossh[1739]: ssh child pid is 1746
+2020/09/11 16:20:01 autossh[1739]: check on child 1746
+2020/09/11 16:20:01 autossh[1739]: clear alarm timer (0 secs left)
+2020/09/11 16:20:01 autossh[1739]: set alarm for 600 secs
+2020/09/11 16:20:01 autossh[1746]: child of 1739 execing /usr/bin/ssh
+2020/09/11 16:20:01 autossh[1739]: check on child 1746
+2020/09/11 16:20:01 autossh[1739]: ssh exited with error status 255; restarting ssh
+2020/09/11 16:20:01 autossh[1739]: expired child, returning 1
+2020/09/11 16:20:01 autossh[1739]: clear alarm timer (600 secs left)
+2020/09/11 16:20:01 autossh[1739]: checking for grace period, tries = 6
+2020/09/11 16:20:01 autossh[1739]: sleeping for grace time 2 secs
+2020/09/11 16:20:03 autossh[1739]: starting ssh (count 7)
+2020/09/11 16:20:03 autossh[1739]: ssh child pid is 1747
+2020/09/11 16:20:03 autossh[1739]: check on child 1747
+2020/09/11 16:20:03 autossh[1739]: clear alarm timer (0 secs left)
+2020/09/11 16:20:03 autossh[1739]: set alarm for 600 secs
+2020/09/11 16:20:03 autossh[1747]: child of 1739 execing /usr/bin/ssh
+2020/09/11 16:20:03 autossh[1739]: check on child 1747
+2020/09/11 16:20:03 autossh[1739]: ssh exited with error status 255; restarting ssh
+2020/09/11 16:20:03 autossh[1739]: expired child, returning 1
+2020/09/11 16:20:03 autossh[1739]: clear alarm timer (600 secs left)
+2020/09/11 16:20:03 autossh[1739]: checking for grace period, tries = 7
+2020/09/11 16:20:03 autossh[1739]: sleeping for grace time 8 secs
+2020/09/11 16:20:11 autossh[1739]: starting ssh (count 8)
+2020/09/11 16:20:11 autossh[1739]: ssh child pid is 1752
+2020/09/11 16:20:11 autossh[1739]: check on child 1752
+2020/09/11 16:20:11 autossh[1739]: clear alarm timer (0 secs left)
+2020/09/11 16:20:11 autossh[1739]: set alarm for 600 secs
+2020/09/11 16:20:11 autossh[1752]: child of 1739 execing /usr/bin/ssh
+2020/09/11 16:20:11 autossh[1739]: check on child 1752
+2020/09/11 16:20:11 autossh[1739]: ssh exited with error status 255; restarting ssh
+2020/09/11 16:20:11 autossh[1739]: expired child, returning 1
+2020/09/11 16:20:11 autossh[1739]: clear alarm timer (600 secs left)
+2020/09/11 16:20:11 autossh[1739]: checking for grace period, tries = 8
+2020/09/11 16:20:11 autossh[1739]: sleeping for grace time 18 secs
+2020/09/11 16:20:29 autossh[1739]: starting ssh (count 9)
+2020/09/11 16:20:29 autossh[1739]: ssh child pid is 1801
+2020/09/11 16:20:29 autossh[1739]: check on child 1801
+2020/09/11 16:20:29 autossh[1739]: clear alarm timer (0 secs left)
+2020/09/11 16:20:29 autossh[1739]: set alarm for 600 secs
+2020/09/11 16:20:29 autossh[1801]: child of 1739 execing /usr/bin/ssh
+2020/09/11 16:20:29 autossh[1739]: check on child 1801
+2020/09/11 16:20:29 autossh[1739]: ssh exited with error status 255; restarting ssh
+2020/09/11 16:20:29 autossh[1739]: expired child, returning 1
+2020/09/11 16:20:29 autossh[1739]: clear alarm timer (600 secs left)
+2020/09/11 16:20:29 autossh[1739]: checking for grace period, tries = 9
+2020/09/11 16:20:29 autossh[1739]: sleeping for grace time 32 secs
