@@ -55597,3 +55597,124 @@ reboot   system boot  5.4.0-42-generic Sat Sep 12 09:15   still running
 reboot   system boot  5.4.0-42-generic Sat Sep 12 08:15   still running
 
 
+
+
+Bus 001 Device 010: ID 1410:9031 Novatel Wireless MiFi USB730L
+
+
+[    8.286114] cdc_ether 1-3:1.0 enx0015ff030033: renamed from eth0
+[   89.572217] cdc_ether 1-3:1.0 enx0015ff030033: unregister 'cdc_ether' usb-0000:00:15.0-3, CDC Ethernet Device
+[   90.689471] cdc_ether 1-3:1.0 enx0015ff030033: renamed from eth0
+[  120.559086] cdc_ether 1-3:1.0 enx0015ff030033: unregister 'cdc_ether' usb-0000:00:15.0-3, CDC Ethernet Device
+[  121.517556] cdc_ether 1-3:1.0 enx0015ff030033: renamed from eth0
+[  140.062339] cdc_ether 1-3:1.0 enx0015ff030033: unregister 'cdc_ether' usb-0000:00:15.0-3, CDC Ethernet Device
+[  141.180724] cdc_ether 1-3:1.0 enx0015ff030033: renamed from eth0
+[  239.836186] cdc_ether 1-3:1.0 enx0015ff030033: unregister 'cdc_ether' usb-0000:00:15.0-3, CDC Ethernet Device
+[  240.909739] cdc_ether 1-3:1.0 enx0015ff030033: renamed from eth0
+[  250.831043] cdc_ether 1-3:1.0 enx0015ff030033: unregister 'cdc_ether' usb-0000:00:15.0-3, CDC Ethernet Device
+[  251.790944] cdc_ether 1-3:1.0 enx0015ff030033: renamed from eth0
+[  284.072997] cdc_ether 1-3:1.0 enx0015ff030033: unregister 'cdc_ether' usb-0000:00:15.0-3, CDC Ethernet Device
+[  285.120481] cdc_ether 1-3:1.0 enx0015ff030033: renamed from eth0
+
+
+[  285.028281] usb 1-3: config 1 has no interface number 7
+[  285.029565] usb 1-3: New USB device found, idVendor=1410, idProduct=9031, bcdDevice= 3.10
+[  285.029573] usb 1-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  285.029579] usb 1-3: Product: MiFi USB730L
+[  285.029583] usb 1-3: Manufacturer: Novatel Wireless
+[  285.029588] usb 1-3: SerialNumber: 0123456789ABCDEF
+[  285.065595] cdc_ether 1-3:1.0 eth0: register 'cdc_ether' at usb-0000:00:15.0-3, CDC Ethernet Device, 00:15:ff:03:00:33
+[  285.076978] cdc_acm 1-3:1.12: ttyACM0: USB ACM device
+[  285.080842] hid-generic 0003:1410:9031.0007: hiddev0,hidraw0: USB HID v1.01 Device [Novatel Wireless MiFi USB730L] on usb-0000:00:15.0-3/input14
+[  285.120481] cdc_ether 1-3:1.0 enx0015ff030033: renamed from eth0
+
+
+Sat Sep 12 11:30:08 2020 [pid 4501] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sat Sep 12 11:30:10 2020 [pid 4503] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 98.87Kbyte/sec
+Sat Sep 12 11:40:11 2020 [pid 4828] CONNECT: Client "::ffff:192.168.5.2"
+Sat Sep 12 11:40:11 2020 [pid 4827] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sat Sep 12 11:40:13 2020 [pid 4829] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 90.15Kbyte/sec
+Sat Sep 12 12:07:26 2020 [pid 1221] CONNECT: Client "::ffff:192.168.5.2"
+Sat Sep 12 12:07:26 2020 [pid 1220] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sat Sep 12 12:07:29 2020 [pid 1231] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 60.03Kbyte/sec
+Sat Sep 12 12:07:30 2020 [pid 1231] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 103.60Kbyte/sec
+Sat Sep 12 12:10:10 2020 [pid 1993] CONNECT: Client "::ffff:192.168.5.2"
+Sat Sep 12 12:10:10 2020 [pid 1992] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sat Sep 12 12:10:13 2020 [pid 1994] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 331 bytes, 87.69Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.8G   46G  18% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  121M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff030033:
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+192.168.5.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2038ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.088 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.095 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2055ms
+rtt min/avg/max/mdev = 0.088/0.093/0.097/0.003 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
+
+############################ bjorn - 09/12/20 13:20:21 EST ############################
+
+ 13:20:21 up 5 min,  0 users,  load average: 0.18, 0.63, 0.37
+
+
+reboot   system boot  5.4.0-42-generic Sat Sep 12 13:15   still running
+reboot   system boot  5.4.0-42-generic Sat Sep 12 12:07   still running
+reboot   system boot  5.4.0-42-generic Sat Sep 12 11:13   still running
+reboot   system boot  5.4.0-42-generic Sat Sep 12 10:15   still running
+reboot   system boot  5.4.0-42-generic Sat Sep 12 09:15   still running
+
+
