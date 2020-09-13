@@ -13009,3 +13009,35 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[bjorn-logs e803b64] 09/13/20 11:18:22 EST: Logs
+ 2 files changed, 14 insertions(+)
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+############################ bjorn - 09/13/20 12:12:22 EST ############################
+
+Data:
+
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[bvre-platform-data c2e57a9] 09/13/20 12:12:22 EST: Git Backup
+ 1 file changed, 6 insertions(+)
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.

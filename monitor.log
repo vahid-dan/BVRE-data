@@ -57035,3 +57035,214 @@ PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
 
 
 
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2053ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.088 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.095 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2053ms
+rtt min/avg/max/mdev = 0.088/0.093/0.097/0.003 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
+
+############################ bjorn - 09/13/20 11:30:01 EST ############################
+
+ 11:30:01 up 16 min,  0 users,  load average: 0.00, 0.04, 0.12
+
+
+reboot   system boot  5.4.0-42-generic Sun Sep 13 11:13   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 10:15   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 09:15   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 08:15   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 00:15   still running
+
+
+
+
+Bus 001 Device 002: ID 1410:9031 Novatel Wireless MiFi USB730L
+
+
+[    8.331793] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+
+
+[   11.245244] Bluetooth: BNEP socket layer initialized
+[   11.295075] NET: Registered protocol family 38
+[   14.392056] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   14.392317] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   15.193585] fbcon: Taking over console
+[   22.313816] iTCO_vendor_support: vendor-support=0
+[   22.318364] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   22.318434] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   22.318643] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   24.439530] rfkill: input handler disabled
+
+
+Sun Sep 13 10:20:08 2020 [pid 2442] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sun Sep 13 10:20:11 2020 [pid 2444] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 331 bytes, 96.52Kbyte/sec
+Sun Sep 13 11:13:26 2020 [pid 1169] CONNECT: Client "::ffff:192.168.5.2"
+Sun Sep 13 11:13:26 2020 [pid 1168] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sun Sep 13 11:13:28 2020 [pid 1172] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 325 bytes, 59.54Kbyte/sec
+Sun Sep 13 11:13:29 2020 [pid 1172] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 336 bytes, 101.37Kbyte/sec
+Sun Sep 13 11:13:30 2020 [pid 1172] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 336 bytes, 97.80Kbyte/sec
+Sun Sep 13 11:13:31 2020 [pid 1172] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 339 bytes, 100.29Kbyte/sec
+Sun Sep 13 11:13:32 2020 [pid 1172] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 115.70Kbyte/sec
+Sun Sep 13 11:20:03 2020 [pid 2021] CONNECT: Client "::ffff:192.168.5.2"
+Sun Sep 13 11:20:03 2020 [pid 2020] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sun Sep 13 11:20:06 2020 [pid 2022] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 99.87Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.9G   46G  18% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  136M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff030033:
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+192.168.5.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2034ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.107 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.096 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2055ms
+rtt min/avg/max/mdev = 0.096/0.100/0.107/0.005 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
+
+############################ bjorn - 09/13/20 12:12:22 EST ############################
+
+ 12:12:22 up 5 min,  0 users,  load average: 0.07, 0.29, 0.17
+
+
+reboot   system boot  5.4.0-42-generic Sun Sep 13 12:07   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 11:13   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 10:15   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 09:15   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 08:15   still running
+
+
+
+
+Bus 001 Device 002: ID 1410:9031 Novatel Wireless MiFi USB730L
+
+
+[    8.005623] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+
+
+[   10.938268] Bluetooth: BNEP filters: protocol multicast
+[   10.938275] Bluetooth: BNEP socket layer initialized
+[   10.989051] NET: Registered protocol family 38
+[   15.231572] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   15.231872] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   19.354966] iTCO_vendor_support: vendor-support=0
+[   19.361685] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   19.361743] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   19.361980] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   24.422897] rfkill: input handler disabled
+
+
+Sun Sep 13 11:30:07 2020 [pid 2439] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sun Sep 13 11:30:09 2020 [pid 2441] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 91.13Kbyte/sec
+Sun Sep 13 11:40:10 2020 [pid 2726] CONNECT: Client "::ffff:192.168.5.2"
+Sun Sep 13 11:40:10 2020 [pid 2725] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sun Sep 13 11:40:13 2020 [pid 2727] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 94.28Kbyte/sec
+Sun Sep 13 12:07:27 2020 [pid 1226] CONNECT: Client "::ffff:192.168.5.2"
+Sun Sep 13 12:07:27 2020 [pid 1225] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sun Sep 13 12:07:30 2020 [pid 1234] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 56.48Kbyte/sec
+Sun Sep 13 12:07:31 2020 [pid 1234] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 101.91Kbyte/sec
+Sun Sep 13 12:10:11 2020 [pid 1694] CONNECT: Client "::ffff:192.168.5.2"
+Sun Sep 13 12:10:11 2020 [pid 1693] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sun Sep 13 12:10:13 2020 [pid 1695] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 339 bytes, 98.59Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.9G   46G  18% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  136M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff030033:
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+192.168.5.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
