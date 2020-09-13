@@ -57253,3 +57253,105 @@ PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
 
 
 
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.087 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.095 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.087/0.093/0.097/0.004 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
+
+############################ bjorn - 09/13/20 13:20:22 EST ############################
+
+ 13:20:22 up 5 min,  0 users,  load average: 0.06, 0.36, 0.22
+
+
+reboot   system boot  5.4.0-42-generic Sun Sep 13 13:15   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 12:07   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 11:13   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 10:15   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 09:15   still running
+
+
+
+
+Bus 001 Device 002: ID 1410:9031 Novatel Wireless MiFi USB730L
+
+
+[    8.116411] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+
+
+[   11.012850] Bluetooth: BNEP filters: protocol multicast
+[   11.012857] Bluetooth: BNEP socket layer initialized
+[   11.064764] NET: Registered protocol family 38
+[   15.132716] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   15.133022] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   18.939085] iTCO_vendor_support: vendor-support=0
+[   18.944215] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   18.944270] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   18.944438] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   23.689869] rfkill: input handler disabled
+
+
+Sun Sep 13 12:20:05 2020 [pid 2137] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sun Sep 13 12:20:07 2020 [pid 2139] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 91.62Kbyte/sec
+Sun Sep 13 13:15:28 2020 [pid 1244] CONNECT: Client "::ffff:192.168.5.2"
+Sun Sep 13 13:15:29 2020 [pid 1243] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sun Sep 13 13:15:31 2020 [pid 1245] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 336 bytes, 68.66Kbyte/sec
+Sun Sep 13 13:15:32 2020 [pid 1245] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 120.29Kbyte/sec
+Sun Sep 13 13:15:33 2020 [pid 1245] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 106.89Kbyte/sec
+Sun Sep 13 13:15:34 2020 [pid 1245] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 105.57Kbyte/sec
+Sun Sep 13 13:15:35 2020 [pid 1245] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 333 bytes, 104.40Kbyte/sec
+Sun Sep 13 13:20:05 2020 [pid 1756] CONNECT: Client "::ffff:192.168.5.2"
+Sun Sep 13 13:20:05 2020 [pid 1755] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sun Sep 13 13:20:08 2020 [pid 1757] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 345 bytes, 99.74Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.8G   46G  18% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  138M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff030033:
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+192.168.5.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2038ms
+
+
+
