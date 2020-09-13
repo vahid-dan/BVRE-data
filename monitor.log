@@ -57605,3 +57605,44 @@ PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
 
 
 
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.060 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.096 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2027ms
+rtt min/avg/max/mdev = 0.060/0.084/0.097/0.017 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
+
+############################ bjorn - 09/13/20 16:20:25 EST ############################
+
+ 16:20:25 up 5 min,  0 users,  load average: 0.51, 0.53, 0.26
+
+
+reboot   system boot  5.4.0-42-generic Sun Sep 13 16:15   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 15:15   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 14:15   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 13:15   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 12:07   still running
+
+
