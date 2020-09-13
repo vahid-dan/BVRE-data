@@ -56580,3 +56580,203 @@ reboot   system boot  5.4.0-42-generic Sat Sep 12 17:15   still running
 reboot   system boot  5.4.0-42-generic Sat Sep 12 16:15   still running
 
 
+
+
+Bus 001 Device 012: ID 1410:9031 Novatel Wireless MiFi USB730L
+
+
+[   11.219137] cdc_ether 1-3:1.0 enx0015ff030033: renamed from eth0
+[   14.567168] cdc_ether 1-3:1.0 enx0015ff030033: unregister 'cdc_ether' usb-0000:00:15.0-3, CDC Ethernet Device
+[   15.612831] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+[   97.044390] rndis_host 1-3:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[   98.186018] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+[  124.668713] rndis_host 1-3:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[  125.668296] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+[  152.893649] rndis_host 1-3:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[  153.984833] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+[  225.778538] rndis_host 1-3:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[  226.882670] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+[  250.209930] rndis_host 1-3:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[  251.197528] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+[  269.695220] rndis_host 1-3:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[  270.794074] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+[  315.269643] rndis_host 1-3:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[  316.268389] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+
+
+[  316.157395] usb 1-3: config 1 has no interface number 7
+[  316.158705] usb 1-3: New USB device found, idVendor=1410, idProduct=9031, bcdDevice= 3.10
+[  316.158713] usb 1-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  316.158719] usb 1-3: Product: MiFi USB730L
+[  316.158724] usb 1-3: Manufacturer: Novatel Wireless
+[  316.158728] usb 1-3: SerialNumber: 0123456789ABCDEF
+[  316.207778] rndis_host 1-3:1.0 eth0: register 'rndis_host' at usb-0000:00:15.0-3, RNDIS device, 00:15:ff:03:00:33
+[  316.212532] cdc_acm 1-3:1.12: ttyACM0: USB ACM device
+[  316.220681] hid-generic 0003:1410:9031.0009: hiddev0,hidraw0: USB HID v1.01 Device [Novatel Wireless MiFi USB730L] on usb-0000:00:15.0-3/input14
+[  316.268389] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+
+
+Sun Sep 13 08:16:10 2020 [pid 1147] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 98.43Kbyte/sec
+Sun Sep 13 08:16:11 2020 [pid 1147] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 92.77Kbyte/sec
+Sun Sep 13 08:16:12 2020 [pid 1147] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 96.16Kbyte/sec
+Sun Sep 13 08:16:13 2020 [pid 1147] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 109.67Kbyte/sec
+Sun Sep 13 08:16:14 2020 [pid 1147] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 92.82Kbyte/sec
+Sun Sep 13 08:16:15 2020 [pid 1147] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 336 bytes, 103.71Kbyte/sec
+Sun Sep 13 08:16:16 2020 [pid 1147] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 336 bytes, 90.07Kbyte/sec
+Sun Sep 13 08:16:17 2020 [pid 1147] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 336 bytes, 105.81Kbyte/sec
+Sun Sep 13 08:16:18 2020 [pid 1147] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 336 bytes, 91.02Kbyte/sec
+Sun Sep 13 08:20:08 2020 [pid 2366] CONNECT: Client "::ffff:192.168.5.2"
+Sun Sep 13 08:20:08 2020 [pid 2365] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sun Sep 13 08:20:11 2020 [pid 2367] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 331 bytes, 99.03Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.8G   46G  18% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  131M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff030033:
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+192.168.5.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2034ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.060 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.090 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.087 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2056ms
+rtt min/avg/max/mdev = 0.060/0.079/0.090/0.013 ms
+
+
+PING github.com (140.82.114.4) 56(84) bytes of data.
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=1 ttl=49 time=39.8 ms
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=2 ttl=49 time=46.3 ms
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=3 ttl=49 time=58.9 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+rtt min/avg/max/mdev = 39.761/48.323/58.893/7.938 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=41.6 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=47.1 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=43.3 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 41.629/44.010/47.078/2.276 ms
+
+############################ bjorn - 09/13/20 09:20:22 EST ############################
+
+ 09:20:22 up 5 min,  0 users,  load average: 0.04, 0.35, 0.22
+
+
+reboot   system boot  5.4.0-42-generic Sun Sep 13 09:15   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 08:15   still running
+reboot   system boot  5.4.0-42-generic Sun Sep 13 00:15   still running
+reboot   system boot  5.4.0-42-generic Sat Sep 12 18:15   still running
+reboot   system boot  5.4.0-42-generic Sat Sep 12 17:15   still running
+
+
+
+
+Bus 001 Device 002: ID 1410:9031 Novatel Wireless MiFi USB730L
+
+
+[    8.229025] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+
+
+[   14.863745] fbcon: Taking over console
+[   15.223286] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   15.223558] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   20.594791] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   21.061888] rfkill: input handler disabled
+[   22.235208] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   22.396005] iTCO_vendor_support: vendor-support=0
+[   22.431641] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   22.431697] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   22.434597] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+
+
+Sun Sep 13 08:20:08 2020 [pid 2365] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sun Sep 13 08:20:11 2020 [pid 2367] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 331 bytes, 99.03Kbyte/sec
+Sun Sep 13 09:15:33 2020 [pid 1502] CONNECT: Client "::ffff:192.168.5.2"
+Sun Sep 13 09:15:33 2020 [pid 1501] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sun Sep 13 09:15:36 2020 [pid 1506] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 60.33Kbyte/sec
+Sun Sep 13 09:15:37 2020 [pid 1506] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 330 bytes, 91.04Kbyte/sec
+Sun Sep 13 09:15:38 2020 [pid 1506] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 331 bytes, 93.69Kbyte/sec
+Sun Sep 13 09:15:39 2020 [pid 1506] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 331 bytes, 92.04Kbyte/sec
+Sun Sep 13 09:15:40 2020 [pid 1506] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 106.74Kbyte/sec
+Sun Sep 13 09:20:11 2020 [pid 1730] CONNECT: Client "::ffff:192.168.5.2"
+Sun Sep 13 09:20:11 2020 [pid 1729] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Sun Sep 13 09:20:14 2020 [pid 1732] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 330 bytes, 91.37Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.8G   46G  18% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  132M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff030033:
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+192.168.5.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2044ms
+
+
+
