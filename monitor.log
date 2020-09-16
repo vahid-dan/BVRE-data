@@ -61080,3 +61080,127 @@ reboot   system boot  5.4.0-42-generic Tue Sep 15 15:15   still running
 reboot   system boot  5.4.0-42-generic Tue Sep 15 14:15   still running
 
 
+
+
+Bus 001 Device 011: ID 1410:9031 Novatel Wireless MiFi USB730L
+
+
+[    8.957396] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+[   78.732578] rndis_host 1-3:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[   80.035151] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+[  106.139381] rndis_host 1-3:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[  107.152675] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+[  134.504338] rndis_host 1-3:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[  135.492665] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+[  207.211272] rndis_host 1-3:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[  208.323274] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+[  222.955484] rndis_host 1-3:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[  223.959306] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+[  256.151189] rndis_host 1-3:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[  257.126540] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+[  305.541417] rndis_host 1-3:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[  306.571935] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+
+
+[  306.491587] usb 1-3: config 1 has no interface number 7
+[  306.492444] usb 1-3: New USB device found, idVendor=1410, idProduct=9031, bcdDevice= 3.10
+[  306.492451] usb 1-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  306.492456] usb 1-3: Product: MiFi USB730L
+[  306.492461] usb 1-3: Manufacturer: Novatel Wireless
+[  306.492472] usb 1-3: SerialNumber: 0123456789ABCDEF
+[  306.514952] rndis_host 1-3:1.0 eth0: register 'rndis_host' at usb-0000:00:15.0-3, RNDIS device, 00:15:ff:03:00:33
+[  306.528042] cdc_acm 1-3:1.12: ttyACM0: USB ACM device
+[  306.530019] hid-generic 0003:1410:9031.0008: hiddev0,hidraw0: USB HID v1.01 Device [Novatel Wireless MiFi USB730L] on usb-0000:00:15.0-3/input14
+[  306.571935] rndis_host 1-3:1.0 enx0015ff030033: renamed from eth0
+
+
+Tue Sep 15 17:20:04 2020 [pid 2496] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Tue Sep 15 17:20:06 2020 [pid 2498] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 97.89Kbyte/sec
+Tue Sep 15 18:15:30 2020 [pid 1242] CONNECT: Client "::ffff:192.168.5.2"
+Tue Sep 15 18:15:30 2020 [pid 1241] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Tue Sep 15 18:15:32 2020 [pid 1243] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 341 bytes, 61.60Kbyte/sec
+Tue Sep 15 18:15:33 2020 [pid 1243] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 331 bytes, 113.66Kbyte/sec
+Tue Sep 15 18:15:34 2020 [pid 1243] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 110.98Kbyte/sec
+Tue Sep 15 18:15:35 2020 [pid 1243] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 108.98Kbyte/sec
+Tue Sep 15 18:15:36 2020 [pid 1243] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 109.23Kbyte/sec
+Tue Sep 15 18:20:07 2020 [pid 2542] CONNECT: Client "::ffff:192.168.5.2"
+Tue Sep 15 18:20:07 2020 [pid 2541] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Tue Sep 15 18:20:09 2020 [pid 2543] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 336 bytes, 94.59Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.9G   45G  18% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  177M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff030033:
+100.106.6.132/29
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+192.168.5.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2046ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2027ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.078 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.091 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.051 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2056ms
+rtt min/avg/max/mdev = 0.051/0.073/0.091/0.016 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
+
+############################ bjorn - 09/16/20 00:20:25 EST ############################
+
+ 00:20:25 up 5 min,  0 users,  load average: 0.14, 0.27, 0.15
+
+
+reboot   system boot  5.4.0-42-generic Wed Sep 16 00:15   still running
+reboot   system boot  5.4.0-42-generic Tue Sep 15 18:15   still running
+reboot   system boot  5.4.0-42-generic Tue Sep 15 17:15   still running
+reboot   system boot  5.4.0-42-generic Tue Sep 15 16:15   still running
+reboot   system boot  5.4.0-42-generic Tue Sep 15 15:15   still running
+
+
