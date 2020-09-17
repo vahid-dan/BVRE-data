@@ -14168,3 +14168,7 @@ Logs:
 From github.com:FLARE-forecast/BVRE-data
    9c61f35..d1474cb  bjorn-logs -> origin/bjorn-logs
 Already up to date.
+[bjorn-logs e62aa33] 09/17/20 09:50:12 EST: Logs
+ 4 files changed, 258 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   d1474cb..e62aa33  bjorn-logs -> bjorn-logs
