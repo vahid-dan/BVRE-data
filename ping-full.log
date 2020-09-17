@@ -8210,3 +8210,16 @@
 
 2020-09-17 09:50:12 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 2020-09-17 09:50:12 64 bytes from 8.8.8.8: icmp_seq=1 ttl=111 time=53.5 ms
+2020-09-17 09:51:12 64 bytes from 8.8.8.8: icmp_seq=2 ttl=111 time=42.3 ms
+2020-09-17 09:52:12 64 bytes from 8.8.8.8: icmp_seq=3 ttl=111 time=47.6 ms
+2020-09-17 09:53:12 64 bytes from 8.8.8.8: icmp_seq=4 ttl=111 time=59.7 ms
+2020-09-17 09:54:12 64 bytes from 8.8.8.8: icmp_seq=5 ttl=111 time=46.0 ms
+2020-09-17 09:55:12 64 bytes from 8.8.8.8: icmp_seq=6 ttl=111 time=36.0 ms
+2020-09-17 09:56:12 64 bytes from 8.8.8.8: icmp_seq=7 ttl=111 time=51.5 ms
+2020-09-17 09:57:12 64 bytes from 8.8.8.8: icmp_seq=8 ttl=111 time=37.0 ms
+2020-09-17 09:58:12 64 bytes from 8.8.8.8: icmp_seq=9 ttl=111 time=48.1 ms
+
+############## bjorn -  ##############
+
+2020-09-17 10:11:27 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2020-09-17 10:11:27 64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=35.8 ms
