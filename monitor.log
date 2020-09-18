@@ -62447,3 +62447,792 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2002ms
 rtt min/avg/max/mdev = 50.007/51.724/52.722/1.219 ms
+
+############################ bjorn - 09/17/20 14:30:01 EST ############################
+
+ 14:30:01 up  4:23,  0 users,  load average: 0.00, 0.07, 0.06
+
+
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+reboot   system boot  5.4.0-42-generic Wed Sep 16 11:21   still running
+
+
+
+
+Bus 001 Device 002: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    9.153164] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[   11.886453] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   11.886456] Bluetooth: BNEP filters: protocol multicast
+[   11.886462] Bluetooth: BNEP socket layer initialized
+[   11.965310] NET: Registered protocol family 38
+[   18.114331] fbcon: Taking over console
+[   19.735234] iTCO_vendor_support: vendor-support=0
+[   19.738714] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   19.738783] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   19.739055] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   23.802564] rfkill: input handler disabled
+
+
+Wed Sep 16 11:22:02 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 95.56Kbyte/sec
+Wed Sep 16 11:22:03 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 109.90Kbyte/sec
+Wed Sep 16 11:22:04 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 64.40Kbyte/sec
+Wed Sep 16 11:22:05 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 99.84Kbyte/sec
+Wed Sep 16 11:22:06 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 111.64Kbyte/sec
+Wed Sep 16 11:22:07 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 99.92Kbyte/sec
+Wed Sep 16 11:22:08 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 98.15Kbyte/sec
+Wed Sep 16 11:22:09 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 107.76Kbyte/sec
+Wed Sep 16 11:22:10 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 110.84Kbyte/sec
+Wed Sep 16 11:30:11 2020 [pid 2316] CONNECT: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:11 2020 [pid 2315] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:13 2020 [pid 2317] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 98.23Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.9G   45G  18% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  184M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+100.109.59.29/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=69.2 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=83.0 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=82.5 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 69.150/78.194/82.976/6.398 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=105 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=89.9 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=104 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+rtt min/avg/max/mdev = 89.938/99.406/104.526/6.702 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=92.2 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=84.8 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=84.9 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 84.790/87.298/92.175/3.449 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2025ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.090 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.096 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.090/0.094/0.097/0.003 ms
+
+
+PING github.com (140.82.113.3) 56(84) bytes of data.
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=1 ttl=50 time=44.4 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=2 ttl=50 time=50.6 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=3 ttl=50 time=48.0 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 44.350/47.650/50.585/2.558 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=40.2 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=42.8 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=47.8 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 40.249/43.593/47.767/3.124 ms
+
+############################ bjorn - 09/17/20 15:30:01 EST ############################
+
+ 15:30:01 up  5:23,  0 users,  load average: 0.16, 0.15, 0.10
+
+
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+reboot   system boot  5.4.0-42-generic Wed Sep 16 11:21   still running
+
+
+
+
+Bus 001 Device 002: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    9.153164] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[   11.886453] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   11.886456] Bluetooth: BNEP filters: protocol multicast
+[   11.886462] Bluetooth: BNEP socket layer initialized
+[   11.965310] NET: Registered protocol family 38
+[   18.114331] fbcon: Taking over console
+[   19.735234] iTCO_vendor_support: vendor-support=0
+[   19.738714] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   19.738783] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   19.739055] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   23.802564] rfkill: input handler disabled
+
+
+Wed Sep 16 11:22:02 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 95.56Kbyte/sec
+Wed Sep 16 11:22:03 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 109.90Kbyte/sec
+Wed Sep 16 11:22:04 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 64.40Kbyte/sec
+Wed Sep 16 11:22:05 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 99.84Kbyte/sec
+Wed Sep 16 11:22:06 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 111.64Kbyte/sec
+Wed Sep 16 11:22:07 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 99.92Kbyte/sec
+Wed Sep 16 11:22:08 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 98.15Kbyte/sec
+Wed Sep 16 11:22:09 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 107.76Kbyte/sec
+Wed Sep 16 11:22:10 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 110.84Kbyte/sec
+Wed Sep 16 11:30:11 2020 [pid 2316] CONNECT: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:11 2020 [pid 2315] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:13 2020 [pid 2317] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 98.23Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.9G   45G  18% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  184M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+100.109.59.29/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=67.7 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=77.2 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=86.5 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 67.718/77.140/86.546/7.686 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2048ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=86.8 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=76.1 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=125 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+rtt min/avg/max/mdev = 76.130/96.107/125.422/21.178 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2030ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.083 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.096 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.096 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2055ms
+rtt min/avg/max/mdev = 0.083/0.091/0.096/0.006 ms
+
+
+PING github.com (140.82.112.3) 56(84) bytes of data.
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=1 ttl=49 time=55.0 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=2 ttl=49 time=46.7 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=3 ttl=49 time=46.1 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 46.110/49.278/55.026/4.071 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=39.7 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=45.9 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=44.6 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 39.724/43.411/45.915/2.662 ms
+
+############################ bjorn - 09/17/20 16:30:01 EST ############################
+
+ 16:30:01 up  6:23,  0 users,  load average: 0.14, 0.13, 0.11
+
+
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+reboot   system boot  5.4.0-42-generic Wed Sep 16 11:21   still running
+
+
+
+
+Bus 001 Device 002: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    9.153164] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[   11.965310] NET: Registered protocol family 38
+[   18.114331] fbcon: Taking over console
+[   19.735234] iTCO_vendor_support: vendor-support=0
+[   19.738714] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   19.738783] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   19.739055] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   23.802564] rfkill: input handler disabled
+[22330.030300] Bluetooth: RFCOMM TTY layer initialized
+[22330.030311] Bluetooth: RFCOMM socket layer initialized
+[22330.030325] Bluetooth: RFCOMM ver 1.11
+
+
+Wed Sep 16 11:22:02 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 95.56Kbyte/sec
+Wed Sep 16 11:22:03 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 109.90Kbyte/sec
+Wed Sep 16 11:22:04 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 64.40Kbyte/sec
+Wed Sep 16 11:22:05 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 99.84Kbyte/sec
+Wed Sep 16 11:22:06 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 111.64Kbyte/sec
+Wed Sep 16 11:22:07 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 99.92Kbyte/sec
+Wed Sep 16 11:22:08 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 98.15Kbyte/sec
+Wed Sep 16 11:22:09 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 107.76Kbyte/sec
+Wed Sep 16 11:22:10 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 110.84Kbyte/sec
+Wed Sep 16 11:30:11 2020 [pid 2316] CONNECT: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:11 2020 [pid 2315] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:13 2020 [pid 2317] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 98.23Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.9G   45G  18% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  184M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+100.109.59.29/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=79.7 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=88.5 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=80.0 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 79.698/82.729/88.477/4.066 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=258 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=147 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=162 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 147.154/188.846/257.536/48.939 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=106 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=98.0 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=113 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 98.001/105.605/113.001/6.125 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2043ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.089 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.089/0.094/0.097/0.003 ms
+
+
+PING github.com (140.82.114.3) 56(84) bytes of data.
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=1 ttl=50 time=51.3 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=2 ttl=50 time=49.3 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=3 ttl=50 time=35.0 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 35.010/45.192/51.278/7.245 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=45.1 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=45.0 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=44.5 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 44.479/44.860/45.125/0.276 ms
+
+############################ bjorn - 09/17/20 17:30:01 EST ############################
+
+ 17:30:01 up  7:23,  0 users,  load average: 0.09, 0.16, 0.12
+
+
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+reboot   system boot  5.4.0-42-generic Wed Sep 16 11:21   still running
+
+
+
+
+Bus 001 Device 002: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    9.153164] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[   11.965310] NET: Registered protocol family 38
+[   18.114331] fbcon: Taking over console
+[   19.735234] iTCO_vendor_support: vendor-support=0
+[   19.738714] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   19.738783] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   19.739055] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   23.802564] rfkill: input handler disabled
+[22330.030300] Bluetooth: RFCOMM TTY layer initialized
+[22330.030311] Bluetooth: RFCOMM socket layer initialized
+[22330.030325] Bluetooth: RFCOMM ver 1.11
+
+
+Wed Sep 16 11:22:02 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 95.56Kbyte/sec
+Wed Sep 16 11:22:03 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 109.90Kbyte/sec
+Wed Sep 16 11:22:04 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 64.40Kbyte/sec
+Wed Sep 16 11:22:05 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 99.84Kbyte/sec
+Wed Sep 16 11:22:06 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 111.64Kbyte/sec
+Wed Sep 16 11:22:07 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 99.92Kbyte/sec
+Wed Sep 16 11:22:08 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 98.15Kbyte/sec
+Wed Sep 16 11:22:09 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 107.76Kbyte/sec
+Wed Sep 16 11:22:10 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 110.84Kbyte/sec
+Wed Sep 16 11:30:11 2020 [pid 2316] CONNECT: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:11 2020 [pid 2315] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:13 2020 [pid 2317] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 98.23Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.9G   45G  18% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  184M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+100.109.59.29/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=74.9 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=82.1 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=64.3 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 64.310/73.773/82.076/7.299 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=98.9 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=98.0 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=97.9 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 97.862/98.250/98.872/0.444 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=96.2 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=109 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=86.3 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 86.266/97.092/108.779/9.210 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2039ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.088 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.088/0.094/0.097/0.004 ms
+
+
+PING github.com (140.82.112.3) 56(84) bytes of data.
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=1 ttl=49 time=41.3 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=2 ttl=49 time=53.2 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=3 ttl=49 time=49.6 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 41.331/48.065/53.231/4.983 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=46.2 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=45.7 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=43.8 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 43.805/45.257/46.219/1.044 ms
+
+############################ bjorn - 09/17/20 18:30:01 EST ############################
+
+ 18:30:01 up  8:23,  0 users,  load average: 0.31, 0.36, 0.19
+
+
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+reboot   system boot  5.4.0-42-generic Wed Sep 16 11:21   still running
+
+
+
+
+Bus 001 Device 002: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    9.153164] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[   11.965310] NET: Registered protocol family 38
+[   18.114331] fbcon: Taking over console
+[   19.735234] iTCO_vendor_support: vendor-support=0
+[   19.738714] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   19.738783] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   19.739055] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   23.802564] rfkill: input handler disabled
+[22330.030300] Bluetooth: RFCOMM TTY layer initialized
+[22330.030311] Bluetooth: RFCOMM socket layer initialized
+[22330.030325] Bluetooth: RFCOMM ver 1.11
+
+
+Wed Sep 16 11:22:02 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 95.56Kbyte/sec
+Wed Sep 16 11:22:03 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 109.90Kbyte/sec
+Wed Sep 16 11:22:04 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 64.40Kbyte/sec
+Wed Sep 16 11:22:05 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 99.84Kbyte/sec
+Wed Sep 16 11:22:06 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 111.64Kbyte/sec
+Wed Sep 16 11:22:07 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 99.92Kbyte/sec
+Wed Sep 16 11:22:08 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 98.15Kbyte/sec
+Wed Sep 16 11:22:09 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 107.76Kbyte/sec
+Wed Sep 16 11:22:10 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 110.84Kbyte/sec
+Wed Sep 16 11:30:11 2020 [pid 2316] CONNECT: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:11 2020 [pid 2315] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:13 2020 [pid 2317] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 98.23Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.9G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  184M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+100.109.59.29/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=268 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=89.5 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=73.0 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 73.028/143.649/268.434/88.491 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=121 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=244 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=133 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+rtt min/avg/max/mdev = 120.577/165.816/244.228/55.664 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=92.2 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=96.9 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=112 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 92.157/100.443/112.294/8.598 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2040ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.089 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.099 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.089/0.095/0.099/0.004 ms
+
+
+PING github.com (140.82.112.4) 56(84) bytes of data.
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=1 ttl=48 time=73.5 ms
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=2 ttl=48 time=61.1 ms
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=3 ttl=48 time=122 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 61.119/85.713/122.486/26.491 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=50.5 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=59.5 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=64.6 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 50.512/58.186/64.597/5.819 ms
+
+############################ bjorn - 09/17/20 19:30:01 EST ############################
+
+ 19:30:01 up  9:23,  0 users,  load average: 0.42, 0.16, 0.08
+
+
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+reboot   system boot  5.4.0-42-generic Wed Sep 16 11:21   still running
+
+
+
+
+Bus 001 Device 002: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    9.153164] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[   11.965310] NET: Registered protocol family 38
+[   18.114331] fbcon: Taking over console
+[   19.735234] iTCO_vendor_support: vendor-support=0
+[   19.738714] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   19.738783] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[   19.739055] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   23.802564] rfkill: input handler disabled
+[22330.030300] Bluetooth: RFCOMM TTY layer initialized
+[22330.030311] Bluetooth: RFCOMM socket layer initialized
+[22330.030325] Bluetooth: RFCOMM ver 1.11
+
+
+Wed Sep 16 11:22:02 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 95.56Kbyte/sec
+Wed Sep 16 11:22:03 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 109.90Kbyte/sec
+Wed Sep 16 11:22:04 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 64.40Kbyte/sec
+Wed Sep 16 11:22:05 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 99.84Kbyte/sec
+Wed Sep 16 11:22:06 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 111.64Kbyte/sec
+Wed Sep 16 11:22:07 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 99.92Kbyte/sec
+Wed Sep 16 11:22:08 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 98.15Kbyte/sec
+Wed Sep 16 11:22:09 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 107.76Kbyte/sec
+Wed Sep 16 11:22:10 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 110.84Kbyte/sec
+Wed Sep 16 11:30:11 2020 [pid 2316] CONNECT: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:11 2020 [pid 2315] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:13 2020 [pid 2317] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 98.23Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G  9.9G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  184M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+100.109.59.29/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=207 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=95.3 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=130 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 95.279/143.853/206.700/46.593 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=144 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=144 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=161 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 143.703/149.351/160.572/7.934 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=137 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=129 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=87.8 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 87.762/118.001/137.419/21.668 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2042ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.078 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.098 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2055ms
+rtt min/avg/max/mdev = 0.078/0.091/0.098/0.009 ms
+
+
+PING github.com (140.82.114.3) 56(84) bytes of data.
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=1 ttl=50 time=58.8 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=2 ttl=50 time=56.7 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=3 ttl=50 time=61.5 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 56.706/59.004/61.538/1.979 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=67.5 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=60.0 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=63.0 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 59.983/63.516/67.533/3.101 ms
