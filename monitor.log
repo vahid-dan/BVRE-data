@@ -65512,3 +65512,645 @@ ping: github.com: Temporary failure in name resolution
 
 
 ping: connect: Network is unreachable
+
+############################ bjorn - 09/18/20 14:30:01 EST ############################
+
+ 14:30:01 up 1 day,  4:23,  0 users,  load average: 0.28, 0.17, 0.12
+
+
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+reboot   system boot  5.4.0-42-generic Wed Sep 16 11:21   still running
+
+
+
+
+
+
+[    9.153164] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[85669.021713] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+
+
+[22330.030300] Bluetooth: RFCOMM TTY layer initialized
+[22330.030311] Bluetooth: RFCOMM socket layer initialized
+[22330.030325] Bluetooth: RFCOMM ver 1.11
+[45818.968062] perf: interrupt took too long (2547 > 2500), lowering kernel.perf_event_max_sample_rate to 78500
+[50025.199446] kauditd_printk_skb: 20 callbacks suppressed
+[50025.199449] audit: type=1400 audit(1600405202.302:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=24951 comm="cups-browsed" capability=23  capname="sys_nice"
+[61932.765182] perf: interrupt took too long (3213 > 3183), lowering kernel.perf_event_max_sample_rate to 62250
+[82839.119757] perf: interrupt took too long (4047 > 4016), lowering kernel.perf_event_max_sample_rate to 49250
+[85669.021336] usb 1-3: USB disconnect, device number 2
+[85669.021713] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+
+
+Wed Sep 16 11:22:02 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 95.56Kbyte/sec
+Wed Sep 16 11:22:03 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 109.90Kbyte/sec
+Wed Sep 16 11:22:04 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 64.40Kbyte/sec
+Wed Sep 16 11:22:05 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 99.84Kbyte/sec
+Wed Sep 16 11:22:06 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 111.64Kbyte/sec
+Wed Sep 16 11:22:07 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 99.92Kbyte/sec
+Wed Sep 16 11:22:08 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 98.15Kbyte/sec
+Wed Sep 16 11:22:09 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 107.76Kbyte/sec
+Wed Sep 16 11:22:10 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 110.84Kbyte/sec
+Wed Sep 16 11:30:11 2020 [pid 2316] CONNECT: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:11 2020 [pid 2315] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:13 2020 [pid 2317] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 98.23Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G   10G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  187M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2041ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2024ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.088 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.091 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.088/0.092/0.097/0.003 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
+
+############################ bjorn - 09/18/20 15:30:01 EST ############################
+
+ 15:30:01 up 1 day,  5:23,  0 users,  load average: 0.10, 0.08, 0.07
+
+
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+reboot   system boot  5.4.0-42-generic Wed Sep 16 11:21   still running
+
+
+
+
+
+
+[    9.153164] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[85669.021713] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+
+
+[22330.030300] Bluetooth: RFCOMM TTY layer initialized
+[22330.030311] Bluetooth: RFCOMM socket layer initialized
+[22330.030325] Bluetooth: RFCOMM ver 1.11
+[45818.968062] perf: interrupt took too long (2547 > 2500), lowering kernel.perf_event_max_sample_rate to 78500
+[50025.199446] kauditd_printk_skb: 20 callbacks suppressed
+[50025.199449] audit: type=1400 audit(1600405202.302:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=24951 comm="cups-browsed" capability=23  capname="sys_nice"
+[61932.765182] perf: interrupt took too long (3213 > 3183), lowering kernel.perf_event_max_sample_rate to 62250
+[82839.119757] perf: interrupt took too long (4047 > 4016), lowering kernel.perf_event_max_sample_rate to 49250
+[85669.021336] usb 1-3: USB disconnect, device number 2
+[85669.021713] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+
+
+Wed Sep 16 11:22:02 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 95.56Kbyte/sec
+Wed Sep 16 11:22:03 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 109.90Kbyte/sec
+Wed Sep 16 11:22:04 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 64.40Kbyte/sec
+Wed Sep 16 11:22:05 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 99.84Kbyte/sec
+Wed Sep 16 11:22:06 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 111.64Kbyte/sec
+Wed Sep 16 11:22:07 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 99.92Kbyte/sec
+Wed Sep 16 11:22:08 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 98.15Kbyte/sec
+Wed Sep 16 11:22:09 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 107.76Kbyte/sec
+Wed Sep 16 11:22:10 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 110.84Kbyte/sec
+Wed Sep 16 11:30:11 2020 [pid 2316] CONNECT: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:11 2020 [pid 2315] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:13 2020 [pid 2317] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 98.23Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G   10G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  187M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2034ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.088 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.095 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.096 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.088/0.093/0.096/0.003 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
+
+############################ bjorn - 09/18/20 16:30:01 EST ############################
+
+ 16:30:01 up 1 day,  6:23,  0 users,  load average: 0.11, 0.13, 0.09
+
+
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+reboot   system boot  5.4.0-42-generic Wed Sep 16 11:21   still running
+
+
+
+
+
+
+[    9.153164] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[85669.021713] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+
+
+[22330.030300] Bluetooth: RFCOMM TTY layer initialized
+[22330.030311] Bluetooth: RFCOMM socket layer initialized
+[22330.030325] Bluetooth: RFCOMM ver 1.11
+[45818.968062] perf: interrupt took too long (2547 > 2500), lowering kernel.perf_event_max_sample_rate to 78500
+[50025.199446] kauditd_printk_skb: 20 callbacks suppressed
+[50025.199449] audit: type=1400 audit(1600405202.302:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=24951 comm="cups-browsed" capability=23  capname="sys_nice"
+[61932.765182] perf: interrupt took too long (3213 > 3183), lowering kernel.perf_event_max_sample_rate to 62250
+[82839.119757] perf: interrupt took too long (4047 > 4016), lowering kernel.perf_event_max_sample_rate to 49250
+[85669.021336] usb 1-3: USB disconnect, device number 2
+[85669.021713] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+
+
+Wed Sep 16 11:22:02 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 95.56Kbyte/sec
+Wed Sep 16 11:22:03 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 109.90Kbyte/sec
+Wed Sep 16 11:22:04 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 64.40Kbyte/sec
+Wed Sep 16 11:22:05 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 99.84Kbyte/sec
+Wed Sep 16 11:22:06 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 111.64Kbyte/sec
+Wed Sep 16 11:22:07 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 99.92Kbyte/sec
+Wed Sep 16 11:22:08 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 98.15Kbyte/sec
+Wed Sep 16 11:22:09 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 107.76Kbyte/sec
+Wed Sep 16 11:22:10 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 110.84Kbyte/sec
+Wed Sep 16 11:30:11 2020 [pid 2316] CONNECT: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:11 2020 [pid 2315] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:13 2020 [pid 2317] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 98.23Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G   10G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  187M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2039ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.090 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.096 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.090/0.094/0.097/0.003 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
+
+############################ bjorn - 09/18/20 17:30:01 EST ############################
+
+ 17:30:01 up 1 day,  7:23,  0 users,  load average: 0.21, 0.23, 0.18
+
+
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+reboot   system boot  5.4.0-42-generic Wed Sep 16 11:21   still running
+
+
+
+
+
+
+[    9.153164] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[85669.021713] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+
+
+[22330.030300] Bluetooth: RFCOMM TTY layer initialized
+[22330.030311] Bluetooth: RFCOMM socket layer initialized
+[22330.030325] Bluetooth: RFCOMM ver 1.11
+[45818.968062] perf: interrupt took too long (2547 > 2500), lowering kernel.perf_event_max_sample_rate to 78500
+[50025.199446] kauditd_printk_skb: 20 callbacks suppressed
+[50025.199449] audit: type=1400 audit(1600405202.302:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=24951 comm="cups-browsed" capability=23  capname="sys_nice"
+[61932.765182] perf: interrupt took too long (3213 > 3183), lowering kernel.perf_event_max_sample_rate to 62250
+[82839.119757] perf: interrupt took too long (4047 > 4016), lowering kernel.perf_event_max_sample_rate to 49250
+[85669.021336] usb 1-3: USB disconnect, device number 2
+[85669.021713] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+
+
+Wed Sep 16 11:22:02 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 95.56Kbyte/sec
+Wed Sep 16 11:22:03 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 109.90Kbyte/sec
+Wed Sep 16 11:22:04 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 64.40Kbyte/sec
+Wed Sep 16 11:22:05 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 99.84Kbyte/sec
+Wed Sep 16 11:22:06 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 111.64Kbyte/sec
+Wed Sep 16 11:22:07 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 99.92Kbyte/sec
+Wed Sep 16 11:22:08 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 98.15Kbyte/sec
+Wed Sep 16 11:22:09 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 107.76Kbyte/sec
+Wed Sep 16 11:22:10 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 110.84Kbyte/sec
+Wed Sep 16 11:30:11 2020 [pid 2316] CONNECT: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:11 2020 [pid 2315] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:13 2020 [pid 2317] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 98.23Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G   10G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  187M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2043ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.090 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.098 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.096 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.090/0.094/0.098/0.003 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
+
+############################ bjorn - 09/18/20 18:30:01 EST ############################
+
+ 18:30:01 up 1 day,  8:23,  0 users,  load average: 0.25, 0.25, 0.19
+
+
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+reboot   system boot  5.4.0-42-generic Wed Sep 16 11:21   still running
+
+
+
+
+
+
+[    9.153164] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[85669.021713] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+
+
+[22330.030311] Bluetooth: RFCOMM socket layer initialized
+[22330.030325] Bluetooth: RFCOMM ver 1.11
+[45818.968062] perf: interrupt took too long (2547 > 2500), lowering kernel.perf_event_max_sample_rate to 78500
+[50025.199446] kauditd_printk_skb: 20 callbacks suppressed
+[50025.199449] audit: type=1400 audit(1600405202.302:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=24951 comm="cups-browsed" capability=23  capname="sys_nice"
+[61932.765182] perf: interrupt took too long (3213 > 3183), lowering kernel.perf_event_max_sample_rate to 62250
+[82839.119757] perf: interrupt took too long (4047 > 4016), lowering kernel.perf_event_max_sample_rate to 49250
+[85669.021336] usb 1-3: USB disconnect, device number 2
+[85669.021713] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[113909.122695] perf: interrupt took too long (5081 > 5058), lowering kernel.perf_event_max_sample_rate to 39250
+
+
+Wed Sep 16 11:22:02 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 95.56Kbyte/sec
+Wed Sep 16 11:22:03 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 109.90Kbyte/sec
+Wed Sep 16 11:22:04 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 64.40Kbyte/sec
+Wed Sep 16 11:22:05 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 99.84Kbyte/sec
+Wed Sep 16 11:22:06 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 111.64Kbyte/sec
+Wed Sep 16 11:22:07 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 99.92Kbyte/sec
+Wed Sep 16 11:22:08 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 98.15Kbyte/sec
+Wed Sep 16 11:22:09 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 107.76Kbyte/sec
+Wed Sep 16 11:22:10 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 110.84Kbyte/sec
+Wed Sep 16 11:30:11 2020 [pid 2316] CONNECT: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:11 2020 [pid 2315] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:13 2020 [pid 2317] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 98.23Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G   10G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  187M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2052ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.088 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.088 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.087 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.087/0.087/0.088/0.000 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
+
+############################ bjorn - 09/18/20 19:30:01 EST ############################
+
+ 19:30:01 up 1 day,  9:23,  0 users,  load average: 0.10, 0.09, 0.09
+
+
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+reboot   system boot  5.4.0-42-generic Wed Sep 16 11:21   still running
+
+
+
+
+
+
+[    9.153164] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[85669.021713] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+
+
+[22330.030311] Bluetooth: RFCOMM socket layer initialized
+[22330.030325] Bluetooth: RFCOMM ver 1.11
+[45818.968062] perf: interrupt took too long (2547 > 2500), lowering kernel.perf_event_max_sample_rate to 78500
+[50025.199446] kauditd_printk_skb: 20 callbacks suppressed
+[50025.199449] audit: type=1400 audit(1600405202.302:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=24951 comm="cups-browsed" capability=23  capname="sys_nice"
+[61932.765182] perf: interrupt took too long (3213 > 3183), lowering kernel.perf_event_max_sample_rate to 62250
+[82839.119757] perf: interrupt took too long (4047 > 4016), lowering kernel.perf_event_max_sample_rate to 49250
+[85669.021336] usb 1-3: USB disconnect, device number 2
+[85669.021713] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[113909.122695] perf: interrupt took too long (5081 > 5058), lowering kernel.perf_event_max_sample_rate to 39250
+
+
+Wed Sep 16 11:22:02 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 95.56Kbyte/sec
+Wed Sep 16 11:22:03 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 109.90Kbyte/sec
+Wed Sep 16 11:22:04 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 64.40Kbyte/sec
+Wed Sep 16 11:22:05 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 99.84Kbyte/sec
+Wed Sep 16 11:22:06 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 337 bytes, 111.64Kbyte/sec
+Wed Sep 16 11:22:07 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 340 bytes, 99.92Kbyte/sec
+Wed Sep 16 11:22:08 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 98.15Kbyte/sec
+Wed Sep 16 11:22:09 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 107.76Kbyte/sec
+Wed Sep 16 11:22:10 2020 [pid 1240] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 110.84Kbyte/sec
+Wed Sep 16 11:30:11 2020 [pid 2316] CONNECT: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:11 2020 [pid 2315] [scc] OK LOGIN: Client "::ffff:192.168.5.2"
+Wed Sep 16 11:30:13 2020 [pid 2317] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 342 bytes, 98.23Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G   10G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  187M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2046ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2056ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.084 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.096 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.098 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.084/0.092/0.098/0.006 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
