@@ -9647,3 +9647,8 @@
 2020-09-18 10:02:37 --- 8.8.8.8 ping statistics ---
 2020-09-18 10:02:37 1430 packets transmitted, 1422 received, 0.559441% packet loss, time 85810073ms
 2020-09-18 10:02:37 rtt min/avg/max/mdev = 29.073/56.400/400.755/17.477 ms
+
+############## bjorn -  ##############
+
+2020-09-21 17:34:46 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2020-09-21 17:34:46 64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=35.6 ms
