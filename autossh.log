@@ -63005,3 +63005,778 @@
 ############################ bjorn - 09/21/20 20:05:01 EST ############################
 
 2020/09/21 20:05:01 autossh[6591]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 20:10:01 EST ############################
+
+2020/09/21 20:10:01 autossh[6755]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 20:14:44 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 20:14:59 autossh[1355]: timeout polling to accept read connection
+2020/09/21 20:14:59 autossh[1355]: port down, restarting ssh
+2020/09/21 20:14:59 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 20:14:59 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 20:14:59 autossh[1355]: starting ssh (count 26)
+2020/09/21 20:14:59 autossh[1355]: ssh child pid is 6851
+2020/09/21 20:14:59 autossh[1355]: check on child 6851
+2020/09/21 20:14:59 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 20:14:59 autossh[1355]: set alarm for 600 secs
+2020/09/21 20:14:59 autossh[6851]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 20:15:01 EST ############################
+
+2020/09/21 20:15:01 autossh[6873]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 20:20:01 EST ############################
+
+2020/09/21 20:20:01 autossh[6996]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 20:24:59 autossh[1355]: received SIGALRM (end-of-life 0)
+
+############################ bjorn - 09/21/20 20:25:01 EST ############################
+
+2020/09/21 20:25:01 autossh[7111]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 20:25:14 autossh[1355]: timeout polling to accept read connection
+2020/09/21 20:25:14 autossh[1355]: port down, restarting ssh
+2020/09/21 20:25:14 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 20:25:14 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 20:25:14 autossh[1355]: starting ssh (count 27)
+2020/09/21 20:25:14 autossh[1355]: ssh child pid is 7120
+2020/09/21 20:25:14 autossh[1355]: check on child 7120
+2020/09/21 20:25:14 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 20:25:14 autossh[1355]: set alarm for 600 secs
+2020/09/21 20:25:14 autossh[7120]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 20:30:01 EST ############################
+
+2020/09/21 20:30:01 autossh[7247]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 20:35:01 EST ############################
+
+2020/09/21 20:35:01 autossh[7494]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 20:35:14 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 20:35:29 autossh[1355]: timeout polling to accept read connection
+2020/09/21 20:35:29 autossh[1355]: port down, restarting ssh
+2020/09/21 20:35:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 20:35:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 20:35:29 autossh[1355]: starting ssh (count 28)
+2020/09/21 20:35:29 autossh[1355]: ssh child pid is 7502
+2020/09/21 20:35:29 autossh[1355]: check on child 7502
+2020/09/21 20:35:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 20:35:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 20:35:29 autossh[7502]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 20:40:01 EST ############################
+
+2020/09/21 20:40:01 autossh[7616]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 20:45:01 EST ############################
+
+2020/09/21 20:45:01 autossh[7733]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 20:45:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 20:45:29 autossh[1355]: not what I sent: "bjorn autossh 1355 421562311 
+" : ""
+2020/09/21 20:45:29 autossh[1355]: connection ok
+2020/09/21 20:45:29 autossh[1355]: check on child 7502
+2020/09/21 20:45:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 20:45:29 autossh[1355]: set alarm for 600 secs
+
+############################ bjorn - 09/21/20 20:50:01 EST ############################
+
+2020/09/21 20:50:01 autossh[7850]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 20:55:01 EST ############################
+
+2020/09/21 20:55:01 autossh[7970]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 20:55:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 20:55:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1339506244 
+" : "carina autossh 1825 1178250790 "
+2020/09/21 20:55:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1339506244 
+" : ""
+2020/09/21 20:55:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 20:55:29 autossh[1355]: port down, restarting ssh
+2020/09/21 20:55:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 20:55:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 20:55:29 autossh[1355]: starting ssh (count 29)
+2020/09/21 20:55:29 autossh[1355]: ssh child pid is 7977
+2020/09/21 20:55:29 autossh[1355]: check on child 7977
+2020/09/21 20:55:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 20:55:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 20:55:29 autossh[7977]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 21:00:01 EST ############################
+
+2020/09/21 21:00:01 autossh[8090]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 21:05:01 EST ############################
+
+2020/09/21 21:05:01 autossh[8209]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 21:05:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 21:05:29 autossh[1355]: not what I sent: "bjorn autossh 1355 873816287 
+" : ""
+2020/09/21 21:05:29 autossh[1355]: not what I sent: "bjorn autossh 1355 873816287 
+" : ""
+2020/09/21 21:05:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 21:05:29 autossh[1355]: port down, restarting ssh
+2020/09/21 21:05:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 21:05:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 21:05:29 autossh[1355]: starting ssh (count 30)
+2020/09/21 21:05:29 autossh[1355]: ssh child pid is 8216
+2020/09/21 21:05:29 autossh[1355]: check on child 8216
+2020/09/21 21:05:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 21:05:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 21:05:29 autossh[8216]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 21:10:01 EST ############################
+
+2020/09/21 21:10:01 autossh[8325]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 21:15:01 EST ############################
+
+2020/09/21 21:15:01 autossh[8442]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 21:15:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 21:15:29 autossh[1355]: not what I sent: "bjorn autossh 1355 989792674 
+" : ""
+2020/09/21 21:15:29 autossh[1355]: not what I sent: "bjorn autossh 1355 989792674 
+" : ""
+2020/09/21 21:15:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 21:15:29 autossh[1355]: port down, restarting ssh
+2020/09/21 21:15:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 21:15:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 21:15:29 autossh[1355]: starting ssh (count 31)
+2020/09/21 21:15:29 autossh[1355]: ssh child pid is 8451
+2020/09/21 21:15:29 autossh[1355]: check on child 8451
+2020/09/21 21:15:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 21:15:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 21:15:29 autossh[8451]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 21:20:01 EST ############################
+
+2020/09/21 21:20:01 autossh[8566]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 21:25:01 EST ############################
+
+2020/09/21 21:25:01 autossh[8685]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 21:25:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 21:25:29 autossh[1355]: not what I sent: "bjorn autossh 1355 738232710 
+" : ""
+2020/09/21 21:25:29 autossh[1355]: not what I sent: "bjorn autossh 1355 738232710 
+" : ""
+2020/09/21 21:25:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 21:25:29 autossh[1355]: port down, restarting ssh
+2020/09/21 21:25:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 21:25:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 21:25:29 autossh[1355]: starting ssh (count 32)
+2020/09/21 21:25:29 autossh[1355]: ssh child pid is 8693
+2020/09/21 21:25:29 autossh[1355]: check on child 8693
+2020/09/21 21:25:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 21:25:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 21:25:29 autossh[8693]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 21:30:01 EST ############################
+
+2020/09/21 21:30:01 autossh[8813]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 21:35:01 EST ############################
+
+2020/09/21 21:35:01 autossh[9070]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 21:35:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 21:35:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1627487484 
+" : ""
+2020/09/21 21:35:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1627487484 
+" : ""
+2020/09/21 21:35:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 21:35:29 autossh[1355]: port down, restarting ssh
+2020/09/21 21:35:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 21:35:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 21:35:29 autossh[1355]: starting ssh (count 33)
+2020/09/21 21:35:29 autossh[1355]: ssh child pid is 9077
+2020/09/21 21:35:29 autossh[1355]: check on child 9077
+2020/09/21 21:35:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 21:35:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 21:35:29 autossh[9077]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 21:40:01 EST ############################
+
+2020/09/21 21:40:01 autossh[9191]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 21:45:01 EST ############################
+
+2020/09/21 21:45:01 autossh[9309]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 21:45:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 21:45:29 autossh[1355]: not what I sent: "bjorn autossh 1355 117405426 
+" : ""
+2020/09/21 21:45:29 autossh[1355]: not what I sent: "bjorn autossh 1355 117405426 
+" : ""
+2020/09/21 21:45:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 21:45:29 autossh[1355]: port down, restarting ssh
+2020/09/21 21:45:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 21:45:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 21:45:29 autossh[1355]: starting ssh (count 34)
+2020/09/21 21:45:29 autossh[1355]: ssh child pid is 9316
+2020/09/21 21:45:29 autossh[1355]: check on child 9316
+2020/09/21 21:45:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 21:45:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 21:45:29 autossh[9316]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 21:50:01 EST ############################
+
+2020/09/21 21:50:01 autossh[9427]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 21:55:01 EST ############################
+
+2020/09/21 21:55:01 autossh[9547]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 21:55:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 21:55:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1771077602 
+" : ""
+2020/09/21 21:55:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1771077602 
+" : ""
+2020/09/21 21:55:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 21:55:29 autossh[1355]: port down, restarting ssh
+2020/09/21 21:55:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 21:55:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 21:55:29 autossh[1355]: starting ssh (count 35)
+2020/09/21 21:55:29 autossh[1355]: ssh child pid is 9552
+2020/09/21 21:55:29 autossh[1355]: check on child 9552
+2020/09/21 21:55:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 21:55:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 21:55:29 autossh[9552]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 22:00:01 EST ############################
+
+2020/09/21 22:00:01 autossh[9665]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 22:05:01 EST ############################
+
+2020/09/21 22:05:01 autossh[9785]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 22:05:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 22:05:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1336394763 
+" : ""
+2020/09/21 22:05:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1336394763 
+" : ""
+2020/09/21 22:05:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 22:05:29 autossh[1355]: port down, restarting ssh
+2020/09/21 22:05:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 22:05:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 22:05:29 autossh[1355]: starting ssh (count 36)
+2020/09/21 22:05:29 autossh[1355]: ssh child pid is 9789
+2020/09/21 22:05:29 autossh[1355]: check on child 9789
+2020/09/21 22:05:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 22:05:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 22:05:29 autossh[9789]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 22:10:01 EST ############################
+
+2020/09/21 22:10:01 autossh[9899]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 22:15:01 EST ############################
+
+2020/09/21 22:15:01 autossh[10020]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 22:15:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 22:15:29 autossh[1355]: not what I sent: "bjorn autossh 1355 46962513 
+" : ""
+2020/09/21 22:15:29 autossh[1355]: not what I sent: "bjorn autossh 1355 46962513 
+" : ""
+2020/09/21 22:15:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 22:15:29 autossh[1355]: port down, restarting ssh
+2020/09/21 22:15:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 22:15:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 22:15:29 autossh[1355]: starting ssh (count 37)
+2020/09/21 22:15:29 autossh[1355]: ssh child pid is 10026
+2020/09/21 22:15:29 autossh[1355]: check on child 10026
+2020/09/21 22:15:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 22:15:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 22:15:29 autossh[10026]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 22:20:01 EST ############################
+
+2020/09/21 22:20:01 autossh[10140]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 22:25:01 EST ############################
+
+2020/09/21 22:25:01 autossh[10260]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 22:25:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 22:25:29 autossh[1355]: not what I sent: "bjorn autossh 1355 269778300 
+" : ""
+2020/09/21 22:25:29 autossh[1355]: not what I sent: "bjorn autossh 1355 269778300 
+" : ""
+2020/09/21 22:25:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 22:25:29 autossh[1355]: port down, restarting ssh
+2020/09/21 22:25:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 22:25:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 22:25:29 autossh[1355]: starting ssh (count 38)
+2020/09/21 22:25:29 autossh[1355]: ssh child pid is 10266
+2020/09/21 22:25:29 autossh[1355]: check on child 10266
+2020/09/21 22:25:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 22:25:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 22:25:29 autossh[10266]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 22:30:01 EST ############################
+
+2020/09/21 22:30:01 autossh[10389]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 22:35:01 EST ############################
+
+2020/09/21 22:35:01 autossh[10647]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 22:35:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 22:35:29 autossh[1355]: not what I sent: "bjorn autossh 1355 605485682 
+" : ""
+2020/09/21 22:35:29 autossh[1355]: not what I sent: "bjorn autossh 1355 605485682 
+" : ""
+2020/09/21 22:35:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 22:35:29 autossh[1355]: port down, restarting ssh
+2020/09/21 22:35:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 22:35:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 22:35:29 autossh[1355]: starting ssh (count 39)
+2020/09/21 22:35:29 autossh[1355]: ssh child pid is 10654
+2020/09/21 22:35:29 autossh[1355]: check on child 10654
+2020/09/21 22:35:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 22:35:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 22:35:29 autossh[10654]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 22:40:01 EST ############################
+
+2020/09/21 22:40:01 autossh[10766]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 22:45:01 EST ############################
+
+2020/09/21 22:45:01 autossh[10884]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 22:45:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 22:45:29 autossh[1355]: not what I sent: "bjorn autossh 1355 704987639 
+" : ""
+2020/09/21 22:45:29 autossh[1355]: not what I sent: "bjorn autossh 1355 704987639 
+" : ""
+2020/09/21 22:45:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 22:45:29 autossh[1355]: port down, restarting ssh
+2020/09/21 22:45:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 22:45:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 22:45:29 autossh[1355]: starting ssh (count 40)
+2020/09/21 22:45:29 autossh[1355]: ssh child pid is 10891
+2020/09/21 22:45:29 autossh[1355]: check on child 10891
+2020/09/21 22:45:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 22:45:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 22:45:29 autossh[10891]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 22:50:01 EST ############################
+
+2020/09/21 22:50:01 autossh[11007]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 22:55:01 EST ############################
+
+2020/09/21 22:55:01 autossh[11125]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 22:55:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 22:55:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1219840381 
+" : ""
+2020/09/21 22:55:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1219840381 
+" : ""
+2020/09/21 22:55:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 22:55:29 autossh[1355]: port down, restarting ssh
+2020/09/21 22:55:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 22:55:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 22:55:29 autossh[1355]: starting ssh (count 41)
+2020/09/21 22:55:29 autossh[1355]: ssh child pid is 11130
+2020/09/21 22:55:29 autossh[1355]: check on child 11130
+2020/09/21 22:55:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 22:55:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 22:55:29 autossh[11130]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 23:00:01 EST ############################
+
+2020/09/21 23:00:01 autossh[11242]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 23:05:01 EST ############################
+
+2020/09/21 23:05:01 autossh[11360]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 23:05:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 23:05:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1495802841 
+" : ""
+2020/09/21 23:05:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1495802841 
+" : ""
+2020/09/21 23:05:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 23:05:29 autossh[1355]: port down, restarting ssh
+2020/09/21 23:05:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 23:05:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 23:05:29 autossh[1355]: starting ssh (count 42)
+2020/09/21 23:05:29 autossh[1355]: ssh child pid is 11367
+2020/09/21 23:05:29 autossh[1355]: check on child 11367
+2020/09/21 23:05:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 23:05:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 23:05:29 autossh[11367]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 23:10:01 EST ############################
+
+2020/09/21 23:10:01 autossh[11481]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 23:15:01 EST ############################
+
+2020/09/21 23:15:01 autossh[11599]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 23:15:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 23:15:29 autossh[1355]: not what I sent: "bjorn autossh 1355 575166247 
+" : ""
+2020/09/21 23:15:29 autossh[1355]: not what I sent: "bjorn autossh 1355 575166247 
+" : ""
+2020/09/21 23:15:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 23:15:29 autossh[1355]: port down, restarting ssh
+2020/09/21 23:15:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 23:15:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 23:15:29 autossh[1355]: starting ssh (count 43)
+2020/09/21 23:15:29 autossh[1355]: ssh child pid is 11605
+2020/09/21 23:15:29 autossh[1355]: check on child 11605
+2020/09/21 23:15:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 23:15:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 23:15:29 autossh[11605]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 23:20:01 EST ############################
+
+2020/09/21 23:20:01 autossh[11717]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 23:25:01 EST ############################
+
+2020/09/21 23:25:01 autossh[11833]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 23:25:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 23:25:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1237057986 
+" : ""
+2020/09/21 23:25:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1237057986 
+" : ""
+2020/09/21 23:25:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 23:25:29 autossh[1355]: port down, restarting ssh
+2020/09/21 23:25:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 23:25:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 23:25:29 autossh[1355]: starting ssh (count 44)
+2020/09/21 23:25:29 autossh[1355]: ssh child pid is 11843
+2020/09/21 23:25:29 autossh[1355]: check on child 11843
+2020/09/21 23:25:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 23:25:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 23:25:29 autossh[11843]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 23:30:01 EST ############################
+
+2020/09/21 23:30:01 autossh[11971]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 23:35:01 EST ############################
+
+2020/09/21 23:35:01 autossh[12214]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 23:35:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 23:35:29 autossh[1355]: not what I sent: "bjorn autossh 1355 924702574 
+" : ""
+2020/09/21 23:35:29 autossh[1355]: not what I sent: "bjorn autossh 1355 924702574 
+" : ""
+2020/09/21 23:35:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 23:35:29 autossh[1355]: port down, restarting ssh
+2020/09/21 23:35:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 23:35:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 23:35:29 autossh[1355]: starting ssh (count 45)
+2020/09/21 23:35:29 autossh[1355]: ssh child pid is 12224
+2020/09/21 23:35:29 autossh[1355]: check on child 12224
+2020/09/21 23:35:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 23:35:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 23:35:29 autossh[12224]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 23:40:01 EST ############################
+
+2020/09/21 23:40:01 autossh[12334]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 23:45:01 EST ############################
+
+2020/09/21 23:45:01 autossh[12447]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 23:45:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 23:45:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1304222943 
+" : ""
+2020/09/21 23:45:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1304222943 
+" : ""
+2020/09/21 23:45:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 23:45:29 autossh[1355]: port down, restarting ssh
+2020/09/21 23:45:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 23:45:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 23:45:29 autossh[1355]: starting ssh (count 46)
+2020/09/21 23:45:29 autossh[1355]: ssh child pid is 12461
+2020/09/21 23:45:29 autossh[1355]: check on child 12461
+2020/09/21 23:45:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 23:45:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 23:45:29 autossh[12461]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/21/20 23:50:01 EST ############################
+
+2020/09/21 23:50:01 autossh[12567]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/21/20 23:55:01 EST ############################
+
+2020/09/21 23:55:01 autossh[12685]: bind on 127.0.0.1:61001: Address already in use
+2020/09/21 23:55:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/21 23:55:29 autossh[1355]: not what I sent: "bjorn autossh 1355 2086441156 
+" : ""
+2020/09/21 23:55:29 autossh[1355]: not what I sent: "bjorn autossh 1355 2086441156 
+" : ""
+2020/09/21 23:55:29 autossh[1355]: tried connection 3 times and failed
+2020/09/21 23:55:29 autossh[1355]: port down, restarting ssh
+2020/09/21 23:55:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 23:55:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/21 23:55:29 autossh[1355]: starting ssh (count 47)
+2020/09/21 23:55:29 autossh[1355]: ssh child pid is 12696
+2020/09/21 23:55:29 autossh[1355]: check on child 12696
+2020/09/21 23:55:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/21 23:55:29 autossh[1355]: set alarm for 600 secs
+2020/09/21 23:55:29 autossh[12696]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/22/20 00:00:01 EST ############################
+
+2020/09/22 00:00:01 autossh[13092]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/22/20 00:05:01 EST ############################
+
+2020/09/22 00:05:01 autossh[13219]: bind on 127.0.0.1:61001: Address already in use
+2020/09/22 00:05:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/22 00:05:29 autossh[1355]: not what I sent: "bjorn autossh 1355 277593333 
+" : ""
+2020/09/22 00:05:29 autossh[1355]: not what I sent: "bjorn autossh 1355 277593333 
+" : ""
+2020/09/22 00:05:29 autossh[1355]: tried connection 3 times and failed
+2020/09/22 00:05:29 autossh[1355]: port down, restarting ssh
+2020/09/22 00:05:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 00:05:29 autossh[1355]: checking for grace period, tries = 0
+2020/09/22 00:05:29 autossh[1355]: starting ssh (count 48)
+2020/09/22 00:05:29 autossh[1355]: ssh child pid is 13227
+2020/09/22 00:05:29 autossh[1355]: check on child 13227
+2020/09/22 00:05:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 00:05:29 autossh[1355]: set alarm for 600 secs
+2020/09/22 00:05:29 autossh[13227]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/22/20 00:10:01 EST ############################
+
+2020/09/22 00:10:01 autossh[13373]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/22/20 00:15:01 EST ############################
+
+2020/09/22 00:15:01 autossh[13495]: bind on 127.0.0.1:61001: Address already in use
+2020/09/22 00:15:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/22 00:15:29 autossh[1355]: not what I sent: "bjorn autossh 1355 1626627134 
+" : ""
+2020/09/22 00:15:29 autossh[1355]: connection ok
+2020/09/22 00:15:29 autossh[1355]: check on child 13227
+2020/09/22 00:15:29 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 00:15:29 autossh[1355]: set alarm for 600 secs
+
+############################ bjorn - 09/22/20 00:20:01 EST ############################
+
+2020/09/22 00:20:01 autossh[13613]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/22/20 00:25:01 EST ############################
+
+2020/09/22 00:25:01 autossh[13735]: bind on 127.0.0.1:61001: Address already in use
+2020/09/22 00:25:29 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/22 00:25:30 autossh[1355]: connection ok
+2020/09/22 00:25:30 autossh[1355]: check on child 13227
+2020/09/22 00:25:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 00:25:30 autossh[1355]: set alarm for 600 secs
+
+############################ bjorn - 09/22/20 00:30:01 EST ############################
+
+2020/09/22 00:30:01 autossh[13904]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/22/20 00:35:01 EST ############################
+
+2020/09/22 00:35:01 autossh[14153]: bind on 127.0.0.1:61001: Address already in use
+2020/09/22 00:35:30 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/22 00:35:30 autossh[1355]: not what I sent: "bjorn autossh 1355 104038670 
+" : ""
+2020/09/22 00:35:30 autossh[1355]: not what I sent: "bjorn autossh 1355 104038670 
+" : ""
+2020/09/22 00:35:30 autossh[1355]: tried connection 3 times and failed
+2020/09/22 00:35:30 autossh[1355]: port down, restarting ssh
+2020/09/22 00:35:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 00:35:30 autossh[1355]: checking for grace period, tries = 0
+2020/09/22 00:35:30 autossh[1355]: starting ssh (count 49)
+2020/09/22 00:35:30 autossh[1355]: ssh child pid is 14163
+2020/09/22 00:35:30 autossh[1355]: check on child 14163
+2020/09/22 00:35:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 00:35:30 autossh[1355]: set alarm for 600 secs
+2020/09/22 00:35:30 autossh[14163]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/22/20 00:40:01 EST ############################
+
+2020/09/22 00:40:01 autossh[14276]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/22/20 00:45:01 EST ############################
+
+2020/09/22 00:45:01 autossh[14396]: bind on 127.0.0.1:61001: Address already in use
+2020/09/22 00:45:30 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/22 00:45:30 autossh[1355]: not what I sent: "bjorn autossh 1355 282097711 
+" : ""
+2020/09/22 00:45:30 autossh[1355]: not what I sent: "bjorn autossh 1355 282097711 
+" : ""
+2020/09/22 00:45:30 autossh[1355]: tried connection 3 times and failed
+2020/09/22 00:45:30 autossh[1355]: port down, restarting ssh
+2020/09/22 00:45:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 00:45:30 autossh[1355]: checking for grace period, tries = 0
+2020/09/22 00:45:30 autossh[1355]: starting ssh (count 50)
+2020/09/22 00:45:30 autossh[1355]: ssh child pid is 14402
+2020/09/22 00:45:30 autossh[1355]: check on child 14402
+2020/09/22 00:45:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 00:45:30 autossh[1355]: set alarm for 600 secs
+2020/09/22 00:45:30 autossh[14402]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/22/20 00:50:01 EST ############################
+
+2020/09/22 00:50:01 autossh[14551]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/22/20 00:55:01 EST ############################
+
+2020/09/22 00:55:01 autossh[14705]: bind on 127.0.0.1:61001: Address already in use
+2020/09/22 00:55:30 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/22 00:55:30 autossh[1355]: not what I sent: "bjorn autossh 1355 1291327 
+" : ""
+2020/09/22 00:55:30 autossh[1355]: not what I sent: "bjorn autossh 1355 1291327 
+" : ""
+2020/09/22 00:55:30 autossh[1355]: tried connection 3 times and failed
+2020/09/22 00:55:30 autossh[1355]: port down, restarting ssh
+2020/09/22 00:55:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 00:55:30 autossh[1355]: checking for grace period, tries = 0
+2020/09/22 00:55:30 autossh[1355]: starting ssh (count 51)
+2020/09/22 00:55:30 autossh[1355]: ssh child pid is 14713
+2020/09/22 00:55:30 autossh[1355]: check on child 14713
+2020/09/22 00:55:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 00:55:30 autossh[1355]: set alarm for 600 secs
+2020/09/22 00:55:30 autossh[14713]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/22/20 01:00:01 EST ############################
+
+2020/09/22 01:00:01 autossh[14822]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/22/20 01:05:01 EST ############################
+
+2020/09/22 01:05:01 autossh[14942]: bind on 127.0.0.1:61001: Address already in use
+2020/09/22 01:05:30 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/22 01:05:30 autossh[1355]: not what I sent: "bjorn autossh 1355 1292623452 
+" : ""
+2020/09/22 01:05:30 autossh[1355]: not what I sent: "bjorn autossh 1355 1292623452 
+" : ""
+2020/09/22 01:05:30 autossh[1355]: tried connection 3 times and failed
+2020/09/22 01:05:30 autossh[1355]: port down, restarting ssh
+2020/09/22 01:05:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 01:05:30 autossh[1355]: checking for grace period, tries = 0
+2020/09/22 01:05:30 autossh[1355]: starting ssh (count 52)
+2020/09/22 01:05:30 autossh[1355]: ssh child pid is 14951
+2020/09/22 01:05:30 autossh[1355]: check on child 14951
+2020/09/22 01:05:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 01:05:30 autossh[1355]: set alarm for 600 secs
+2020/09/22 01:05:30 autossh[14951]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/22/20 01:10:01 EST ############################
+
+2020/09/22 01:10:01 autossh[15059]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/22/20 01:15:01 EST ############################
+
+2020/09/22 01:15:01 autossh[15178]: bind on 127.0.0.1:61001: Address already in use
+2020/09/22 01:15:30 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/22 01:15:30 autossh[1355]: not what I sent: "bjorn autossh 1355 1715786846 
+" : ""
+2020/09/22 01:15:30 autossh[1355]: not what I sent: "bjorn autossh 1355 1715786846 
+" : ""
+2020/09/22 01:15:30 autossh[1355]: tried connection 3 times and failed
+2020/09/22 01:15:30 autossh[1355]: port down, restarting ssh
+2020/09/22 01:15:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 01:15:30 autossh[1355]: checking for grace period, tries = 0
+2020/09/22 01:15:30 autossh[1355]: starting ssh (count 53)
+2020/09/22 01:15:30 autossh[1355]: ssh child pid is 15189
+2020/09/22 01:15:30 autossh[1355]: check on child 15189
+2020/09/22 01:15:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 01:15:30 autossh[1355]: set alarm for 600 secs
+2020/09/22 01:15:30 autossh[15189]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/22/20 01:20:01 EST ############################
+
+2020/09/22 01:20:01 autossh[15303]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/22/20 01:25:01 EST ############################
+
+2020/09/22 01:25:01 autossh[15416]: bind on 127.0.0.1:61001: Address already in use
+2020/09/22 01:25:30 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/22 01:25:30 autossh[1355]: not what I sent: "bjorn autossh 1355 431256855 
+" : ""
+2020/09/22 01:25:30 autossh[1355]: not what I sent: "bjorn autossh 1355 431256855 
+" : ""
+2020/09/22 01:25:30 autossh[1355]: tried connection 3 times and failed
+2020/09/22 01:25:30 autossh[1355]: port down, restarting ssh
+2020/09/22 01:25:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 01:25:30 autossh[1355]: checking for grace period, tries = 0
+2020/09/22 01:25:30 autossh[1355]: starting ssh (count 54)
+2020/09/22 01:25:30 autossh[1355]: ssh child pid is 15429
+2020/09/22 01:25:30 autossh[1355]: check on child 15429
+2020/09/22 01:25:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 01:25:30 autossh[1355]: set alarm for 600 secs
+2020/09/22 01:25:30 autossh[15429]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/22/20 01:30:01 EST ############################
+
+2020/09/22 01:30:01 autossh[15553]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/22/20 01:35:01 EST ############################
+
+2020/09/22 01:35:01 autossh[15799]: bind on 127.0.0.1:61001: Address already in use
+2020/09/22 01:35:30 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/22 01:35:30 autossh[1355]: not what I sent: "bjorn autossh 1355 721436635 
+" : ""
+2020/09/22 01:35:30 autossh[1355]: not what I sent: "bjorn autossh 1355 721436635 
+" : ""
+2020/09/22 01:35:30 autossh[1355]: tried connection 3 times and failed
+2020/09/22 01:35:30 autossh[1355]: port down, restarting ssh
+2020/09/22 01:35:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 01:35:30 autossh[1355]: checking for grace period, tries = 0
+2020/09/22 01:35:30 autossh[1355]: starting ssh (count 55)
+2020/09/22 01:35:30 autossh[1355]: ssh child pid is 15807
+2020/09/22 01:35:30 autossh[1355]: check on child 15807
+2020/09/22 01:35:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 01:35:30 autossh[1355]: set alarm for 600 secs
+2020/09/22 01:35:30 autossh[15807]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/22/20 01:40:01 EST ############################
+
+2020/09/22 01:40:01 autossh[15916]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/22/20 01:45:01 EST ############################
+
+2020/09/22 01:45:01 autossh[16033]: bind on 127.0.0.1:61001: Address already in use
+2020/09/22 01:45:30 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/22 01:45:30 autossh[1355]: not what I sent: "bjorn autossh 1355 1852485308 
+" : ""
+2020/09/22 01:45:30 autossh[1355]: not what I sent: "bjorn autossh 1355 1852485308 
+" : ""
+2020/09/22 01:45:30 autossh[1355]: tried connection 3 times and failed
+2020/09/22 01:45:30 autossh[1355]: port down, restarting ssh
+2020/09/22 01:45:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 01:45:30 autossh[1355]: checking for grace period, tries = 0
+2020/09/22 01:45:30 autossh[1355]: starting ssh (count 56)
+2020/09/22 01:45:30 autossh[1355]: ssh child pid is 16043
+2020/09/22 01:45:30 autossh[1355]: check on child 16043
+2020/09/22 01:45:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 01:45:30 autossh[1355]: set alarm for 600 secs
+2020/09/22 01:45:30 autossh[16043]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/22/20 01:50:01 EST ############################
+
+2020/09/22 01:50:01 autossh[16152]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/22/20 01:55:01 EST ############################
+
+2020/09/22 01:55:01 autossh[16275]: bind on 127.0.0.1:61001: Address already in use
+2020/09/22 01:55:30 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/22 01:55:30 autossh[1355]: not what I sent: "bjorn autossh 1355 852819166 
+" : ""
+2020/09/22 01:55:30 autossh[1355]: not what I sent: "bjorn autossh 1355 852819166 
+" : ""
+2020/09/22 01:55:30 autossh[1355]: tried connection 3 times and failed
+2020/09/22 01:55:30 autossh[1355]: port down, restarting ssh
+2020/09/22 01:55:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 01:55:30 autossh[1355]: checking for grace period, tries = 0
+2020/09/22 01:55:30 autossh[1355]: starting ssh (count 57)
+2020/09/22 01:55:30 autossh[1355]: ssh child pid is 16281
+2020/09/22 01:55:30 autossh[1355]: check on child 16281
+2020/09/22 01:55:30 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/22 01:55:30 autossh[1355]: set alarm for 600 secs
+2020/09/22 01:55:30 autossh[16281]: child of 1355 execing /usr/bin/ssh
+
+############################ bjorn - 09/22/20 02:00:01 EST ############################
+
+2020/09/22 02:00:01 autossh[16390]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/22/20 02:05:01 EST ############################
+
+2020/09/22 02:05:01 autossh[16592]: bind on 127.0.0.1:61001: Address already in use
