@@ -69762,3 +69762,734 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 68.899/70.878/74.187/2.354 ms
+
+############################ bjorn - 09/22/20 20:30:01 EST ############################
+
+ 20:30:01 up 1 day,  3:00,  0 users,  load average: 0.07, 0.28, 0.27
+
+
+reboot   system boot  5.4.0-42-generic Mon Sep 21 17:29   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+
+
+
+
+Bus 001 Device 005: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    9.262484] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[   12.522678] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[   40.606439] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[   40.606439] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[23296.890988] Bluetooth: RFCOMM TTY layer initialized
+[23296.891005] Bluetooth: RFCOMM socket layer initialized
+[23296.891017] Bluetooth: RFCOMM ver 1.11
+[23427.199541] kauditd_printk_skb: 20 callbacks suppressed
+[23427.199544] audit: type=1400 audit(1600750802.166:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=13064 comm="cups-browsed" capability=23  capname="sys_nice"
+[42150.764819] perf: interrupt took too long (2503 > 2500), lowering kernel.perf_event_max_sample_rate to 79750
+[57887.848996] perf: interrupt took too long (3153 > 3128), lowering kernel.perf_event_max_sample_rate to 63250
+[79213.399587] perf: interrupt took too long (3974 > 3941), lowering kernel.perf_event_max_sample_rate to 50250
+[87319.801172] perf: interrupt took too long (5007 > 4967), lowering kernel.perf_event_max_sample_rate to 39750
+
+
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G   11G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  193M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+100.80.44.230/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=167 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=103 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=98.8 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 98.799/122.765/166.803/31.180 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=137 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=153 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=126 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 126.457/138.692/152.962/10.915 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=161 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=176 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=107 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 107.121/148.074/175.987/29.588 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.087 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.100 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.096 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.087/0.094/0.100/0.005 ms
+
+
+PING github.com (140.82.112.3) 56(84) bytes of data.
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=1 ttl=49 time=143 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=2 ttl=49 time=91.6 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=3 ttl=49 time=57.8 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 57.838/97.410/142.782/34.919 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=68.2 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=70.7 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=74.4 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 68.249/71.128/74.388/2.520 ms
+
+############################ bjorn - 09/22/20 21:30:01 EST ############################
+
+ 21:30:01 up 1 day,  4:00,  0 users,  load average: 0.00, 0.03, 0.04
+
+
+reboot   system boot  5.4.0-42-generic Mon Sep 21 17:29   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+
+
+
+
+Bus 001 Device 005: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    9.262484] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[   12.522678] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[   40.606439] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[   40.606439] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[23296.890988] Bluetooth: RFCOMM TTY layer initialized
+[23296.891005] Bluetooth: RFCOMM socket layer initialized
+[23296.891017] Bluetooth: RFCOMM ver 1.11
+[23427.199541] kauditd_printk_skb: 20 callbacks suppressed
+[23427.199544] audit: type=1400 audit(1600750802.166:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=13064 comm="cups-browsed" capability=23  capname="sys_nice"
+[42150.764819] perf: interrupt took too long (2503 > 2500), lowering kernel.perf_event_max_sample_rate to 79750
+[57887.848996] perf: interrupt took too long (3153 > 3128), lowering kernel.perf_event_max_sample_rate to 63250
+[79213.399587] perf: interrupt took too long (3974 > 3941), lowering kernel.perf_event_max_sample_rate to 50250
+[87319.801172] perf: interrupt took too long (5007 > 4967), lowering kernel.perf_event_max_sample_rate to 39750
+
+
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G   11G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  193M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+100.80.44.230/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=111 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=92.1 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 2 received, 33.3333% packet loss, time 2016ms
+rtt min/avg/max/mdev = 92.109/101.590/111.071/9.481 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=211 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=222 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=123 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 122.544/185.171/222.250/44.533 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=110 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=147 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=95.2 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 95.217/117.219/146.821/21.741 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2048ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.081 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.099 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2037ms
+rtt min/avg/max/mdev = 0.081/0.092/0.099/0.008 ms
+
+
+PING github.com (140.82.114.3) 56(84) bytes of data.
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=1 ttl=49 time=107 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=2 ttl=49 time=50.0 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=3 ttl=49 time=71.9 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 49.983/76.197/106.665/23.334 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=71.3 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=61.4 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=65.7 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 61.382/66.096/71.252/4.041 ms
+
+############################ bjorn - 09/22/20 22:30:01 EST ############################
+
+ 22:30:01 up 1 day,  5:00,  0 users,  load average: 0.23, 0.07, 0.02
+
+
+reboot   system boot  5.4.0-42-generic Mon Sep 21 17:29   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+
+
+
+
+Bus 001 Device 005: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    9.262484] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[   12.522678] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[   40.606439] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[   40.606439] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[23296.890988] Bluetooth: RFCOMM TTY layer initialized
+[23296.891005] Bluetooth: RFCOMM socket layer initialized
+[23296.891017] Bluetooth: RFCOMM ver 1.11
+[23427.199541] kauditd_printk_skb: 20 callbacks suppressed
+[23427.199544] audit: type=1400 audit(1600750802.166:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=13064 comm="cups-browsed" capability=23  capname="sys_nice"
+[42150.764819] perf: interrupt took too long (2503 > 2500), lowering kernel.perf_event_max_sample_rate to 79750
+[57887.848996] perf: interrupt took too long (3153 > 3128), lowering kernel.perf_event_max_sample_rate to 63250
+[79213.399587] perf: interrupt took too long (3974 > 3941), lowering kernel.perf_event_max_sample_rate to 50250
+[87319.801172] perf: interrupt took too long (5007 > 4967), lowering kernel.perf_event_max_sample_rate to 39750
+
+
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G   11G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  193M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+100.80.44.230/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=59.6 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=58.6 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=67.2 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 58.566/61.780/67.206/3.858 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=66.1 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=74.6 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=72.9 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 66.079/71.174/74.594/3.672 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=70.3 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=75.5 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=65.8 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 65.830/70.545/75.487/3.945 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2045ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.088 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.096 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.088/0.093/0.097/0.004 ms
+
+
+PING github.com (140.82.114.4) 56(84) bytes of data.
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=1 ttl=48 time=33.8 ms
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=2 ttl=48 time=41.5 ms
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=3 ttl=48 time=48.4 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 33.825/41.251/48.405/5.955 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=40.3 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=61.2 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=35.5 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+rtt min/avg/max/mdev = 35.470/45.653/61.209/11.173 ms
+
+############################ bjorn - 09/22/20 23:30:01 EST ############################
+
+ 23:30:01 up 1 day,  6:00,  0 users,  load average: 0.08, 0.11, 0.05
+
+
+reboot   system boot  5.4.0-42-generic Mon Sep 21 17:29   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+
+
+
+
+Bus 001 Device 005: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    9.262484] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[   12.522678] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[   40.606439] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[   40.606439] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[23296.890988] Bluetooth: RFCOMM TTY layer initialized
+[23296.891005] Bluetooth: RFCOMM socket layer initialized
+[23296.891017] Bluetooth: RFCOMM ver 1.11
+[23427.199541] kauditd_printk_skb: 20 callbacks suppressed
+[23427.199544] audit: type=1400 audit(1600750802.166:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=13064 comm="cups-browsed" capability=23  capname="sys_nice"
+[42150.764819] perf: interrupt took too long (2503 > 2500), lowering kernel.perf_event_max_sample_rate to 79750
+[57887.848996] perf: interrupt took too long (3153 > 3128), lowering kernel.perf_event_max_sample_rate to 63250
+[79213.399587] perf: interrupt took too long (3974 > 3941), lowering kernel.perf_event_max_sample_rate to 50250
+[87319.801172] perf: interrupt took too long (5007 > 4967), lowering kernel.perf_event_max_sample_rate to 39750
+
+
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G   11G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  193M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+100.80.44.230/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=72.9 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=72.3 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=71.8 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 71.789/72.322/72.879/0.445 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=65.1 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=68.8 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=71.5 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 65.062/68.461/71.488/2.636 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=67.7 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=84.5 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=74.1 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 67.697/75.432/84.539/6.943 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2046ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.088 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.098 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.098 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.088/0.094/0.098/0.004 ms
+
+
+PING github.com (140.82.112.4) 56(84) bytes of data.
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=1 ttl=48 time=44.6 ms
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=2 ttl=48 time=44.1 ms
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=3 ttl=48 time=41.7 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 41.743/43.463/44.555/1.231 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=34.3 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=41.2 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=43.3 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 34.319/39.593/43.273/3.825 ms
+
+############################ bjorn - 09/23/20 00:30:01 EST ############################
+
+ 00:30:01 up 1 day,  7:00,  0 users,  load average: 0.03, 0.08, 0.07
+
+
+reboot   system boot  5.4.0-42-generic Mon Sep 21 17:29   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+
+
+
+
+Bus 001 Device 005: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    9.262484] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[   12.522678] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[   40.606439] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[23296.891005] Bluetooth: RFCOMM socket layer initialized
+[23296.891017] Bluetooth: RFCOMM ver 1.11
+[23427.199541] kauditd_printk_skb: 20 callbacks suppressed
+[23427.199544] audit: type=1400 audit(1600750802.166:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=13064 comm="cups-browsed" capability=23  capname="sys_nice"
+[42150.764819] perf: interrupt took too long (2503 > 2500), lowering kernel.perf_event_max_sample_rate to 79750
+[57887.848996] perf: interrupt took too long (3153 > 3128), lowering kernel.perf_event_max_sample_rate to 63250
+[79213.399587] perf: interrupt took too long (3974 > 3941), lowering kernel.perf_event_max_sample_rate to 50250
+[87319.801172] perf: interrupt took too long (5007 > 4967), lowering kernel.perf_event_max_sample_rate to 39750
+[109824.764564] audit: type=1400 audit(1600837202.270:33): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=52968 comm="cups-browsed" capability=23  capname="sys_nice"
+[111129.448222] perf: interrupt took too long (6284 > 6258), lowering kernel.perf_event_max_sample_rate to 31750
+
+
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G   11G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  193M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+100.80.44.230/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=64.9 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=61.4 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=79.2 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 61.416/68.500/79.218/7.708 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=89.8 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=71.3 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=91.1 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 71.303/84.068/91.055/9.040 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=68.0 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=74.4 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=85.0 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 68.022/75.780/84.952/6.983 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2026ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.115 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.096 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.096/0.102/0.115/0.008 ms
+
+
+PING github.com (140.82.112.4) 56(84) bytes of data.
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=1 ttl=48 time=40.2 ms
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=2 ttl=48 time=30.4 ms
+64 bytes from lb-140-82-112-4-iad.github.com (140.82.112.4): icmp_seq=3 ttl=48 time=39.6 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 30.449/36.743/40.226/4.459 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=40.2 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=38.7 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=35.0 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 35.049/37.994/40.203/2.167 ms
+
+############################ bjorn - 09/23/20 01:30:01 EST ############################
+
+ 01:30:01 up 1 day,  8:00,  0 users,  load average: 0.25, 0.19, 0.12
+
+
+reboot   system boot  5.4.0-42-generic Mon Sep 21 17:29   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:03   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 10:00   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 17 09:45   still running
+
+
+
+
+Bus 001 Device 005: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    9.262484] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+[   12.522678] rndis_host 1-3:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-3, RNDIS device
+[   40.606439] rndis_host 1-3:1.0 enx0015ff025968: renamed from eth0
+
+
+[23296.891005] Bluetooth: RFCOMM socket layer initialized
+[23296.891017] Bluetooth: RFCOMM ver 1.11
+[23427.199541] kauditd_printk_skb: 20 callbacks suppressed
+[23427.199544] audit: type=1400 audit(1600750802.166:32): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=13064 comm="cups-browsed" capability=23  capname="sys_nice"
+[42150.764819] perf: interrupt took too long (2503 > 2500), lowering kernel.perf_event_max_sample_rate to 79750
+[57887.848996] perf: interrupt took too long (3153 > 3128), lowering kernel.perf_event_max_sample_rate to 63250
+[79213.399587] perf: interrupt took too long (3974 > 3941), lowering kernel.perf_event_max_sample_rate to 50250
+[87319.801172] perf: interrupt took too long (5007 > 4967), lowering kernel.perf_event_max_sample_rate to 39750
+[109824.764564] audit: type=1400 audit(1600837202.270:33): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=52968 comm="cups-browsed" capability=23  capname="sys_nice"
+[111129.448222] perf: interrupt took too long (6284 > 6258), lowering kernel.perf_event_max_sample_rate to 31750
+
+
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G   11G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  193M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+100.80.44.230/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=77.2 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=78.6 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=70.3 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+rtt min/avg/max/mdev = 70.312/75.347/78.571/3.606 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=70.4 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=73.6 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=104 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 70.357/82.544/103.652/14.984 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=73.4 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=73.4 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=81.8 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 73.392/76.199/81.759/3.931 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2042ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.086 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.096 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.086/0.093/0.097/0.005 ms
+
+
+PING github.com (140.82.113.4) 56(84) bytes of data.
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=1 ttl=49 time=53.7 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=2 ttl=49 time=56.0 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=3 ttl=49 time=49.9 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 49.935/53.196/55.962/2.485 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=60.3 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=52.5 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=59.9 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 52.530/57.574/60.280/3.569 ms
