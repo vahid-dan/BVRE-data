@@ -66609,3 +66609,32 @@ b"
 ############################ bjorn - 09/23/20 02:05:01 EST ############################
 
 2020/09/23 02:05:01 autossh[56098]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 09/23/20 02:10:01 EST ############################
+
+2020/09/23 02:10:01 autossh[56247]: bind on 127.0.0.1:61001: Address already in use
+2020/09/23 02:14:11 autossh[1355]: received SIGALRM (end-of-life 0)
+2020/09/23 02:14:11 autossh[1355]: not what I sent: "bjorn autossh 1355 283476541 
+" : ""
+2020/09/23 02:14:11 autossh[1355]: not what I sent: "bjorn autossh 1355 283476541 
+" : ""
+2020/09/23 02:14:11 autossh[1355]: tried connection 3 times and failed
+2020/09/23 02:14:11 autossh[1355]: port down, restarting ssh
+2020/09/23 02:14:11 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/23 02:14:11 autossh[1355]: checking for grace period, tries = 0
+2020/09/23 02:14:11 autossh[1355]: starting ssh (count 200)
+2020/09/23 02:14:11 autossh[1355]: ssh child pid is 56335
+2020/09/23 02:14:11 autossh[1355]: check on child 56335
+2020/09/23 02:14:11 autossh[1355]: clear alarm timer (0 secs left)
+2020/09/23 02:14:11 autossh[1355]: set alarm for 600 secs
+2020/09/23 02:14:11 autossh[56335]: child of 1355 execing /usr/bin/ssh
+                                                                                                                                             
+############################ bjorn - 09/24/20 10:55:02 EST ############################
+
+2020/09/24 10:55:02 autossh[1682]: checking for grace period, tries = 0
+2020/09/24 10:55:02 autossh[1682]: starting ssh (count 1)
+2020/09/24 10:55:02 autossh[1682]: ssh child pid is 1683
+2020/09/24 10:55:02 autossh[1682]: check on child 1683
+2020/09/24 10:55:02 autossh[1682]: clear alarm timer (0 secs left)
+2020/09/24 10:55:02 autossh[1682]: set alarm for 600 secs
+2020/09/24 10:55:02 autossh[1683]: child of 1682 execing /usr/bin/ssh
