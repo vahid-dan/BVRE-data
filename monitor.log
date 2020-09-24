@@ -70626,3 +70626,123 @@ reboot   system boot  5.4.0-42-generic Mon Sep 21 17:29 - 11:01 (2+17:32)
 reboot   system boot  5.4.0-42-generic Thu Sep 17 10:06 - 11:01 (7+00:55)
 
 
+
+
+Bus 001 Device 002: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    7.794695] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[  122.652113] Bluetooth: RFCOMM TTY layer initialized
+[  122.652131] Bluetooth: RFCOMM socket layer initialized
+[  122.652145] Bluetooth: RFCOMM ver 1.11
+[  296.325232] igb 0000:03:00.0 eno1: igb: eno1 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX/TX
+[  296.325472] IPv6: ADDRCONF(NETDEV_CHANGE): eno1: link becomes ready
+[  296.414608] show_signal_msg: 20 callbacks suppressed
+[  296.414613] systemd-udevd[2155]: segfault at 1 ip 00007f0d96bee0eb sp 00007fffc899de50 error 4 in ld-2.31.so[7f0d96be3000+23000]
+[  296.414627] Code: 0d fc ff ff 66 66 2e 0f 1f 84 00 00 00 00 00 f3 0f 1e fa 41 57 41 56 41 55 49 89 fd 41 54 49 89 d4 55 53 48 81 ec 98 00 00 00 <0f> b6 17 48 89 74 24 10 48 89 4c 24 18 4c 89 44 24 08 44 89 4c 24
+[  307.052203] systemd-udevd[473]: segfault at 558ad780e088 ip 00007f0d96a78746 sp 00007fffc899dfd0 error 4 in libc-2.31.so[7f0d96a02000+178000]
+[  307.052216] Code: 89 d1 48 89 70 20 4d 8b 61 18 4d 39 4c 24 10 0f 84 36 fa ff ff 48 8d 3d 40 14 12 00 e8 23 cd ff ff 0f 1f 00 4c 8b 4a 10 eb dc <4c> 8b 71 08 48 8b 6c 24 20 49 83 e6 f8 4d 39 ee 0f 82 d4 02 00 00
+
+
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G   11G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  195M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+100.93.148.104/28
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=75.4 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=75.4 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=71.7 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 71.707/74.168/75.425/1.740 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=78.8 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=86.8 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=88.9 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 78.837/84.836/88.892/4.329 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=94.2 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=77.4 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=87.9 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 77.435/86.510/94.213/6.918 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2032ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.087 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.095 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.087/0.093/0.097/0.004 ms
+
+
+PING github.com (140.82.112.3) 56(84) bytes of data.
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=1 ttl=48 time=55.1 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=2 ttl=48 time=61.5 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=3 ttl=52 time=27.9 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 27.936/48.173/61.509/14.549 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=23.4 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=117 time=21.7 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=117 time=27.6 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 21.713/24.234/27.590/2.470 ms
+
+############################ bjorn - 09/24/20 15:39:23 EST ############################
+
+ 15:39:23 up 5 min,  1 user,  load average: 0.14, 0.28, 0.15
+
+
+reboot   system boot  5.4.0-42-generic Thu Sep 24 15:34   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 24 11:02   still running
+reboot   system boot  5.4.0-42-generic Thu Sep 24 10:51 - 11:01  (00:10)
+reboot   system boot  5.4.0-42-generic Thu Sep 24 10:40 - 11:01  (00:21)
+reboot   system boot  5.4.0-42-generic Mon Sep 21 17:29 - 11:01 (2+17:32)
+
+
