@@ -14737,3 +14737,7 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
 Logs:
 
 Already up to date.
+[bjorn-logs e5208dd] 09/25/20 14:29:33 EST: Logs
+ 3 files changed, 75 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   8f9659c..e5208dd  bjorn-logs -> bjorn-logs
