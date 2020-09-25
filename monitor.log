@@ -70964,3 +70964,127 @@ reboot   system boot  5.4.0-42-generic Fri Sep 25 12:43   still running
 reboot   system boot  5.4.0-42-generic Fri Sep 25 12:31   still running
 
 
+
+
+Bus 001 Device 011: ID 1410:9032 Novatel Wireless MiFi USB730L
+
+
+[    7.705259] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+[   71.025793] rndis_host 1-5:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-5, RNDIS device
+[   71.985529] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+[   89.924422] rndis_host 1-5:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-5, RNDIS device
+[   90.825255] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+[  153.764392] rndis_host 1-5:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-5, RNDIS device
+[  154.720307] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+[  186.744046] rndis_host 1-5:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-5, RNDIS device
+[  187.676799] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+[  205.817619] rndis_host 1-5:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-5, RNDIS device
+[  206.706468] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+[  304.719766] rndis_host 1-5:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-5, RNDIS device
+[  305.708517] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+[  316.468165] rndis_host 1-5:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-5, RNDIS device
+[  317.360526] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[  316.468165] rndis_host 1-5:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-5, RNDIS device
+[  317.129474] usb 1-5: new high-speed USB device number 11 using xhci_hcd
+[  317.292997] usb 1-5: New USB device found, idVendor=1410, idProduct=9032, bcdDevice= 3.10
+[  317.293006] usb 1-5: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  317.293011] usb 1-5: Product: MiFi USB730L
+[  317.293016] usb 1-5: Manufacturer: Novatel Wireless
+[  317.293020] usb 1-5: SerialNumber: 0123456789ABCDEF
+[  317.312430] rndis_host 1-5:1.0 eth0: register 'rndis_host' at usb-0000:00:15.0-5, RNDIS device, 00:15:ff:02:59:68
+[  317.320625] hid-generic 0003:1410:9032.0008: hiddev0,hidraw0: USB HID v1.01 Device [Novatel Wireless MiFi USB730L] on usb-0000:00:15.0-5/input2
+[  317.360526] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+Fri Sep 25 13:28:19 2020 [pid 1355] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 106.87Kbyte/sec
+Fri Sep 25 13:28:20 2020 [pid 1355] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 105.15Kbyte/sec
+Fri Sep 25 13:28:21 2020 [pid 1355] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 330 bytes, 94.15Kbyte/sec
+Fri Sep 25 13:28:22 2020 [pid 1355] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 336 bytes, 102.99Kbyte/sec
+Fri Sep 25 13:28:23 2020 [pid 1355] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 99.69Kbyte/sec
+Fri Sep 25 13:28:24 2020 [pid 1355] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 330 bytes, 104.90Kbyte/sec
+Fri Sep 25 13:28:25 2020 [pid 1355] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 336 bytes, 101.34Kbyte/sec
+Fri Sep 25 13:28:26 2020 [pid 1355] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 335 bytes, 106.98Kbyte/sec
+Fri Sep 25 13:28:27 2020 [pid 1355] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 330 bytes, 96.54Kbyte/sec
+Fri Sep 25 13:28:28 2020 [pid 1355] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 332 bytes, 91.51Kbyte/sec
+Fri Sep 25 13:28:29 2020 [pid 1355] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 338 bytes, 98.30Kbyte/sec
+Fri Sep 25 13:28:30 2020 [pid 1355] [scc] OK UPLOAD: Client "::ffff:192.168.5.2", "/data/cr6-data/BVRplatform.csv", 334 bytes, 91.24Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   58G   11G   45G  19% /
+/dev/mmcblk0p1  511M  7.8M  504M   2% /boot/efi
+/dev/sda1        59G  199M   56G   1% /data
+
+
+IN-USE  BSSID  SSID  MODE  CHAN  RATE  SIGNAL  BARS  SECURITY 
+
+
+enx0015ff025968:
+100.103.238.118/30
+
+
+ipop:
+192.168.10.21/16
+
+
+enp2s0:
+192.168.5.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2040ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2025ms
+
+
+
+PING 192.168.10.21 (192.168.10.21) 56(84) bytes of data.
+64 bytes from 192.168.10.21: icmp_seq=1 ttl=64 time=0.088 ms
+64 bytes from 192.168.10.21: icmp_seq=2 ttl=64 time=0.085 ms
+64 bytes from 192.168.10.21: icmp_seq=3 ttl=64 time=0.097 ms
+
+--- 192.168.10.21 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2054ms
+rtt min/avg/max/mdev = 0.085/0.090/0.097/0.005 ms
+
+
+ping: github.com: Temporary failure in name resolution
+
+
+ping: connect: Network is unreachable
+
+############################ bjorn - 09/25/20 14:27:44 EST ############################
+
+ 14:27:44 up 5 min,  1 user,  load average: 0.26, 0.31, 0.15
+
+
+reboot   system boot  5.3.0-62-generic Fri Sep 25 14:22   still running
+reboot   system boot  5.3.0-62-generic Fri Sep 25 14:00 - 14:22  (00:21)
+reboot   system boot  5.3.0-62-generic Fri Sep 25 10:16 - 14:22  (04:05)
+reboot   system boot  5.3.0-62-generic Fri Sep 25 00:16 - 14:22  (14:05)
+reboot   system boot  5.3.0-62-generic Thu Sep 24 00:16 - 14:22 (1+14:05)
+
+
