@@ -14716,3 +14716,24 @@ Already up to date.
  4 files changed, 172 insertions(+)
 To github.com:FLARE-forecast/BVRE-data.git
    aa7dd77..6218fa6  bjorn-logs -> bjorn-logs
+[bjorn-logs 8f9659c] 09/25/20 14:27:44 EST: Logs
+ 2 files changed, 64 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   6218fa6..8f9659c  bjorn-logs -> bjorn-logs
+
+############################ bjorn - 09/25/20 14:29:33 EST ############################
+
+Data:
+
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+Logs:
+
+Already up to date.
