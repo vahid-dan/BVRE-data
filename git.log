@@ -14655,3 +14655,33 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[bjorn-logs 67880d8] 09/25/20 12:36:25 EST: Logs
+ 2 files changed, 14 insertions(+)
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+                                                                                                                                                                                
+############################ bjorn - 09/25/20 13:28:16 EST ############################
+
+Data:
+
+error: object file .git/objects/ff/970d54651e8410eb3b55fe04b6a1af55dba832 is empty
+fatal: loose object ff970d54651e8410eb3b55fe04b6a1af55dba832 (stored in .git/objects/ff/970d54651e8410eb3b55fe04b6a1af55dba832) is corrupt
+error: object file .git/objects/ff/970d54651e8410eb3b55fe04b6a1af55dba832 is empty
+error: object file .git/objects/ff/970d54651e8410eb3b55fe04b6a1af55dba832 is empty
+fatal: loose object ff970d54651e8410eb3b55fe04b6a1af55dba832 (stored in .git/objects/ff/970d54651e8410eb3b55fe04b6a1af55dba832) is corrupt
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
