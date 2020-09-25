@@ -71088,3 +71088,63 @@ reboot   system boot  5.3.0-62-generic Fri Sep 25 00:16 - 14:22  (14:05)
 reboot   system boot  5.3.0-62-generic Thu Sep 24 00:16 - 14:22 (1+14:05)
 
 
+
+
+Bus 001 Device 005: ID 1410:9030 Novatel Wireless 
+
+
+[    4.710122] rndis_host 1-6:1.0 enx0015ff025968: renamed from eth0
+[    6.080926] rndis_host 1-6:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+[    6.975703] rndis_host 1-6:1.0 enx0015ff025968: renamed from eth0
+
+
+[    8.207525] audit: type=1400 audit(1601061764.047:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=688 comm="apparmor_parser"
+[    8.207569] audit: type=1400 audit(1601061764.047:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-senddoc" pid=693 comm="apparmor_parser"
+[    8.209316] audit: type=1400 audit(1601061764.047:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=695 comm="apparmor_parser"
+[    8.596193] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    8.596196] Bluetooth: BNEP filters: protocol multicast
+[    8.596203] Bluetooth: BNEP socket layer initialized
+[   11.367223] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   11.367484] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   12.610853] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   14.223233] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+
+
+Fri Sep 25 05:58:21 2020 [pid 4838] CONNECT: Client "::ffff:192.168.1.4"
+Fri Sep 25 05:58:21 2020 [pid 4837] [scc] OK LOGIN: Client "::ffff:192.168.1.4"
+Fri Sep 25 05:58:22 2020 [pid 4839] [scc] OK UPLOAD: Client "::ffff:192.168.1.4", "/data/CR3000Data/FCRmet.csv", 14923 bytes, 14.29Kbyte/sec
+Fri Sep 25 05:58:22 2020 [pid 4842] CONNECT: Client "::ffff:192.168.1.4"
+Fri Sep 25 05:58:22 2020 [pid 4841] [scc] OK LOGIN: Client "::ffff:192.168.1.4"
+Fri Sep 25 05:58:23 2020 [pid 4843] [scc] OK UPLOAD: Client "::ffff:192.168.1.4", "/data/CR3000Data/stats.csv", 7554 bytes, 13.92Kbyte/sec
+Fri Sep 25 07:58:20 2020 [pid 5931] CONNECT: Client "::ffff:192.168.1.4"
+Fri Sep 25 07:58:20 2020 [pid 5930] [scc] OK LOGIN: Client "::ffff:192.168.1.4"
+Fri Sep 25 07:58:22 2020 [pid 5932] [scc] OK UPLOAD: Client "::ffff:192.168.1.4", "/data/CR3000Data/FCRmet.csv", 14564 bytes, 13.98Kbyte/sec
+Fri Sep 25 07:58:22 2020 [pid 5934] CONNECT: Client "::ffff:192.168.1.4"
+Fri Sep 25 07:58:22 2020 [pid 5933] [scc] OK LOGIN: Client "::ffff:192.168.1.4"
+Fri Sep 25 07:58:23 2020 [pid 5935] [scc] OK UPLOAD: Client "::ffff:192.168.1.4", "/data/CR3000Data/stats.csv", 7546 bytes, 13.77Kbyte/sec
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   59G   16G   41G  28% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  201M   56G   1% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  29      ▂___  --       
+
+
+enx0015ff025968:
+100.102.209.161/30
+
+
+ipop:
+192.168.10.11/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=77.0 ms
