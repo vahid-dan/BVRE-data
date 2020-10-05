@@ -71477,3 +71477,101 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 rtt min/avg/max/mdev = 74.072/76.975/81.524/3.272 ms
 
 
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2021ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2024ms
+
+
+
+PING github.com (140.82.114.3) 56(84) bytes of data.
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=1 ttl=50 time=45.1 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=2 ttl=50 time=45.3 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=3 ttl=50 time=41.8 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 41.898/44.126/45.362/1.588 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=54 time=45.9 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=54 time=42.8 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=54 time=38.1 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 38.176/42.342/45.981/3.212 ms
+
+############################ bjorn - 10/05/20 11:52:30 EST ############################
+
+ 11:52:30 up 5 min,  0 users,  load average: 0.32, 0.18, 0.09
+
+
+reboot   system boot  5.3.0-53-generic Mon Oct  5 11:47   still running
+reboot   system boot  5.3.0-53-generic Mon Oct  5 11:30 - 11:43  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Oct  5 11:00 - 11:13  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Oct  5 09:49 - 11:13  (01:24)
+
+
+
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    6.729328] rndis_host 1-6:1.0 enx0015ff025968: renamed from eth0
+
+
+[    7.890025] audit: type=1400 audit(1601916449.723:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=722 comm="apparmor_parser"
+[    7.890032] audit: type=1400 audit(1601916449.723:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=722 comm="apparmor_parser"
+[    7.890035] audit: type=1400 audit(1601916449.723:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=722 comm="apparmor_parser"
+[    7.890038] audit: type=1400 audit(1601916449.723:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=722 comm="apparmor_parser"
+[    7.891179] audit: type=1400 audit(1601916449.727:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=729 comm="apparmor_parser"
+[    8.704593] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    8.704596] Bluetooth: BNEP filters: protocol multicast
+[    8.704603] Bluetooth: BNEP socket layer initialized
+[   11.142917] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   11.143173] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   14G   14G  50% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  337M   56G   1% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  70      ▂▄▆_  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  64      ▂▄▆_  WPA2     
+        CR6_13030               Infra  1     54 Mbit/s   30      ▂___  --       
+
+
+enx0015ff025968:
+100.102.202.63/25
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=69.9 ms
