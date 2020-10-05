@@ -14754,3 +14754,7 @@ fatal: not a git repository (or any of the parent directories): .git
 Logs:
 
 Already up to date.
+[bjorn-logs 968f702] 10/05/20 09:54:22 EST: Logs
+ 3 files changed, 29 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   2187331..968f702  bjorn-logs -> bjorn-logs
