@@ -71583,3 +71583,190 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 rtt min/avg/max/mdev = 69.928/72.188/75.513/2.411 ms
 
 
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2017ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2053ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING github.com (140.82.113.4) 56(84) bytes of data.
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=1 ttl=49 time=47.6 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=2 ttl=49 time=48.2 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=3 ttl=49 time=44.8 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 44.894/46.915/48.217/1.470 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=36.9 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=37.3 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=48.4 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 36.917/40.891/48.438/5.341 ms
+
+############################ bjorn - 10/05/20 12:00:01 EST ############################
+
+ 12:00:01 up 12 min,  1 user,  load average: 0.01, 0.08, 0.08
+
+
+reboot   system boot  5.3.0-53-generic Mon Oct  5 11:47   still running
+reboot   system boot  5.3.0-53-generic Mon Oct  5 11:30 - 11:43  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Oct  5 11:00 - 11:13  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Oct  5 09:49 - 11:13  (01:24)
+
+
+
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    6.729328] rndis_host 1-6:1.0 enx0015ff025968: renamed from eth0
+
+
+[    7.890035] audit: type=1400 audit(1601916449.723:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=722 comm="apparmor_parser"
+[    7.890038] audit: type=1400 audit(1601916449.723:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=722 comm="apparmor_parser"
+[    7.891179] audit: type=1400 audit(1601916449.727:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=729 comm="apparmor_parser"
+[    8.704593] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    8.704596] Bluetooth: BNEP filters: protocol multicast
+[    8.704603] Bluetooth: BNEP socket layer initialized
+[   11.142917] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   11.143173] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[  368.408166] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[  372.360996] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   14G   14G  50% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  338M   56G   1% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  65      ▂▄▆_  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  40      ▂▄__  WPA2     
+        CR6_13030               Infra  1     54 Mbit/s   29      ▂___  --       
+
+
+enx0015ff025968:
+100.102.202.63/25
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=70.4 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=66.7 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=79.0 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 66.779/72.092/79.073/5.164 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2050ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+
+############################ bjorn - 10/05/20 12:45:30 EST ############################
+
+ 12:45:30 up 5 min,  1 user,  load average: 0.81, 0.59, 0.27
+
+
+reboot   system boot  5.3.0-53-generic Mon Oct  5 12:40   still running
+reboot   system boot  5.3.0-53-generic Mon Oct  5 11:47 - 12:00  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Oct  5 11:30 - 11:43  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Oct  5 11:00 - 11:13  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Oct  5 09:49 - 11:13  (01:24)
+
+
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    6.932540] rndis_host 1-6:1.0 enx0015ff025968: renamed from eth0
+
+
+[   11.391991] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   12.719361] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   14.335746] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   45.488108] kauditd_printk_skb: 39 callbacks suppressed
+[   45.488110] audit: type=1400 audit(1601919667.239:51): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/9993/usr/lib/snapd/snap-confine" pid=1983 comm="apparmor_parser"
+[   45.488118] audit: type=1400 audit(1601919667.239:52): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/9993/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1983 comm="apparmor_parser"
+[   46.433953] audit: type=1400 audit(1601919668.175:53): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=1986 comm="apparmor_parser"
+[   47.078316] audit: type=1400 audit(1601919668.813:54): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=1985 comm="apparmor_parser"
+[   47.087311] audit: type=1400 audit(1601919668.821:55): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=1988 comm="apparmor_parser"
+[   47.089613] audit: type=1400 audit(1601919668.825:56): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=1989 comm="apparmor_parser"
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   14G   14G  50% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  339M   56G   1% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  67      ▂▄▆_  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  54      ▂▄__  WPA2     
+        CR6_13030               Infra  1     54 Mbit/s   29      ▂___  --       
+
+
+enx0015ff025968:
+100.92.172.54/30
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=73.5 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=79.2 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=73.2 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 73.242/75.339/79.242/2.762 ms
+
+
