@@ -11138,3 +11138,15 @@
 2020-10-05 09:54:22 64 bytes from 8.8.8.8: icmp_seq=1 ttl=111 time=44.7 ms
 2020-10-05 09:55:22 64 bytes from 8.8.8.8: icmp_seq=2 ttl=111 time=52.2 ms
 2020-10-05 09:56:22 64 bytes from 8.8.8.8: icmp_seq=3 ttl=111 time=43.7 ms
+2020-10-05 09:57:22 64 bytes from 8.8.8.8: icmp_seq=4 ttl=111 time=44.5 ms
+2020-10-05 09:58:22 64 bytes from 8.8.8.8: icmp_seq=5 ttl=111 time=52.7 ms
+2020-10-05 09:59:22 64 bytes from 8.8.8.8: icmp_seq=6 ttl=111 time=34.7 ms
+2020-10-05 10:00:22 64 bytes from 8.8.8.8: icmp_seq=7 ttl=111 time=36.1 ms
+2020-10-05 10:01:22 64 bytes from 8.8.8.8: icmp_seq=8 ttl=111 time=45.9 ms
+2020-10-05 10:02:22 64 bytes from 8.8.8.8: icmp_seq=9 ttl=111 time=36.7 ms
+2020-10-05 10:03:22 64 bytes from 8.8.8.8: icmp_seq=10 ttl=111 time=44.5 ms
+2020-10-05 10:04:22 64 bytes from 8.8.8.8: icmp_seq=11 ttl=111 time=45.3 ms
+2020-10-05 10:05:22 64 bytes from 8.8.8.8: icmp_seq=12 ttl=111 time=40.0 ms
+2020-10-05 10:06:22 64 bytes from 8.8.8.8: icmp_seq=13 ttl=111 time=47.0 ms
+2020-10-05 10:07:22 64 bytes from 8.8.8.8: icmp_seq=14 ttl=111 time=37.9 ms
+2020-10-05 10:08:23 64 bytes from 8.8.8.8: icmp_seq=15 ttl=111 time=43.1 ms
