@@ -14741,3 +14741,16 @@ Already up to date.
  3 files changed, 75 insertions(+)
 To github.com:FLARE-forecast/BVRE-data.git
    8f9659c..e5208dd  bjorn-logs -> bjorn-logs
+
+############################ bjorn - 10/05/20 09:54:22 EST ############################
+
+Data:
+
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+
+Logs:
+
+Already up to date.
