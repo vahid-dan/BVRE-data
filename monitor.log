@@ -72671,3 +72671,73 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 39.334/45.151/49.754/4.346 ms
+
+############################ bjorn - 10/07/20 14:19:33 EST ############################
+
+ 14:19:33 up 4 min,  0 users,  load average: 0.05, 0.17, 0.08
+
+
+reboot   system boot  5.3.0-53-generic Wed Oct  7 14:15   still running
+reboot   system boot  5.3.0-53-generic Wed Oct  7 12:15 - 12:28  (00:13)
+reboot   system boot  5.3.0-53-generic Wed Oct  7 08:15 - 08:28  (00:13)
+reboot   system boot  5.3.0-53-generic Wed Oct  7 00:15 - 00:28  (00:13)
+reboot   system boot  5.3.0-53-generic Tue Oct  6 14:15 - 14:28  (00:13)
+
+
+
+
+Bus 001 Device 005: ID 1410:9030 Novatel Wireless 
+
+
+[    6.811059] rndis_host 1-6:1.0 enx0015ff025968: renamed from eth0
+[  178.195138] rndis_host 1-6:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+[  201.087889] rndis_host 1-6:1.0 enx0015ff025968: renamed from eth0
+
+
+[  178.195138] rndis_host 1-6:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+[  201.007726] usb 1-6: new high-speed USB device number 5 using xhci_hcd
+[  201.030824] usb 1-6: New USB device found, idVendor=1410, idProduct=9030, bcdDevice= 3.10
+[  201.030832] usb 1-6: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  201.030837] usb 1-6: Product: MiFi USB730L
+[  201.030842] usb 1-6: Manufacturer: Novatel Wireless
+[  201.030846] usb 1-6: SerialNumber: 0123456789ABCDEF
+[  201.055205] rndis_host 1-6:1.0 eth0: register 'rndis_host' at usb-0000:00:15.0-6, RNDIS device, 00:15:ff:02:59:68
+[  201.069224] hid-generic 0003:1410:9030.0002: hiddev0,hidraw0: USB HID v1.01 Device [Novatel Wireless MiFi USB730L] on usb-0000:00:15.0-6/input2
+[  201.087889] rndis_host 1-6:1.0 enx0015ff025968: renamed from eth0
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   14G   14G  51% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  370M   56G   1% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  37      ▂▄__  --       
+
+
+enx0015ff025968:
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2050ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
