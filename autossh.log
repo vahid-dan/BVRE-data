@@ -69292,3 +69292,13 @@ b"
 ############################ bjorn - 10/08/20 14:20:01 EST ############################
 
 2020/10/08 14:20:01 autossh[2320]: bind on 127.0.0.1:61001: Address already in use
+2020/10/08 14:20:11 autossh[1951]: starting ssh (count 10)
+2020/10/08 14:20:11 autossh[1951]: ssh child pid is 2336
+2020/10/08 14:20:11 autossh[1951]: check on child 2336
+2020/10/08 14:20:11 autossh[1951]: set alarm for 441 secs
+2020/10/08 14:20:11 autossh[2336]: execing /usr/bin/ssh
+2020/10/08 14:20:11 autossh[1951]: check on child 2336
+2020/10/08 14:20:11 autossh[1951]: ssh exited with error status 255; restarting ssh
+2020/10/08 14:20:11 autossh[1951]: expired child, returning 1
+2020/10/08 14:20:11 autossh[1951]: checking for grace period, tries = 9
+2020/10/08 14:20:11 autossh[1951]: sleeping for grace time 32 secs
