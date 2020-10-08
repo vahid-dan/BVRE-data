@@ -11393,3 +11393,8 @@
 2020-10-08 12:24:32 64 bytes from 8.8.8.8: icmp_seq=6 ttl=111 time=45.3 ms
 2020-10-08 12:25:32 64 bytes from 8.8.8.8: icmp_seq=7 ttl=111 time=42.8 ms
 2020-10-08 12:26:32 64 bytes from 8.8.8.8: icmp_seq=8 ttl=111 time=43.6 ms
+2020-10-08 12:27:32 64 bytes from 8.8.8.8: icmp_seq=9 ttl=111 time=38.1 ms
+2020-10-08 12:28:32 64 bytes from 8.8.8.8: icmp_seq=10 ttl=111 time=37.5 ms
+
+############## bjorn - 10/08/20 14:19:32 EST -0500 ##############
+
