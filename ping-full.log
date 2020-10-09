@@ -11431,3 +11431,10 @@
 
 2020-10-09 12:19:34 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 2020-10-09 12:19:34 64 bytes from 8.8.8.8: icmp_seq=1 ttl=111 time=44.0 ms
+2020-10-09 12:20:34 64 bytes from 8.8.8.8: icmp_seq=2 ttl=111 time=42.4 ms
+2020-10-09 12:21:34 64 bytes from 8.8.8.8: icmp_seq=3 ttl=111 time=36.7 ms
+2020-10-09 12:22:34 64 bytes from 8.8.8.8: icmp_seq=4 ttl=111 time=35.9 ms
+2020-10-09 12:23:34 64 bytes from 8.8.8.8: icmp_seq=5 ttl=111 time=51.0 ms
+2020-10-09 12:24:34 64 bytes from 8.8.8.8: icmp_seq=6 ttl=111 time=42.7 ms
+2020-10-09 12:25:34 64 bytes from 8.8.8.8: icmp_seq=7 ttl=111 time=49.6 ms
+2020-10-09 12:26:34 64 bytes from 8.8.8.8: icmp_seq=8 ttl=111 time=47.8 ms
