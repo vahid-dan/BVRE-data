@@ -73773,3 +73773,10 @@ enp2s0:
 PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=59.1 ms
 64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=67.1 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=66.4 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 59.162/64.239/67.155/3.603 ms
+
+
