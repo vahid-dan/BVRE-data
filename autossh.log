@@ -69893,3 +69893,27 @@ b"
 ############################ bjorn - 10/10/20 00:25:01 EST ############################
 
 2020/10/10 00:25:02 autossh[2316]: bind on 127.0.0.1:61001: Address already in use
+2020/10/10 00:27:49 autossh[1945]: timeout polling to accept read connection
+2020/10/10 00:27:49 autossh[1945]: port down, restarting ssh
+2020/10/10 00:27:49 autossh[1945]: checking for grace period, tries = 0
+2020/10/10 00:27:49 autossh[1945]: starting ssh (count 11)
+2020/10/10 00:27:49 autossh[1945]: ssh child pid is 2403
+2020/10/10 00:27:49 autossh[1945]: check on child 2403
+2020/10/10 00:27:49 autossh[1945]: set alarm for 600 secs
+2020/10/10 00:27:49 autossh[2403]: execing /usr/bin/ssh
+2020/10/10 00:28:37 autossh[1945]: check on child 2403
+2020/10/10 00:28:37 autossh[1945]: set alarm for 552 secs
+2020/10/10 00:28:37 autossh[1945]: check on child 2403
+2020/10/10 00:28:37 autossh[1945]: set alarm for 552 secs
+2020/10/10 00:28:37 autossh[1945]: check on child 2403
+2020/10/10 00:28:37 autossh[1945]: ssh exited with status 0; autossh exiting
+2020/10/10 00:28:37 autossh[1945]: expired child, returning 2
+
+############################ bjorn - 10/10/20 08:17:37 EST ############################
+
+2020/10/10 08:17:37 autossh[2149]: checking for grace period, tries = 0
+2020/10/10 08:17:37 autossh[2149]: starting ssh (count 1)
+2020/10/10 08:17:37 autossh[2149]: ssh child pid is 2150
+2020/10/10 08:17:37 autossh[2149]: check on child 2150
+2020/10/10 08:17:37 autossh[2149]: set alarm for 600 secs
+2020/10/10 08:17:37 autossh[2150]: execing /usr/bin/ssh
