@@ -75130,3 +75130,68 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2002ms
 rtt min/avg/max/mdev = 34.716/40.776/44.788/4.365 ms
+
+############################ bjorn - 10/13/20 12:19:36 EST ############################
+
+ 12:19:36 up 4 min,  0 users,  load average: 0.82, 0.53, 0.23
+
+
+reboot   system boot  5.3.0-53-generic Tue Oct 13 12:15   still running
+reboot   system boot  5.3.0-53-generic Tue Oct 13 08:15 - 08:28  (00:13)
+reboot   system boot  5.3.0-53-generic Tue Oct 13 00:15 - 00:28  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Oct 12 14:15 - 14:28  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Oct 12 12:15 - 12:28  (00:13)
+
+
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    6.366452] rndis_host 1-6:1.0 enx0015ff025968: renamed from eth0
+
+
+[    7.551457] audit: type=1400 audit(1602609336.391:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=733 comm="apparmor_parser"
+[    7.551460] audit: type=1400 audit(1602609336.391:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=733 comm="apparmor_parser"
+[    7.551464] audit: type=1400 audit(1602609336.391:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=733 comm="apparmor_parser"
+[    8.527909] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    8.527911] Bluetooth: BNEP filters: protocol multicast
+[    8.527918] Bluetooth: BNEP socket layer initialized
+[   10.823861] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   10.824110] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   12.303395] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   13.964013] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   14G   14G  51% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  462M   55G   1% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  34      ▂▄__  --       
+
+
+enx0015ff025968:
+100.69.45.219/29
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=72.2 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=79.0 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=77.5 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 72.228/76.286/79.054/2.941 ms
+
+
