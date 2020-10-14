@@ -75782,3 +75782,72 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 37.449/38.752/40.454/1.278 ms
+
+############################ bjorn - 10/14/20 12:19:38 EST ############################
+
+ 12:19:38 up 4 min,  0 users,  load average: 0.12, 0.19, 0.09
+
+
+reboot   system boot  5.3.0-53-generic Wed Oct 14 12:15   still running
+reboot   system boot  5.3.0-53-generic Wed Oct 14 10:15 - 10:28  (00:13)
+reboot   system boot  5.3.0-53-generic Wed Oct 14 09:15 - 09:28  (00:13)
+reboot   system boot  5.3.0-53-generic Wed Oct 14 08:15 - 08:28  (00:13)
+reboot   system boot  5.3.0-53-generic Wed Oct 14 00:15 - 00:30  (00:14)
+
+
+
+
+Bus 002 Device 003: ID 1410:b020 Novatel Wireless 
+
+
+[    6.803223] rndis_host 2-6:1.0 enx0015ff357651: renamed from eth0
+
+
+[    7.997414] audit: type=1400 audit(1602695737.839:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=731 comm="apparmor_parser"
+[    7.997418] audit: type=1400 audit(1602695737.839:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=731 comm="apparmor_parser"
+[    7.997421] audit: type=1400 audit(1602695737.839:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=731 comm="apparmor_parser"
+[    9.117402] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    9.117404] Bluetooth: BNEP filters: protocol multicast
+[    9.117412] Bluetooth: BNEP socket layer initialized
+[   11.255949] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   11.256170] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   11.599490] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   13.475906] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   14G   14G  51% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  486M   55G   1% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  72      ▂▄▆_  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  62      ▂▄▆_  WPA2     
+        CR6_13030               Infra  1     54 Mbit/s   32      ▂▄__  --       
+
+
+enx0015ff357651:
+192.168.1.7/24
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=65.2 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=70.7 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=93.0 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 65.254/76.325/93.020/12.014 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=85.4 ms
