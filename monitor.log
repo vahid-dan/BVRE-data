@@ -76006,3 +76006,69 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 40.996/44.738/49.524/3.558 ms
+
+############################ bjorn - 10/15/20 08:19:39 EST ############################
+
+ 08:19:39 up 4 min,  0 users,  load average: 0.23, 0.38, 0.18
+
+
+reboot   system boot  5.3.0-53-generic Thu Oct 15 08:15   still running
+reboot   system boot  5.3.0-53-generic Thu Oct 15 00:15 - 00:28  (00:13)
+reboot   system boot  5.3.0-53-generic Wed Oct 14 12:15 - 12:28  (00:13)
+reboot   system boot  5.3.0-53-generic Wed Oct 14 10:15 - 10:28  (00:13)
+reboot   system boot  5.3.0-53-generic Wed Oct 14 09:15 - 09:28  (00:13)
+
+
+
+
+Bus 002 Device 002: ID 1410:b010 Novatel Wireless 
+
+
+
+
+[   10.427850] usb 2-6: Manufacturer: Novatel Wireless
+[   10.427852] usb 2-6: SerialNumber: 0123456789ABCDEF
+[   10.592993] hidraw: raw HID events driver (C) Jiri Kosina
+[   10.609051] usbcore: registered new interface driver usbhid
+[   10.609054] usbhid: USB HID core driver
+[   10.618906] hid-generic 0003:1410:B010.0001: hiddev0,hidraw0: USB HID v1.01 Device [Novatel Wireless MiFi 8800L] on usb-0000:00:15.0-6/input0
+[   12.511534] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   12.511756] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   13.571126] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   15.375521] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   14G   14G  51% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  493M   55G   1% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  30      ▂___  --       
+
+
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2051ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
