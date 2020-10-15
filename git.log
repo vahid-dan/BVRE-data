@@ -16829,3 +16829,10 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[bjorn-logs 9c97a2a] 10/15/20 10:19:40 EST: Logs
+ 5 files changed, 239 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
