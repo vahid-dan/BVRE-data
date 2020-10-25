@@ -80455,3 +80455,16 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 rtt min/avg/max/mdev = 71.911/104.054/147.348/31.791 ms
 
 
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=125 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=284 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=144 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+rtt min/avg/max/mdev = 125.950/185.136/284.789/70.878 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=117 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=95.7 ms
