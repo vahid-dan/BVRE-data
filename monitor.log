@@ -80939,3 +80939,68 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 40.143/43.621/47.355/2.954 ms
+
+############################ bjorn - 10/26/20 12:19:56 EST ############################
+
+ 12:19:56 up 4 min,  0 users,  load average: 0.18, 0.26, 0.12
+
+
+reboot   system boot  5.3.0-53-generic Mon Oct 26 12:15   still running
+reboot   system boot  5.3.0-53-generic Mon Oct 26 09:35 - 09:49  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Oct 26 08:15 - 08:28  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Oct 26 00:15 - 00:28  (00:13)
+reboot   system boot  5.3.0-53-generic Sun Oct 25 12:15 - 12:28  (00:13)
+
+
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    7.036257] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[    8.349655] audit: type=1400 audit(1603732555.187:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=730 comm="apparmor_parser"
+[    8.349661] audit: type=1400 audit(1603732555.187:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=730 comm="apparmor_parser"
+[    8.349665] audit: type=1400 audit(1603732555.187:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=730 comm="apparmor_parser"
+[    8.349668] audit: type=1400 audit(1603732555.187:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=730 comm="apparmor_parser"
+[    8.350720] audit: type=1400 audit(1603732555.191:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=737 comm="apparmor_parser"
+[    9.548255] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    9.548258] Bluetooth: BNEP filters: protocol multicast
+[    9.548264] Bluetooth: BNEP socket layer initialized
+[   11.763820] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   11.764072] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   14G   14G  51% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  721M   55G   2% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  40      ▂▄__  --       
+
+
+enx0015ff025968:
+100.94.23.227/29
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=68.1 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=120 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=223 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 68.108/137.329/223.380/64.496 ms
+
+
