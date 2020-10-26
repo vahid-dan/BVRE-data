@@ -80807,3 +80807,28 @@ PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
 rtt min/avg/max/mdev = 88.369/102.925/117.781/12.012 ms
 
 
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2048ms
+
+
+
+PING github.com (140.82.113.4) 56(84) bytes of data.
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=1 ttl=47 time=45.0 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=2 ttl=47 time=51.5 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=3 ttl=47 time=40.2 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 40.225/45.638/51.595/4.664 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=42.3 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=50.3 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=49.1 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 42.379/47.294/50.356/3.510 ms
