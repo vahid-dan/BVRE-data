@@ -19797,3 +19797,9 @@ To github.com:FLARE-forecast/BVRE-data.git
 Logs:
 
 Already up to date.
+[bjorn-logs 0fd7956] 10/29/20 00:26:57 EST: Logs
+ 5 files changed, 76 insertions(+)
+remote: fatal error in commit_refs        
+To github.com:FLARE-forecast/BVRE-data.git
+ ! [remote rejected] bjorn-logs -> bjorn-logs (failure)
+error: failed to push some refs to 'git@github.com:FLARE-forecast/BVRE-data.git'
