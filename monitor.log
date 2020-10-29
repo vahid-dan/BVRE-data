@@ -81660,3 +81660,20 @@ rtt min/avg/max/mdev = 73.678/114.707/163.745/37.205 ms
 PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
 64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=66.6 ms
 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=76.0 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=66.1 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+rtt min/avg/max/mdev = 66.101/69.611/76.066/4.570 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=53.0 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=83.4 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=102 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 53.015/79.546/102.162/20.255 ms
+
+
