@@ -20037,3 +20037,8 @@ Already up to date.
  1 file changed, 12 insertions(+)
 To github.com:FLARE-forecast/BVRE-data.git
    5243997..3ff6a17  bjorn-logs -> bjorn-logs
+[bjorn-logs a142f1e] 10/31/20 12:27:01 EST: Logs
+ 1 file changed, 4 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+ ! [remote rejected] bjorn-logs -> bjorn-logs (cannot lock ref 'refs/heads/bjorn-logs': is at 3ff6a17ff851e97bb063d14598b136d7302f2b1d but expected 52439974cfecf70bbdf99625e1f9bf06dc112d6c)
+error: failed to push some refs to 'git@github.com:FLARE-forecast/BVRE-data.git'
