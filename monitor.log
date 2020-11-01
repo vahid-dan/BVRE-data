@@ -82333,3 +82333,59 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 40.875/45.073/52.489/5.264 ms
+
+############################ bjorn - 11/01/20 09:40:02 EST ############################
+
+ 09:40:02 up 4 min,  0 users,  load average: 0.10, 0.16, 0.08
+
+
+reboot   system boot  5.3.0-53-generic Sun Nov  1 09:35   still running
+reboot   system boot  5.3.0-53-generic Sun Nov  1 08:15 - 08:29  (00:13)
+
+wtmp begins Sun Nov  1 00:29:04 2020
+
+
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    7.555039] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[    9.075248] audit: type=1400 audit(1604241361.915:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=733 comm="apparmor_parser"
+[    9.075251] audit: type=1400 audit(1604241361.915:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=733 comm="apparmor_parser"
+[    9.075254] audit: type=1400 audit(1604241361.915:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=733 comm="apparmor_parser"
+[   10.603701] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   10.603704] Bluetooth: BNEP filters: protocol multicast
+[   10.603716] Bluetooth: BNEP socket layer initialized
+[   12.612365] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   12.612629] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   13.127228] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   15.079720] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  52% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  824M   55G   2% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  30      ▂___  --       
+
+
+enx0015ff025968:
+100.67.83.50/30
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=446 ms
