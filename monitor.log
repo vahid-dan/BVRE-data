@@ -82943,3 +82943,23 @@ enp2s0:
 PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=69.5 ms
 64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=269 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=480 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 69.578/273.161/480.420/167.746 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=107 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=102 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=111 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 102.544/106.961/111.290/3.581 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=91.7 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=85.6 ms
