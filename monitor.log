@@ -82665,3 +82665,60 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 30.704/35.509/40.293/3.914 ms
+
+############################ bjorn - 11/02/20 08:20:07 EST ############################
+
+ 08:20:08 up 4 min,  0 users,  load average: 0.32, 0.52, 0.26
+
+
+reboot   system boot  5.3.0-53-generic Mon Nov  2 08:15   still running
+reboot   system boot  5.3.0-53-generic Mon Nov  2 00:15 - 00:29  (00:13)
+reboot   system boot  5.3.0-53-generic Sun Nov  1 12:15 - 12:29  (00:13)
+reboot   system boot  5.3.0-53-generic Sun Nov  1 09:35 - 09:49  (00:13)
+reboot   system boot  5.3.0-53-generic Sun Nov  1 08:15 - 08:29  (00:13)
+
+
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    8.489548] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[   14.498754] RBP: ffffa8c1808af810 R08: 0000000000000000 R09: 0000000000000080
+[   14.498757] R10: ffffa8c1808af938 R11: 0000000000000080 R12: ffff8d9d74bc0540
+[   14.498760] R13: ffff8d9d7ab0e758 R14: 0000000000000001 R15: 0000000000000001
+[   14.498764] FS:  00007fe9bad4cdc0(0000) GS:ffff8d9d7bb00000(0000) knlGS:0000000000000000
+[   14.498768] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   14.498771] CR2: ffffa8c1808b0000 CR3: 0000000174bfa000 CR4: 00000000003406e0
+[   15.636383] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   15.636636] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   21.287909] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   22.932427] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  52% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  839M   55G   2% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  32      ▂▄__  --       
+
+
+enx0015ff025968:
+100.89.242.96/26
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=112 ms
