@@ -82995,3 +82995,60 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 34.451/48.275/59.669/10.439 ms
+
+############################ bjorn - 11/03/20 00:20:04 EST ############################
+
+ 00:20:04 up 4 min,  0 users,  load average: 0.39, 0.44, 0.20
+
+
+reboot   system boot  5.3.0-53-generic Tue Nov  3 00:15   still running
+reboot   system boot  5.3.0-53-generic Mon Nov  2 12:15 - 12:29  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Nov  2 09:35 - 12:29  (02:53)
+reboot   system boot  5.3.0-53-generic Mon Nov  2 08:15 - 08:29  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Nov  2 00:15 - 00:29  (00:13)
+
+
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    6.725722] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[    9.622104] Bluetooth: BNEP filters: protocol multicast
+[    9.622116] Bluetooth: BNEP socket layer initialized
+[   11.612125] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   11.720760] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   12.063687] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   13.948210] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[  111.899616] iTCO_vendor_support: vendor-support=0
+[  111.903177] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[  111.903228] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[  111.903417] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  52% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  855M   55G   2% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  32      ▂▄__  --       
+
+
+enx0015ff025968:
+100.94.132.84/29
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=302 ms
