@@ -85424,3 +85424,45 @@ reboot   system boot  5.3.0-53-generic Sat Nov  7 12:16 - 12:29  (00:13)
 reboot   system boot  5.3.0-53-generic Sat Nov  7 09:36 - 09:49  (00:13)
 
 
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    8.068678] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[   11.484938] Bluetooth: BNEP filters: protocol multicast
+[   11.484945] Bluetooth: BNEP socket layer initialized
+[   13.214844] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   13.215079] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   13.675867] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   15.330812] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[  113.228066] iTCO_vendor_support: vendor-support=0
+[  113.232673] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[  113.232748] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[  113.235868] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  52% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  949M   55G   2% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  34      ▂▄__  --       
+
+
+enx0015ff025968:
+100.111.237.47/27
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
