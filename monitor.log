@@ -86196,3 +86196,59 @@ reboot   system boot  5.3.0-53-generic Mon Nov  9 09:36 - 09:49  (00:13)
 reboot   system boot  5.3.0-53-generic Mon Nov  9 08:16 - 08:29  (00:13)
 
 
+
+
+Bus 001 Device 005: ID 1410:9030 Novatel Wireless 
+
+
+[    6.812205] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+[  104.543305] rndis_host 1-5:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-5, RNDIS device
+[  105.414381] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[  104.543305] rndis_host 1-5:1.0 enx0015ff025968: unregister 'rndis_host' usb-0000:00:15.0-5, RNDIS device
+[  105.330900] usb 1-5: new high-speed USB device number 5 using xhci_hcd
+[  105.359436] usb 1-5: New USB device found, idVendor=1410, idProduct=9030, bcdDevice= 3.10
+[  105.359444] usb 1-5: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  105.359449] usb 1-5: Product: MiFi USB730L
+[  105.359453] usb 1-5: Manufacturer: Novatel Wireless
+[  105.359458] usb 1-5: SerialNumber: 0123456789ABCDEF
+[  105.381287] rndis_host 1-5:1.0 eth0: register 'rndis_host' at usb-0000:00:15.0-5, RNDIS device, 00:15:ff:02:59:68
+[  105.383684] hid-generic 0003:1410:9030.0002: hiddev0,hidraw0: USB HID v1.01 Device [Novatel Wireless MiFi USB730L] on usb-0000:00:15.0-5/input2
+[  105.414381] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   14G   14G  51% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  976M   55G   2% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  32      ▂▄__  --       
+
+
+enx0015ff025968:
+100.71.121.95/26
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=169 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=742 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=533 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 169.734/481.849/742.390/236.614 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=78.7 ms
