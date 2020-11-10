@@ -86482,3 +86482,39 @@ rtt min/avg/max/mdev = 59.499/66.611/77.871/8.056 ms
 
 PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
 64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=104 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=116 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=83.0 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 83.073/101.285/116.519/13.820 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=131 ms
+64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=131 ms
+64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=341 ms
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 131.378/201.649/341.823/99.118 ms
+
+
+PING github.com (140.82.114.3) 56(84) bytes of data.
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=1 ttl=50 time=53.9 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=2 ttl=50 time=50.2 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=3 ttl=50 time=34.3 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 34.310/46.163/53.927/8.516 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=113 time=38.7 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=113 time=37.7 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=113 time=52.1 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 37.777/42.863/52.101/6.545 ms
