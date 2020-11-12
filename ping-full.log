@@ -13018,3 +13018,10 @@
 
 2020-11-12 09:40:17 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 2020-11-12 09:40:17 64 bytes from 8.8.8.8: icmp_seq=1 ttl=113 time=39.5 ms
+2020-11-12 09:41:17 64 bytes from 8.8.8.8: icmp_seq=2 ttl=113 time=36.8 ms
+2020-11-12 09:42:17 64 bytes from 8.8.8.8: icmp_seq=3 ttl=113 time=35.2 ms
+2020-11-12 09:43:17 64 bytes from 8.8.8.8: icmp_seq=4 ttl=113 time=46.7 ms
+2020-11-12 09:44:17 64 bytes from 8.8.8.8: icmp_seq=5 ttl=113 time=40.1 ms
+2020-11-12 09:45:17 64 bytes from 8.8.8.8: icmp_seq=6 ttl=113 time=37.5 ms
+2020-11-12 09:46:17 64 bytes from 8.8.8.8: icmp_seq=7 ttl=113 time=50.5 ms
+2020-11-12 09:47:17 64 bytes from 8.8.8.8: icmp_seq=8 ttl=113 time=36.6 ms
