@@ -87581,3 +87581,49 @@ rtt min/avg/max/mdev = 59.418/64.570/73.828/6.566 ms
 
 PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
 64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=52.2 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=58.4 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=67.4 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 52.291/59.409/67.497/6.245 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=118 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=74.6 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=106 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 74.643/99.976/118.670/18.578 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=1467 ms
+64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=1638 ms
+64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=1431 ms
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 1431.625/1512.499/1638.533/90.315 ms, pipe 2
+
+
+PING github.com (140.82.113.3) 56(84) bytes of data.
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=1 ttl=50 time=35.1 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=2 ttl=50 time=41.7 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=3 ttl=50 time=42.2 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 35.151/39.719/42.221/3.239 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=113 time=50.4 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=113 time=40.0 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=113 time=38.1 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 38.103/42.876/50.489/5.440 ms
