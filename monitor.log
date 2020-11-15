@@ -88513,3 +88513,37 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 36.508/38.883/43.598/3.341 ms
+
+############################ bjorn - 11/15/20 09:40:20 EST ############################
+
+ 09:40:20 up 4 min,  0 users,  load average: 0.07, 0.33, 0.17
+
+
+reboot   system boot  5.3.0-53-generic Sun Nov 15 09:36   still running
+reboot   system boot  5.3.0-53-generic Sun Nov 15 08:16 - 08:29  (00:13)
+reboot   system boot  5.3.0-53-generic Sun Nov 15 00:16 - 00:29  (00:13)
+reboot   system boot  5.3.0-53-generic Sat Nov 14 12:16 - 12:29  (00:13)
+reboot   system boot  5.3.0-53-generic Sat Nov 14 09:36 - 09:49  (00:13)
+
+
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    7.172763] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[    8.668585] audit: type=1400 audit(1605450978.503:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=730 comm="apparmor_parser"
+[    8.668589] audit: type=1400 audit(1605450978.503:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=730 comm="apparmor_parser"
+[    8.668592] audit: type=1400 audit(1605450978.503:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=730 comm="apparmor_parser"
+[   10.392852] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   10.392855] Bluetooth: BNEP filters: protocol multicast
+[   10.392862] Bluetooth: BNEP socket layer initialized
+[   12.096310] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   12.096559] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   13.315929] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   14.932329] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+
+
+Filesystem      Size  Used Avail Use% Mounted on
