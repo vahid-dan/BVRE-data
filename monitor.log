@@ -88774,3 +88774,30 @@ Filesystem      Size  Used Avail Use% Mounted on
 
 IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
         CR6_13030  Infra  1     54 Mbit/s  32      ▂▄__  --       
+
+
+enx0015ff025968:
+100.86.146.168/28
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=62.9 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=60.4 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=60.0 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 60.071/61.166/62.935/1.278 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=75.7 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=79.1 ms
