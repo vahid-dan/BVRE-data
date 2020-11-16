@@ -89066,3 +89066,116 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 39.680/41.410/44.577/2.254 ms
+
+############################ bjorn - 11/16/20 12:20:19 EST ############################
+
+ 12:20:19 up 4 min,  0 users,  load average: 0.11, 0.24, 0.11
+
+
+reboot   system boot  5.3.0-53-generic Mon Nov 16 12:16   still running
+reboot   system boot  5.3.0-53-generic Mon Nov 16 09:36 - 09:49  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Nov 16 08:16 - 08:29  (00:13)
+reboot   system boot  5.3.0-53-generic Mon Nov 16 00:16 - 00:29  (00:13)
+reboot   system boot  5.3.0-53-generic Sun Nov 15 12:16 - 12:29  (00:13)
+
+
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    6.832445] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[    8.271071] audit: type=1400 audit(1605546979.111:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=728 comm="apparmor_parser"
+[    8.271075] audit: type=1400 audit(1605546979.111:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=728 comm="apparmor_parser"
+[    8.271079] audit: type=1400 audit(1605546979.111:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=728 comm="apparmor_parser"
+[    9.686906] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    9.686908] Bluetooth: BNEP filters: protocol multicast
+[    9.686915] Bluetooth: BNEP socket layer initialized
+[   11.814790] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   11.826907] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   12.838445] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   14.438885] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  52% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  1.1G   55G   2% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  30      ▂___  --       
+
+
+enx0015ff025968:
+100.108.198.184/28
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=86.0 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=74.8 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=76.2 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 74.867/79.050/86.058/4.986 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=72.2 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=88.5 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=93.4 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 72.242/84.762/93.481/9.077 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=89.7 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=80.3 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=119 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 80.399/96.420/119.124/16.504 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=2651 ms
+64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=2569 ms
+64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=2559 ms
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2047ms
+rtt min/avg/max/mdev = 2559.019/2593.244/2651.125/41.175 ms, pipe 3
+
+
+PING github.com (140.82.113.4) 56(84) bytes of data.
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=1 ttl=50 time=39.9 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=2 ttl=50 time=47.0 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=3 ttl=50 time=45.3 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 39.969/44.101/47.033/3.016 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=113 time=32.6 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=113 time=42.6 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=113 time=38.9 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 32.695/38.065/42.602/4.093 ms
