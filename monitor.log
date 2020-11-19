@@ -90300,3 +90300,65 @@ reboot   system boot  5.3.0-53-generic Wed Nov 18 09:37 - 09:50  (00:13)
 
 
 
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    6.879881] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[    8.219092] audit: type=1400 audit(1605796585.051:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=747 comm="apparmor_parser"
+[    8.219095] audit: type=1400 audit(1605796585.051:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=747 comm="apparmor_parser"
+[    8.222720] audit: type=1400 audit(1605796585.055:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=754 comm="apparmor_parser"
+[    9.437584] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    9.437586] Bluetooth: BNEP filters: protocol multicast
+[    9.437593] Bluetooth: BNEP socket layer initialized
+[   11.542526] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   11.542772] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   13.525987] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   15.246538] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  52% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  1.1G   55G   2% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  32      ▂▄__  --       
+
+
+enx0015ff025968:
+100.97.34.38/30
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=69.4 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=67.8 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=83.0 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 67.854/73.439/83.052/6.827 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=96.5 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=103 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=148 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 96.574/116.030/148.390/23.040 ms
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=70.2 ms
