@@ -92941,3 +92941,65 @@ reboot   system boot  5.3.0-53-generic Tue Nov 24 12:16 - 12:29  (00:13)
 reboot   system boot  5.3.0-53-generic Tue Nov 24 09:36 - 09:49  (00:13)
 
 
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    7.794012] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[   10.260582] audit: type=1400 audit(1606314996.099:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=727 comm="apparmor_parser"
+[   10.260589] audit: type=1400 audit(1606314996.099:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=727 comm="apparmor_parser"
+[   10.260593] audit: type=1400 audit(1606314996.099:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=727 comm="apparmor_parser"
+[   10.260603] audit: type=1400 audit(1606314996.099:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=727 comm="apparmor_parser"
+[   10.264880] audit: type=1400 audit(1606314996.103:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=734 comm="apparmor_parser"
+[   12.491623] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   12.491625] Bluetooth: BNEP filters: protocol multicast
+[   12.491632] Bluetooth: BNEP socket layer initialized
+[   13.776279] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   13.776531] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  52% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  1.2G   55G   3% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  32      ▂▄__  --       
+
+
+enx0015ff025968:
+100.119.96.237/30
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=67.5 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=72.2 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=81.0 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+rtt min/avg/max/mdev = 67.525/73.614/81.042/5.607 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=211 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=112 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=125 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 112.778/149.984/211.784/44.003 ms
+
+
