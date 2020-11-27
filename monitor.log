@@ -93573,3 +93573,60 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 37.822/42.036/49.899/5.564 ms
+
+############################ bjorn - 11/27/20 00:20:36 EST ############################
+
+ 00:20:36 up 4 min,  0 users,  load average: 0.62, 0.56, 0.25
+
+
+reboot   system boot  5.3.0-53-generic Fri Nov 27 00:16   still running
+reboot   system boot  5.3.0-53-generic Thu Nov 26 12:16 - 12:29  (00:13)
+reboot   system boot  5.3.0-53-generic Thu Nov 26 09:36 - 09:49  (00:13)
+reboot   system boot  5.3.0-53-generic Thu Nov 26 08:16 - 08:29  (00:13)
+reboot   system boot  5.3.0-53-generic Thu Nov 26 00:16 - 00:29  (00:13)
+
+
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    6.433464] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[   14.424168] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   53.775711] kauditd_printk_skb: 39 callbacks suppressed
+[   53.775714] audit: type=1400 audit(1606454241.674:51): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-characters.gnome-characters" pid=2074 comm="apparmor_parser"
+[   53.943793] audit: type=1400 audit(1606454241.847:52): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=2072 comm="apparmor_parser"
+[   54.570490] audit: type=1400 audit(1606454242.475:53): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-characters" pid=2073 comm="apparmor_parser"
+[   54.610362] audit: type=1400 audit(1606454242.516:54): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=2071 comm="apparmor_parser"
+[   55.032489] audit: type=1400 audit(1606454242.938:55): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-logs.gnome-logs" pid=2076 comm="apparmor_parser"
+[   55.544930] audit: type=1400 audit(1606454243.457:56): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-logs" pid=2075 comm="apparmor_parser"
+[   56.091481] audit: type=1400 audit(1606454244.008:57): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-system-monitor.gnome-system-monitor" pid=2078 comm="apparmor_parser"
+[   56.394414] audit: type=1400 audit(1606454244.314:58): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-system-monitor" pid=2077 comm="apparmor_parser"
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  52% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  1.3G   55G   3% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  30      ▂___  --       
+
+
+enx0015ff025968:
+100.90.198.76/29
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=96.9 ms
