@@ -94695,3 +94695,100 @@ reboot   system boot  5.3.0-53-generic Sat Nov 28 12:16 - 12:29  (00:13)
 reboot   system boot  5.3.0-53-generic Sat Nov 28 09:36 - 09:49  (00:13)
 
 
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    6.814806] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[    8.113431] audit: type=1400 audit(1606670199.951:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=737 comm="apparmor_parser"
+[    8.113434] audit: type=1400 audit(1606670199.951:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=737 comm="apparmor_parser"
+[    8.118827] audit: type=1400 audit(1606670199.955:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=744 comm="apparmor_parser"
+[    9.297221] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    9.297224] Bluetooth: BNEP filters: protocol multicast
+[    9.297231] Bluetooth: BNEP socket layer initialized
+[   11.457682] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   11.457936] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   12.677143] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   14.264025] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  52% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  1.3G   55G   3% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  32      ▂▄__  --       
+
+
+enx0015ff025968:
+100.64.121.119/28
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=66.4 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=74.6 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=81.6 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 66.401/74.224/81.607/6.223 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2005ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=126 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=168 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=83.2 ms
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2001ms
+rtt min/avg/max/mdev = 83.220/126.117/168.302/34.738 ms
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=147 ms
+64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=134 ms
+64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=128 ms
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 128.665/137.055/147.992/8.098 ms
+
+
+PING github.com (140.82.114.3) 56(84) bytes of data.
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=1 ttl=50 time=38.6 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=2 ttl=50 time=37.6 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=3 ttl=50 time=45.6 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 37.686/40.679/45.674/3.562 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=54 time=30.2 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=54 time=45.1 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=54 time=36.7 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 30.277/37.402/45.155/6.092 ms
