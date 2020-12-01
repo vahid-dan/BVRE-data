@@ -95336,3 +95336,14 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2002ms
 rtt min/avg/max/mdev = 30.371/37.158/41.160/4.827 ms
+
+############################ bjorn - 12/01/20 08:20:46 EST ############################
+
+ 08:20:46 up 4 min,  0 users,  load average: 0.05, 0.23, 0.12
+
+
+reboot   system boot  5.3.0-53-generic Tue Dec  1 08:16   still running
+
+wtmp begins Tue Dec  1 00:29:45 2020
+
+
