@@ -95586,3 +95586,39 @@ Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda1        59G  1.3G   55G   3% /data
 
 
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  32      ▂▄__  --       
+
+
+enx0015ff025968:
+100.64.98.174/30
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=102 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=87.3 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=93.5 ms
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 87.344/94.459/102.500/6.221 ms
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=113 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=104 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=237 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 104.804/151.898/237.623/60.715 ms
+
+
