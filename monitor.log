@@ -95507,3 +95507,11 @@ rtt min/avg/max/mdev = 80.127/83.215/84.949/2.189 ms
 
 PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
 64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=93.0 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=114 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=108 ms
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 93.093/105.260/114.668/9.025 ms
+
+
