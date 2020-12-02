@@ -14102,3 +14102,10 @@
 2020-12-02 00:25:45 64 bytes from 8.8.8.8: icmp_seq=6 ttl=112 time=36.8 ms
 2020-12-02 00:26:45 64 bytes from 8.8.8.8: icmp_seq=7 ttl=112 time=37.1 ms
 2020-12-02 00:27:45 64 bytes from 8.8.8.8: icmp_seq=8 ttl=112 time=39.3 ms
+2020-12-02 00:28:45 64 bytes from 8.8.8.8: icmp_seq=9 ttl=112 time=52.4 ms
+2020-12-02 00:29:45 64 bytes from 8.8.8.8: icmp_seq=10 ttl=112 time=51.5 ms
+
+############## bjorn - 12/02/20 08:23:54 EST -0500 ##############
+
+2020-12-02 08:23:54 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2020-12-02 08:23:54 64 bytes from 8.8.8.8: icmp_seq=1 ttl=111 time=39.6 ms
