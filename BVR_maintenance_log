@@ -9,4 +9,4 @@ BVR, 2020-09-16 11:15:00 EST, 2020-09-16 11:33:00 EST, All_BVR, c(1:44), 1, clea
 BVR, 2020-10-01 15:20:00 EST, 2020-10-01 16:50:00 EST, All_BVR, c(1:44), 1, cleaned sensor string
 BVR, 2020-10-26 12:10:00 EST, 2020-10-26 12:40:00 EST, All_BVR, c(1:44), 1, cleaned sensor string and calibrated DO sensor
 BVR, 2020-10-26 10:28:00 EST, 2020-10-26 10:33:00 EST, All_BVR, c(1:44), 1, cleaned sensor string 
-BVR, 2020-10-22 09:00:00 EST, 2020-12-02 10:33:00 EST, wtr_1, 5, 1, took thermoster from BVR to replace a broken one at FCR
+BVR, 2020-10-22 09:00:00 EST, 2020-12-02 11:30:00 EST, wtr_1, 5, 1, took thermoster from BVR to replace a broken one at FCR
