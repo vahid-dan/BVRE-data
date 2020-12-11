@@ -96503,3 +96503,47 @@ reboot   system boot  5.3.0-53-generic Wed Dec  9 14:01 - 14:15  (00:13)
 reboot   system boot  5.3.0-53-generic Tue Dec  8 14:01 - 14:15  (00:13)
 
 
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    7.436093] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[    8.710741] audit: type=1400 audit(1607698924.547:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=732 comm="apparmor_parser"
+[    8.710746] audit: type=1400 audit(1607698924.547:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=732 comm="apparmor_parser"
+[    8.713557] audit: type=1400 audit(1607698924.547:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=739 comm="apparmor_parser"
+[   10.028485] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   10.028487] Bluetooth: BNEP filters: protocol multicast
+[   10.028494] Bluetooth: BNEP socket layer initialized
+[   12.051736] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   12.051985] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   13.154709] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   14.963134] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  52% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  1.5G   55G   3% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  29      ▂___  --       
+
+
+enx0015ff025968:
+100.75.65.159/26
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=74.1 ms
