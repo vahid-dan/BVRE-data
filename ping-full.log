@@ -14212,3 +14212,5 @@
 2020-12-11 10:11:06 64 bytes from 8.8.8.8: icmp_seq=6 ttl=112 time=34.3 ms
 2020-12-11 10:12:06 64 bytes from 8.8.8.8: icmp_seq=7 ttl=112 time=40.1 ms
 2020-12-11 10:13:06 64 bytes from 8.8.8.8: icmp_seq=8 ttl=112 time=41.9 ms
+2020-12-11 10:14:06 64 bytes from 8.8.8.8: icmp_seq=9 ttl=112 time=45.2 ms
+2020-12-11 10:15:06 64 bytes from 8.8.8.8: icmp_seq=10 ttl=112 time=37.3 ms
