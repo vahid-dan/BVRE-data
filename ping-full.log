@@ -14268,3 +14268,5 @@
 2020-12-13 10:11:08 64 bytes from 8.8.8.8: icmp_seq=6 ttl=112 time=44.4 ms
 2020-12-13 10:12:08 64 bytes from 8.8.8.8: icmp_seq=7 ttl=112 time=52.8 ms
 2020-12-13 10:13:08 64 bytes from 8.8.8.8: icmp_seq=8 ttl=112 time=55.9 ms
+2020-12-13 10:14:08 64 bytes from 8.8.8.8: icmp_seq=9 ttl=112 time=49.5 ms
+2020-12-13 10:15:08 64 bytes from 8.8.8.8: icmp_seq=10 ttl=112 time=47.5 ms
