@@ -97424,3 +97424,29 @@ reboot   system boot  5.3.0-53-generic Mon Dec 14 10:02 - 10:15  (00:13)
 reboot   system boot  5.3.0-53-generic Sun Dec 13 14:02 - 14:15  (00:13)
 
 
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    7.297622] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[    8.669122] audit: type=1400 audit(1608058931.511:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=728 comm="apparmor_parser"
+[    8.669125] audit: type=1400 audit(1608058931.511:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=728 comm="apparmor_parser"
+[    8.669128] audit: type=1400 audit(1608058931.511:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=728 comm="apparmor_parser"
+[    9.589728] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    9.589730] Bluetooth: BNEP filters: protocol multicast
+[    9.589737] Bluetooth: BNEP socket layer initialized
+[   11.975207] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   11.975476] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   17.278848] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Down
+[   18.939244] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  51% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  1.5G   54G   3% /data
+
+
