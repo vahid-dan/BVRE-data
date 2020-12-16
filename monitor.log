@@ -97525,3 +97525,45 @@ reboot   system boot  5.3.0-53-generic Mon Dec 14 14:02 - 14:15  (00:13)
 reboot   system boot  5.3.0-53-generic Mon Dec 14 10:02 - 10:15  (00:13)
 
 
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    7.425191] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[   20.878819] Code: 3d 79 35 74 cb 31 c0 28 e5 e8 61 0f 1f 44 00 a5 e3 b6 43 ba 01 00 00 d2 e6 a5 21 f0 48 0f b1 ff 93 f6 f2 48 8b 04 25 f6 e3 b4 <cb> 5d 48 89 47 e9 f4 7b 59 00 00 c3 31 48 75 18 77 0f 1f 44 00 0a
+[   20.878821] RSP: 0000:ffffae6741497eb8 EFLAGS: 00010282
+[   20.878823] RAX: ffff9b3ff2b79e30 RBX: 0000000000000401 RCX: 00000000316b0007
+[   20.878825] RDX: 0000000000000000 RSI: 0000000000000004 RDI: ffff9b3ff2b79e30
+[   20.878826] RBP: ffffae6741497f18 R08: 0000000000000000 R09: 0000000000000000
+[   20.878828] R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000004
+[   20.878829] R13: 0000000000000054 R14: ffffae6741497f58 R15: ffff9b3ff3a04440
+[   20.878831] FS:  00007f1496670ac0(0000) GS:ffff9b3ffba80000(0000) knlGS:0000000000000000
+[   20.878833] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   20.878835] CR2: 0000000000000401 CR3: 0000000173480000 CR4: 00000000003406e0
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  51% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  1.5G   54G   3% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  29      ▂___  --       
+
+
+enx0015ff025968:
+100.67.9.12/29
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
