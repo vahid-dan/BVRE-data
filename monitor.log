@@ -97727,3 +97727,45 @@ reboot   system boot  5.3.0-53-generic Tue Dec 15 14:02 - 14:15  (00:13)
 reboot   system boot  5.3.0-53-generic Tue Dec 15 10:02 - 10:15  (00:13)
 
 
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    7.209869] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[   52.252947] audit: type=1400 audit(1608217379.372:63): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/10577/usr/lib/snapd/snap-confine" pid=2244 comm="apparmor_parser"
+[   52.270708] audit: type=1400 audit(1608217379.392:64): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/10577/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2244 comm="apparmor_parser"
+[   54.382334] audit: type=1400 audit(1608217381.515:65): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-logs" pid=2248 comm="apparmor_parser"
+[   54.526324] audit: type=1400 audit(1608217381.660:66): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-characters" pid=2247 comm="apparmor_parser"
+[   54.549274] audit: type=1400 audit(1608217381.684:67): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=2246 comm="apparmor_parser"
+[   54.614064] audit: type=1400 audit(1608217381.748:68): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-system-monitor" pid=2249 comm="apparmor_parser"
+[   54.623368] audit: type=1400 audit(1608217381.760:69): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=2262 comm="apparmor_parser"
+[   54.625395] audit: type=1400 audit(1608217381.760:70): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=2263 comm="apparmor_parser"
+[   54.629404] audit: type=1400 audit(1608217381.764:71): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=2264 comm="apparmor_parser"
+[   54.629761] audit: type=1400 audit(1608217381.764:72): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.gnome-characters.gnome-characters" pid=2265 comm="apparmor_parser"
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  51% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  1.5G   54G   3% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  29      ▂___  --       
+
+
+enx0015ff025968:
+100.74.213.95/26
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
