@@ -98232,3 +98232,91 @@ reboot   system boot  5.3.0-53-generic Fri Dec 18 10:02 - 10:15  (00:13)
 reboot   system boot  5.3.0-53-generic Thu Dec 17 14:02 - 14:15  (00:13)
 
 
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    8.322814] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[   24.370163] RBP: ffffbc6e4162fd18 R08: ffff9bd045453dd0 R09: ffff9bd04562cef8
+[   24.370165] R10: 0000000000000001 R11: 0000000000000000 R12: ffff9bd073822000
+[   24.370166] R13: ffff9bd07303d790 R14: 0000000000000000 R15: ffff9bd07303d760
+[   24.370168] FS:  00007f81f684bf00(0000) GS:ffff9bd07bb00000(0000) knlGS:0000000000000000
+[   24.370170] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   24.370172] CR2: 00007f81f6653630 CR3: 000000014399a000 CR4: 00000000003406e0
+[  115.455081] iTCO_vendor_support: vendor-support=0
+[  115.460109] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[  115.460163] iTCO_wdt: Found a Apollo Lake SoC TCO device (Version=5, TCOBASE=0x0460)
+[  115.460368] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  52% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  1.6G   54G   3% /data
+
+
+IN-USE  SSID       MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+        CR6_13030  Infra  1     54 Mbit/s  29      ▂___  --       
+
+
+enx0015ff025968:
+100.101.84.123/29
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2049ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING github.com (140.82.114.3) 56(84) bytes of data.
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=1 ttl=49 time=37.2 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=2 ttl=49 time=38.2 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=3 ttl=49 time=36.5 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 36.560/37.355/38.278/0.724 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=111 time=49.3 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=111 time=57.2 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=111 time=47.3 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 47.385/51.327/57.211/4.247 ms
