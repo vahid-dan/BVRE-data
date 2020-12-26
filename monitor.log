@@ -99543,3 +99543,43 @@ reboot   system boot  5.3.0-53-generic Thu Dec 24 14:02 - 14:15  (00:13)
 reboot   system boot  5.3.0-53-generic Thu Dec 24 10:02 - 10:15  (00:13)
 
 
+
+
+Bus 001 Device 004: ID 1410:9030 Novatel Wireless 
+
+
+[    9.809731] rndis_host 1-5:1.0 enx0015ff025968: renamed from eth0
+
+
+[  175.968196]  process_one_work+0x1fd/0x3f0
+[  175.968202]  worker_thread+0x34/0x410
+[  175.968205]  kthread+0x121/0x140
+[  175.968208]  ? process_one_work+0x3f0/0x3f0
+[  175.968210]  ? kthread_park+0xb0/0xb0
+[  175.968213]  ret_from_fork+0x35/0x40
+[  175.968216] ---[ end trace 161c5e86638306eb ]---
+[  176.086620] iwlwifi 0000:01:00.0: Refused to change power state, currently in D3
+[  176.087825] iwlwifi 0000:01:00.0: HW_REV=0xFFFFFFFF, PCI issues?
+[  176.106896] iwlwifi: probe of 0000:01:00.0 failed with error -5
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  52% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        59G  1.7G   54G   3% /data
+
+
+
+
+enx0015ff025968:
+100.110.131.221/30
+
+
+ipop:
+192.168.10.14/16
+
+
+enp2s0:
+192.168.1.5/24
+
+
