@@ -15391,3 +15391,5 @@
 2021-01-23 10:12:42 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=38.7 ms
 2021-01-23 10:13:43 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=54.8 ms
 2021-01-23 10:14:43 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=51.6 ms
+2021-01-23 10:15:43 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=62.6 ms
+2021-01-23 10:16:43 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=44.3 ms
