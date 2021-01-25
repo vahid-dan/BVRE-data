@@ -5,7 +5,7 @@ BVR, 2020-06-18 17:50:00 EST, 2020-10-05 12:00:00 EST, wtr_13, 17, 1, the bottom
 BVR, 2020-06-25 12:50:00 EST, 2020-06-25 13:40:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
 BVR, 2020-07-02 12:50:00 EST, 2020-07-02 13:10:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
 BVR, 2020-08-13 10:45:00 EST, 2020-08-13 10:52:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
-BVR, 2020-08-17 10:30:00 EST, 2020-08-17 11:00:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
+BVR, 2020-08-17 10:20:00 EST, 2020-08-17 11:00:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
 BVR, 2020-08-20 09:40:00 EST, 2020-08-20 09:50:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
 BVR, 2020-08-26 11:25:00 EST, 2020-08-26 11:33:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
 BVR, 2020-09-09 09:30:00 EST, 2020-09-09 10:00:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning 
