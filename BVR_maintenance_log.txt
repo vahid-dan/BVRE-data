@@ -16,5 +16,7 @@ BVR, 2020-10-01 15:20:00 EST, 2020-10-01 16:50:00 EST, All_BVR, c(1:44), 1, sens
 BVR, 2020-10-05 09:20:00 EST, 2020-10-05 11:50:00 EST, All_BVR, c(1:44), 1, reprogramed the data logger to read the bottom three sensors so no data recorded
 BVR, 2020-10-14 10:55:00 EST, 2020-10-14 11:03:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
 BVR, 2020-10-26 12:10:00 EST, 2020-10-26 13:30:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning and calibrated DO sensor
+BVR, 2020-10-26 12:10:00 EST, 2020-10-30 09:40:00 EST, Lvl_psi, 43, 1, wire into the data logger came loose and did not record data
+BVR, 2020-10-26 12:10:00 EST, 2020-10-30 09:40:00 EST, wtr_pt_13, 44, 1, wire into the data logger came loose and did not record data
 BVR, 2020-11-10 11:28:00 EST, 2020-11-10 11:33:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning 
 BVR, 2020-10-22 09:00:00 EST, 2020-12-02 11:30:00 EST, wtr_1, 5, 1, no thermoster connected took thermoster from BVR to replace a broken one at FCR
