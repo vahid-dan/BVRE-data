@@ -2,20 +2,20 @@ DataStream, TIMESTAMP_start, TIMESTAMP_end, parameter, colnumber, flag, notes
 BVR, 2020-06-18 17:50:00 EST, 2020-10-05 12:00:00 EST, wtr_11, 15, 1, the bottom three sensors were not programed to be read into the datafile
 BVR, 2020-06-18 17:50:00 EST, 2020-10-05 12:00:00 EST, wtr_12, 16, 1, the bottom three sensors were not programed to be read into the datafile
 BVR, 2020-06-18 17:50:00 EST, 2020-10-05 12:00:00 EST, wtr_13, 17, 1, the bottom three sensors were not programed to be read into the datafile
-BVR, 2020-06-25 12:50:00 EST, 2020-06-25 13:50:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
-BVR, 2020-07-02 12:50:00 EST, 2020-07-02 13:10:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
+BVR, 2020-06-25 12:50:00 EST, 2020-06-25 14:00:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
+BVR, 2020-07-02 12:50:00 EST, 2020-07-02 13:20:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
 BVR, 2020-07-23 12:12:00 EST, 2020-07-23 12:21:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
 BVR, 2020-08-06 11:29:00 EST, 2020-08-06 11:41:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
-BVR, 2020-08-13 10:40:00 EST, 2020-08-13 11:00:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
-BVR, 2020-08-17 10:20:00 EST, 2020-08-17 11:00:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
-BVR, 2020-08-20 09:40:00 EST, 2020-08-20 09:50:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
+BVR, 2020-08-13 10:40:00 EST, 2020-08-13 11:20:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
+BVR, 2020-08-17 10:20:00 EST, 2020-08-17 11:20:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
+BVR, 2020-08-20 09:40:00 EST, 2020-08-20 10:00:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
 BVR, 2020-08-26 11:25:00 EST, 2020-08-26 11:40:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
-BVR, 2020-09-09 09:30:00 EST, 2020-09-09 10:00:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning 
-BVR, 2020-09-16 11:15:00 EST, 2020-09-16 12:50:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning and calibrated DO sensors
-BVR, 2020-10-01 15:20:00 EST, 2020-10-01 16:50:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
+BVR, 2020-09-09 09:30:00 EST, 2020-09-09 10:20:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning 
+BVR, 2020-09-16 11:15:00 EST, 2020-09-16 13:10:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning and calibrated DO sensors
+BVR, 2020-10-01 15:20:00 EST, 2020-10-01 17:00:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
 BVR, 2020-10-05 09:20:00 EST, 2020-10-05 11:50:00 EST, All_BVR, c(1:44), 1, reprogramed the data logger to read the bottom three sensors so no data recorded
-BVR, 2020-10-14 10:55:00 EST, 2020-10-14 11:03:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
-BVR, 2020-10-26 12:10:00 EST, 2020-10-26 13:30:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning and calibrated DO sensor
+BVR, 2020-10-14 10:55:00 EST, 2020-10-14 11:10:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning
+BVR, 2020-10-26 12:10:00 EST, 2020-10-26 13:50:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning and calibrated DO sensor
 BVR, 2020-10-26 12:10:00 EST, 2020-10-30 09:40:00 EST, Lvl_psi, 43, 1, wire into the data logger came loose and did not record data
 BVR, 2020-10-26 12:10:00 EST, 2020-10-30 09:40:00 EST, wtr_pt_13, 44, 1, wire into the data logger came loose and did not record data
 BVR, 2020-11-10 11:28:00 EST, 2020-11-10 12:00:00 EST, All_BVR, c(1:44), 1, sensor string up for cleaning 
