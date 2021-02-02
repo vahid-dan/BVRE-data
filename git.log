@@ -31921,3 +31921,32 @@ Already up to date.
  5 files changed, 84 insertions(+)
 To github.com:FLARE-forecast/BVRE-data.git
    9acc27a..63e83a4  bjorn-logs -> bjorn-logs
+[bjorn-logs cf283dc] 02/02/21 10:15:09 EST: Logs
+ 2 files changed, 12 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   63e83a4..cf283dc  bjorn-logs -> bjorn-logs
+
+############################ bjorn - 02/02/21 14:05:01 EST ############################
+
+Data:
+
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[bvre-platform-data 5506c9c] 02/02/21 14:05:01 EST: Git Backup
+ 1 file changed, 8 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
