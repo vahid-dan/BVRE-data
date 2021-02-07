@@ -32544,3 +32544,24 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[bjorn-logs 2500236] 02/07/21 14:05:01 EST: Logs
+ 1 file changed, 7 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+############################ bjorn - 02/07/21 14:08:19 EST ############################
+
+Data:
+
+Already up to date.
+[bvre-platform-data df3108f] 02/07/21 14:08:19 EST: Git Backup
+ 1 file changed, 21 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   6f83271..df3108f  bvre-platform-data -> bvre-platform-data
+
+Logs:
+
+Already up to date.
