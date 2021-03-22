@@ -17360,3 +17360,10 @@
 
 2021-03-22 18:24:44 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 2021-03-22 18:24:44 64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=199 ms
+2021-03-22 18:25:44 64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=71.5 ms
+2021-03-22 18:26:44 64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=199 ms
+2021-03-22 18:27:44 64 bytes from 8.8.8.8: icmp_seq=4 ttl=112 time=52.4 ms
+2021-03-22 18:28:44 64 bytes from 8.8.8.8: icmp_seq=5 ttl=112 time=52.2 ms
+2021-03-22 18:29:44 64 bytes from 8.8.8.8: icmp_seq=6 ttl=112 time=64.1 ms
+2021-03-22 18:30:44 64 bytes from 8.8.8.8: icmp_seq=7 ttl=112 time=253 ms
+2021-03-22 18:31:44 64 bytes from 8.8.8.8: icmp_seq=8 ttl=112 time=58.0 ms
