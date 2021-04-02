@@ -17927,3 +17927,10 @@
 2021-04-01 18:29:56 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=65.8 ms
 2021-04-01 18:30:56 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=41.8 ms
 2021-04-01 18:31:56 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=48.8 ms
+2021-04-01 18:32:56 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=69.1 ms
+2021-04-01 18:33:56 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=63.7 ms
+
+############## bjorn - 04/02/21 00:24:56 EST -0500 ##############
+
+2021-04-02 00:24:56 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2021-04-02 00:24:56 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=218 ms
