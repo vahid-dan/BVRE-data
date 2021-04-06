@@ -18240,3 +18240,10 @@
 
 2021-04-06 18:25:03 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 2021-04-06 18:25:03 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=172 ms
+2021-04-06 18:26:03 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=62.5 ms
+2021-04-06 18:27:03 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=46.3 ms
+2021-04-06 18:28:03 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=46.8 ms
+2021-04-06 18:29:03 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=177 ms
+2021-04-06 18:30:03 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=175 ms
+2021-04-06 18:31:03 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=168 ms
+2021-04-06 18:32:03 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=187 ms
