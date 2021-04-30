@@ -19607,3 +19607,10 @@
 
 2021-04-30 13:25:30 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 2021-04-30 13:25:30 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=218 ms
+2021-04-30 13:26:30 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=67.4 ms
+2021-04-30 13:27:30 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=61.9 ms
+2021-04-30 13:28:30 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=70.4 ms
+2021-04-30 13:29:30 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=216 ms
+2021-04-30 13:30:30 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=196 ms
+2021-04-30 13:31:30 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=187 ms
+2021-04-30 13:32:30 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=47.5 ms
