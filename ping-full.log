@@ -20292,3 +20292,10 @@
 
 2021-05-12 18:25:35 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 2021-05-12 18:25:35 64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=52.4 ms
+2021-05-12 18:26:35 64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=55.0 ms
+2021-05-12 18:27:35 64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=53.5 ms
+2021-05-12 18:28:35 64 bytes from 8.8.8.8: icmp_seq=4 ttl=112 time=61.5 ms
+2021-05-12 18:29:35 64 bytes from 8.8.8.8: icmp_seq=5 ttl=112 time=172 ms
+2021-05-12 18:30:35 64 bytes from 8.8.8.8: icmp_seq=6 ttl=112 time=184 ms
+2021-05-12 18:31:35 64 bytes from 8.8.8.8: icmp_seq=7 ttl=112 time=247 ms
+2021-05-12 18:32:35 64 bytes from 8.8.8.8: icmp_seq=8 ttl=112 time=52.8 ms
