@@ -3652,3 +3652,7 @@ state now, use
 
     git push origin HEAD:<name-of-remote-branch>
 
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
