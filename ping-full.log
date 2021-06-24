@@ -22165,3 +22165,12 @@
 
 2021-06-23 18:27:04 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 2021-06-23 18:27:04 64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=37.6 ms
+2021-06-23 18:32:04 64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=59.0 ms
+2021-06-23 18:37:04 64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=40.8 ms
+2021-06-23 18:42:04 64 bytes from 8.8.8.8: icmp_seq=4 ttl=112 time=49.0 ms
+2021-06-23 18:47:04 64 bytes from 8.8.8.8: icmp_seq=5 ttl=112 time=41.8 ms
+
+############## bjorn - 06/23/21 20:18:03 EST -0500 ##############
+
+2021-06-23 20:18:03 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2021-06-23 20:18:03 64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=41.0 ms
