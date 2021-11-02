@@ -33,24 +33,24 @@ bvrdata= bvrd%>%
   rbind(.,bvrdata1)%>%
   distinct(TIMESTAMP, .keep_all= TRUE) #taking out the duplicate values 
    
-
-mydir = c("CR6Series_BVRplatform_bvre-waterquality_20210531.dat",
-          "CR6Series_BVRplatform_bvre-waterquality_20210726.dat",
-          "CR6Series_BVRplatform_BVRplatform_20210416.dat",
-          "CR6Series_BVRplatform_BVRplatform_20210610.dat")
+mydir = "Manual_Downloads"
+#mydir = c("CR6Series_BVRplatform_bvre-waterquality_20210531.dat",
+#          "CR6Series_BVRplatform_bvre-waterquality_20210726.dat",
+#          "CR6Series_BVRplatform_BVRplatform_20210416.dat",
+#          "CR6Series_BVRplatform_BVRplatform_20210610.dat")
 
 myfiles = list.files(path=mydir, pattern="", full.names=TRUE)#list the files from BVR platform
 
 #taking out the the Temp Test files
-#myfilesBVR <- myfiles[ !grepl("CR6Series_BVRplatform_bvre-waterquality_20210416*", myfiles) ]#exclude the Temp test data
+myfilesBVR <- myfiles[ !grepl("CR6Series_BVRplatform_bvre-waterquality_20210416*", myfiles) ]#exclude the Temp test data
 
 #create dataframe for the for loop
 bvrdata3<-""
 
 #combine all of the files into one data sheet, have to come back and fix this loop
-for(k in 1:length(myfiles)){
-  bvrheader2<-read.csv(myfiles[k], skip=1, as.is=T) #get header minus wonky Campbell rows
-  bvrdata2<-read.csv(myfiles[k], skip=4, header=F) #get data minus wonky Campbell rows
+for(k in 1:length(myfilesBVR)){
+  bvrheader2<-read.csv(myfilesBVR[k], skip=1, as.is=T) #get header minus wonky Campbell rows
+  bvrdata2<-read.csv(myfilesBVR[k], skip=4, header=F) #get data minus wonky Campbell rows
   names(bvrdata2)<-names(bvrheader2) #combine the names to deal with Campbell logger formatting
   bvrdata3=rbind(bvrdata2, bvrdata3)
 }
