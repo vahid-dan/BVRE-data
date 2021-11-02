@@ -65992,3 +65992,49 @@ Already up to date.
  5 files changed, 169 insertions(+)
 To github.com:FLARE-forecast/BVRE-data.git
    dad5265f..f5fd14a9  bjorn-logs -> bjorn-logs
+[bjorn-logs 945b5f89] 11/02/21 13:28:18 EST: Logs
+ 2 files changed, 46 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   f5fd14a9..945b5f89  bjorn-logs -> bjorn-logs
+
+Completed at 11/02/21 13:28:29 EST
+
+
+############################ bjorn - 11/02/21 18:28:18 EST ############################
+
+Data:
+
+From github.com:FLARE-forecast/BVRE-data
+   8864002..87563e8  bvre-platform-data -> origin/bvre-platform-data
+Updating 8864002..87563e8
+Fast-forward
+ .gitignore                                         |     4 +
+ BVRE-data.Rproj                                    |    13 +
+ BVR_maintenance_log.txt                            |    16 +-
+ Combine_old_BVR_files.R                            |    18 +-
+ .../BVRplatform_manual_2020.csv                    | 57698 ++++++++-----------
+ .../CR6Series_BVRplatform_BVRplatform_20210416.dat |  1559 +
+ .../CR6Series_BVRplatform_BVRplatform_20210610.dat |  1478 +
+ ...ries_BVRplatform_bvre-waterquality_20210416.dat |    12 +
+ ...ries_BVRplatform_bvre-waterquality_20210531.dat |  6479 +++
+ ...ries_BVRplatform_bvre-waterquality_20210726.dat |  6592 +++
+ Read_in_file.R                                     |     4 +
+ 11 files changed, 40157 insertions(+), 33716 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 BVRE-data.Rproj
+ rename BVRplatform.csv => Manual_Downloads/BVRplatform_manual_2020.csv (53%)
+ create mode 100644 Manual_Downloads/CR6Series_BVRplatform_BVRplatform_20210416.dat
+ create mode 100644 Manual_Downloads/CR6Series_BVRplatform_BVRplatform_20210610.dat
+ create mode 100644 Manual_Downloads/CR6Series_BVRplatform_bvre-waterquality_20210416.dat
+ create mode 100644 Manual_Downloads/CR6Series_BVRplatform_bvre-waterquality_20210531.dat
+ create mode 100644 Manual_Downloads/CR6Series_BVRplatform_bvre-waterquality_20210726.dat
+ create mode 100644 Read_in_file.R
+[bvre-platform-data 09f9362] 11/02/21 18:28:18 EST: Git Backup
+ 2 files changed, 33732 insertions(+)
+ create mode 100644 BVRplatform.csv
+To github.com:FLARE-forecast/BVRE-data.git
+   87563e8..09f9362  bvre-platform-data -> bvre-platform-data
+
+Logs:
+
+Already up to date.
