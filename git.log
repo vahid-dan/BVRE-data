@@ -66317,3 +66317,29 @@ Already up to date.
  5 files changed, 209 insertions(+)
 To github.com:FLARE-forecast/BVRE-data.git
    595aad49..c11ae5e4  bjorn-logs -> bjorn-logs
+[bjorn-logs 564f0ff1] 11/05/21 09:28:23 EST: Logs
+ 2 files changed, 46 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   c11ae5e4..564f0ff1  bjorn-logs -> bjorn-logs
+
+Completed at 11/05/21 09:28:33 EST
+
+
+############################ bjorn - 11/05/21 13:28:22 EST ############################
+
+Data:
+
+From github.com:FLARE-forecast/BVRE-data
+   60d2521..7a5471b  bvre-platform-data -> origin/bvre-platform-data
+Updating 60d2521..7a5471b
+Fast-forward
+ Combine_old_BVR_files.R | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[bvre-platform-data 047ee4b] 11/05/21 13:28:22 EST: Git Backup
+ 1 file changed, 24 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   7a5471b..047ee4b  bvre-platform-data -> bvre-platform-data
+
+Logs:
+
+Already up to date.
