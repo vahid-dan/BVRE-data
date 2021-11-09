@@ -6508,3 +6508,10 @@ To github.com:FLARE-forecast/BVRE-data.git
 Current branch master is up to date.
 To github.com:FLARE-forecast/BVRE-data.git
    528e7e4..0852919  master -> master
+                                                                                                                                                                                                                   error: object file .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362 is empty
+error: object file .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362 is empty
+fatal: loose object 6c4225d30815bf62d4b0501d81f7a62378375362 (stored in .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362) is corrupt
+error: object file .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362 is empty
+error: object file .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362 is empty
+fatal: loose object 6c4225d30815bf62d4b0501d81f7a62378375362 (stored in .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362) is corrupt
+Everything up-to-date

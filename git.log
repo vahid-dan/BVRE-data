@@ -66850,3 +66850,27 @@ Already up to date.
  3 files changed, 52 insertions(+)
 To github.com:FLARE-forecast/BVRE-data.git
    24f242a7..feda0c8b  bjorn-logs -> bjorn-logs
+[bjorn-logs 1db50b77] 11/09/21 09:31:05 EST: Logs
+ 1 file changed, 4 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   feda0c8b..1db50b77  bjorn-logs -> bjorn-logs
+
+############################ bjorn - 11/09/21 18:28:28 EST ############################
+
+Data:
+
+[bvre-platform-data 5187e29] 11/09/21 18:28:28 EST: Git Backup
+ 1 file changed, 1 insertion(+)
+ create mode 120000 datalogger-data
+From github.com:FLARE-forecast/BVRE-data
+   447b96e..3203efe  bvre-platform-data -> origin/bvre-platform-data
+Merge made by the 'recursive' strategy.
+ bvre-waterquality-new.csv | 72957 ++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 72957 insertions(+)
+ create mode 100644 bvre-waterquality-new.csv
+To github.com:FLARE-forecast/BVRE-data.git
+   3203efe..d2d0459  bvre-platform-data -> bvre-platform-data
+
+Logs:
+
+Already up to date.
