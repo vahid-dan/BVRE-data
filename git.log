@@ -66991,3 +66991,27 @@ Already up to date.
  2 files changed, 66 insertions(+)
 To github.com:FLARE-forecast/BVRE-data.git
    7368a970..9ee0a8e6  bjorn-logs -> bjorn-logs
+[bjorn-logs 8da0140a] 11/10/21 09:29:48 EST: Logs
+ 1 file changed, 4 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   9ee0a8e6..8da0140a  bjorn-logs -> bjorn-logs
+
+############################ bjorn - 11/10/21 13:28:27 EST ############################
+
+Data:
+
+[bvre-platform-data cfc0078] 11/10/21 13:28:27 EST: Git Backup
+ 1 file changed, 24 insertions(+)
+From github.com:FLARE-forecast/BVRE-data
+   7918726..f7b7a19  bvre-platform-data -> origin/bvre-platform-data
+Removing Read_in_file.R
+Merge made by the 'recursive' strategy.
+ Read_in_file.R | 4 ----
+ 1 file changed, 4 deletions(-)
+ delete mode 100644 Read_in_file.R
+To github.com:FLARE-forecast/BVRE-data.git
+   f7b7a19..39bd1bf  bvre-platform-data -> bvre-platform-data
+
+Logs:
+
+Already up to date.
