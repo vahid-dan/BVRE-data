@@ -71374,3 +71374,9 @@ fatal: loose object 45cf0fcc450fc137e7d30ee9cc097314daaa3fe5 (stored in .git/obj
 Logs:
 
 Already up to date.
+[bjorn-logs 6c13e561] 12/20/21 18:29:33 EST: Logs
+ 5 files changed, 139 insertions(+)
+error: pack-objects died of signal 11
+error: pack-objects died of signal 11
+error: remote unpack failed: eof before pack header was fully read
+error: failed to push some refs to 'git@github.com:FLARE-forecast/BVRE-data.git'
