@@ -76991,3 +76991,27 @@ See "git help gc" for manual housekeeping.
  5 files changed, 250 insertions(+)
 To github.com:FLARE-forecast/BVRE-data.git
    87557b49..50ed8423  bjorn-logs -> bjorn-logs
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[bjorn-logs d735dc3f] 02/05/22 09:27:18 EST: Logs
+ 1 file changed, 8 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   50ed8423..d735dc3f  bjorn-logs -> bjorn-logs
+
+############################ bjorn - 02/05/22 13:27:18 EST ############################
+
+Data:
+
+[bvre-platform-data c2fcaf0] 02/05/22 13:27:18 EST: Git Backup
+ 1 file changed, 24 insertions(+)
+Already up to date.
+error: pack-objects died of signal 11
+error: pack-objects died of signal 11
+error: remote unpack failed: eof before pack header was fully read
+error: failed to push some refs to 'git@github.com:FLARE-forecast/BVRE-data.git'
+
+Logs:
+
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Already up to date.
