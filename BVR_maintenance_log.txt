@@ -18,7 +18,7 @@ BVR, 2020-09-16 11:15:00 EST, 2020-09-16 13:10:00 EST, All_BVR, c(1:46), 1, c(47
 BVR, 2020-10-01 15:20:00 EST, 2020-10-01 17:00:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
 BVR, 2020-10-05 09:10:00 EST, 2020-10-05 11:50:00 EST, All_BVR, c(1:46), 1, c(47:86), reprogramed the data logger to read the bottom three sensors so no data recorded
 BVR, 2020-10-14 10:55:00 EST, 2020-10-14 11:10:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
-BVR, 2020-10-22 09:20:00 EST, 2020-10-22 10:20:00 EST, RDO_6, c(18:19), 5, c(60:61), questionable DO values with no one at the reservoir
+BVR, 2020-10-22 08:50:00 EST, 2020-10-22 9:20:00 EST, RDO_6, c(18:19), 5, c(60:61), questionable DO values with no one at the reservoir
 BVR, 2020-10-26 12:10:00 EST, 2020-10-26 13:50:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning and calibrated DO sensor
 BVR, 2020-10-29 10:10:00 EST, 2020-10-29 12:00:00 EST, c(EXOChla:EXOBGAPC), c(32:35), 2, c(72:75), high chla and phyco values removed
 BVR, 2020-10-26 12:10:00 EST, 2020-10-30 09:40:00 EST, Lvl_psi, 45, 7, 85, wire into the data logger came loose and did not record data
