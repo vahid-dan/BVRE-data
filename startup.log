@@ -10262,3 +10262,23 @@ error: object file .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362 is emp
 error: object file .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362 is empty
 fatal: loose object 6c4225d30815bf62d4b0501d81f7a62378375362 (stored in .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362) is corrupt
 Everything up-to-date
+error: object file .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362 is empty
+error: object file .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362 is empty
+fatal: loose object 6c4225d30815bf62d4b0501d81f7a62378375362 (stored in .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362) is corrupt
+error: object file .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362 is empty
+error: object file .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362 is empty
+fatal: loose object 6c4225d30815bf62d4b0501d81f7a62378375362 (stored in .git/objects/6c/4225d30815bf62d4b0501d81f7a62378375362) is corrupt
+Everything up-to-date
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+[master 305241d] Mon Feb 28 13:28:02 EST 2022
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Current branch master is up to date.
+To github.com:FLARE-forecast/BVRE-data.git
+   6c4225d..305241d  master -> master
