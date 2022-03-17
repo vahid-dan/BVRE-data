@@ -82501,3 +82501,11 @@ Logs:
 Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
 Already up to date.
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[bjorn-logs db3a85fb] 03/17/22 09:28:28 EST: Logs
+ 5 files changed, 171 insertions(+)
+remote: Internal Server Error
+To github.com:FLARE-forecast/BVRE-data.git
+ ! [remote rejected]   bjorn-logs -> bjorn-logs (Internal Server Error)
+error: failed to push some refs to 'git@github.com:FLARE-forecast/BVRE-data.git'
