@@ -10709,3 +10709,10 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[master ec0bb10] Thu Mar 17 09:27:58 EST 2022
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Current branch master is up to date.
+remote: Internal Server Error
+To github.com:FLARE-forecast/BVRE-data.git
+ ! [remote rejected] master -> master (Internal Server Error)
+error: failed to push some refs to 'git@github.com:FLARE-forecast/BVRE-data.git'
