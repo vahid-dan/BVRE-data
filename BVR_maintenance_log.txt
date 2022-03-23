@@ -52,3 +52,4 @@ BVR, 2021-11-09 12:20:00 EST, 2021-11-09 12:40:00 EST, All_BVR, c(1:46), 1, c(47
 BVR, 2021-11-22 11:00:00 EST, 2021-11-22 11:20:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
 BVR, 2021-12-06 11:00:00 EST, 2021-12-06 11:20:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
 BVR, 2021-12-06 11:00:00 EST, 2022-01-26 15:10:00 EST, EXO*, c(24:44), 1, c(66:84), EXO returned for maintenance and calibration
+BVR, 2022-03-22 11:30:00 EST, 2022-03-22 12:50:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning and calibrate YSI DO and RDO sensors
