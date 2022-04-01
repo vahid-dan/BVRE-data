@@ -84618,3 +84618,36 @@ See "git help gc" for manual housekeeping.
  5 files changed, 163 insertions(+)
 To github.com:FLARE-forecast/BVRE-data.git
    e2fba2e1..43a17d5c  bjorn-logs -> bjorn-logs
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[bjorn-logs 354ec433] 03/31/22 18:28:45 EST: Logs
+ 1 file changed, 8 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   43a17d5c..354ec433  bjorn-logs -> bjorn-logs
+
+############################ bjorn - 03/31/22 20:14:45 EST ############################
+
+Data:
+
+[bvre-platform-data 3178ce7] 03/31/22 20:14:45 EST: Git Backup
+ 1 file changed, 16 insertions(+)
+ create mode 100644 bvre-waterquality.csv
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+To github.com:FLARE-forecast/BVRE-data.git
+ ! [rejected]        bvre-platform-data -> bvre-platform-data (fetch first)
+error: failed to push some refs to 'git@github.com:FLARE-forecast/BVRE-data.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Logs:
+
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Already up to date.
