@@ -92703,3 +92703,34 @@ See "git help gc" for manual housekeeping.
  5 files changed, 168 insertions(+)
 To github.com:FLARE-forecast/BVRE-data.git
    42a72436..78755a37  bjorn-logs -> bjorn-logs
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[bjorn-logs 9abade33] 05/28/22 13:29:30 EST: Logs
+ 2 files changed, 15 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   78755a37..9abade33  bjorn-logs -> bjorn-logs
+
+############################ bjorn - 05/28/22 18:29:30 EST ############################
+
+Data:
+
+[bvre-platform-data c82d48c] 05/28/22 18:29:30 EST: Git Backup
+ 1 file changed, 30 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
