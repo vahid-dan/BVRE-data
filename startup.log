@@ -13845,3 +13845,12 @@ To github.com:FLARE-forecast/BVRE-data.git
 Current branch master is up to date.
 To github.com:FLARE-forecast/BVRE-data.git
    9deaa11..76e37ee  master -> master
+[master 75ea36a] Fri Jul 15 00:29:18 EST 2022
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+To github.com:FLARE-forecast/BVRE-data.git
+   76e37ee..75ea36a  master -> master
