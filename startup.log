@@ -15520,3 +15520,15 @@ and the repository exists.
 Current branch master is up to date.
 To github.com:FLARE-forecast/BVRE-data.git
    11f7994..5a4ebb3  master -> master
+[master 6bf1500] Fri Sep  2 20:13:06 EST 2022
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
