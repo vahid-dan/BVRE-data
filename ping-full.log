@@ -34402,3 +34402,10 @@
 
 2022-09-17 00:27:15 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 2022-09-17 00:27:15 64 bytes from 8.8.8.8: icmp_seq=1 ttl=54 time=59.0 ms
+2022-09-17 00:32:15 64 bytes from 8.8.8.8: icmp_seq=2 ttl=54 time=44.3 ms
+2022-09-17 00:37:15 64 bytes from 8.8.8.8: icmp_seq=3 ttl=54 time=41.3 ms
+
+############## bjorn - 09/17/22 09:27:15 EST -0500 ##############
+
+2022-09-17 09:27:15 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2022-09-17 09:27:15 64 bytes from 8.8.8.8: icmp_seq=1 ttl=54 time=58.0 ms
