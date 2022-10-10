@@ -58,3 +58,5 @@ BVR, 2022-05-02 10:50:00 EST, 2022-05-02 11:10:00 EST, All_BVR, c(1:46), 1, c(47
 BVR, 2022-05-09 11:10:00 EST, 2022-05-09 11:30:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
 BVR, 2022-06-20 12:10:00 EST, 2022-06-20 12:30:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
 BVR, 2022-07-15 11:10:00 EST, 2022-07-15 11:30:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
+BVR, 2022-09-05 08:40:00 EST, 2022-09-05 10:10:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning and calibration and reposition to 1.5m
+BVR, 2022-09-19 09:30:00 EST, 2022-09-19 09:50:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
