@@ -113433,3 +113433,9 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[bjorn-logs a2da0e03] 10/22/22 18:29:43 EST: Logs
+ 6 files changed, 285 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   6d6376a8..a2da0e03  bjorn-logs -> bjorn-logs
