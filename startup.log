@@ -17992,3 +17992,20 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[master 7780d8b] Tue Oct 25 18:27:49 EST 2022
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Current branch master is up to date.
+To github.com:FLARE-forecast/BVRE-data.git
+   7ec0513..7780d8b  master -> master
+[master 62311be] Tue Oct 25 20:13:49 EST 2022
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
