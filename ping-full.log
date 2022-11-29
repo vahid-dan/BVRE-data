@@ -35775,3 +35775,10 @@
 
 2022-11-29 09:22:50 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 2022-11-29 09:22:50 64 bytes from 8.8.8.8: icmp_seq=1 ttl=54 time=485 ms
+2022-11-29 09:27:50 64 bytes from 8.8.8.8: icmp_seq=2 ttl=54 time=211 ms
+2022-11-29 09:32:50 64 bytes from 8.8.8.8: icmp_seq=3 ttl=54 time=142 ms
+
+############## bjorn - 11/29/22 13:22:50 EST -0500 ##############
+
+2022-11-29 13:22:51 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2022-11-29 13:22:51 64 bytes from 8.8.8.8: icmp_seq=1 ttl=54 time=770 ms
