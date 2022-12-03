@@ -119047,3 +119047,13 @@ Logs:
 Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
 Already up to date.
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[bjorn-logs 1af8368d] 12/03/22 09:24:53 EST: Logs
+ 5 files changed, 196 insertions(+)
+Received disconnect from 140.82.113.3 port 22:11: Bye Bye
+Disconnected from 140.82.113.3 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
