@@ -119367,3 +119367,28 @@ See "git help gc" for manual housekeeping.
  5 files changed, 185 insertions(+)
 To github.com:FLARE-forecast/BVRE-data.git
    ed1d0e38..002e07de  bjorn-logs -> bjorn-logs
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[bjorn-logs 0ca38707] 12/05/22 09:24:56 EST: Logs
+ 1 file changed, 8 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   002e07de..0ca38707  bjorn-logs -> bjorn-logs
+
+############################ bjorn - 12/05/22 13:24:56 EST ############################
+
+Data:
+
+[bvre-platform-data edb7e89] 12/05/22 13:24:56 EST: Git Backup
+ 1 file changed, 24 insertions(+)
+Already up to date.
+remote: warning: See http://git.io/iEPt8g for more information.        
+remote: warning: File bvre-waterquality.csv is 53.83 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To github.com:FLARE-forecast/BVRE-data.git
+   54c0f8e..edb7e89  bvre-platform-data -> bvre-platform-data
+
+Logs:
+
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Already up to date.
