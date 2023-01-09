@@ -124503,3 +124503,12 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[bjorn-logs e7f47e4c] 01/09/23 00:26:04 EST: Logs
+ 6 files changed, 367 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
