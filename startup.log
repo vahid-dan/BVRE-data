@@ -21468,3 +21468,12 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[master 11bd8ac] Sun Jan  8 20:10:04 EST 2023
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+To github.com:FLARE-forecast/BVRE-data.git
+   121aa10..11bd8ac  master -> master
