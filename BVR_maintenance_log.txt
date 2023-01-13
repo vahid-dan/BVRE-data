@@ -56,8 +56,9 @@ BVR, 2022-03-22 11:30:00 EST, 2022-03-22 12:50:00 EST, All_BVR, c(1:46), 1, c(47
 BVR, 2022-04-12 14:40:00 EST, 2022-04-12 15:00:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning 
 BVR, 2022-05-02 10:50:00 EST, 2022-05-02 11:10:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning 
 BVR, 2022-05-09 11:10:00 EST, 2022-05-09 11:30:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
-BVR, 2022-05-23 12:10:00 EST, 2022-05-23 12:40:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
+BVR, 2022-05-09 11:30:00 EST, 2022-05-12 13:00:00 EST, EXO*, c(24:44), 1, c(66:84), EXO in the wrong position so removed data
 BVR, 2022-05-12 12:20:00 EST, 2022-05-12 13:00:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string moved and EXO repositioned
+BVR, 2022-05-23 12:10:00 EST, 2022-05-23 12:40:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
 BVR, 2022-06-20 12:10:00 EST, 2022-06-20 13:00:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
 BVR, 2022-07-15 11:10:00 EST, 2022-07-15 12:00:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
 BVR, 2022-09-05 08:40:00 EST, 2022-09-05 10:40:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning and calibration and reposition to 1.5m
