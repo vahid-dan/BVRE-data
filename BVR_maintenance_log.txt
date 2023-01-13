@@ -33,7 +33,7 @@ BVR, 2021-02-03 06:30:00 EST, 2021-02-03 06:40:00 EST, Lvl_psi, 45, 5, 85, low p
 BVR, 2021-03-08 11:28:00 EST, 2021-03-08 13:00:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning and calibrated DO sensors. EXO Buoy was underwater so repositioned it
 BVR, 2021-04-05 11:20:00 EST, 2021-04-05 13:20:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning and calibrated fDOM and depth sensor and moved thermistors so pressure sensor is at the bottom and stretched out top thermistor
 BVR, 2021-04-05 13:30:00 EST, 2021-04-05 13:30:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning add turbidity and TSS and made a new dataframe and Factory reset the depth sensor and calibrated fDOM to 0 with DI water
-BVR, 2021-03-08 13:40:00 EST, 2021-04-16 09:10:00 EST, c(EXOSpCond:EXOTDS), c(25:26), 5, c(69:70), decrease in sp. cond which lines up with when people were at the reservoir but these are the only two low variables
+BVR, 2021-03-08 13:40:00 EST, 2021-04-16 09:10:00 EST, c(EXOSpCond:EXOTDS), c(27:29), 5, c(67:69), decrease in sp. cond which lines up with when people were at the reservoir but these are the only two low variables
 BVR, 2021-04-16 09:00:00 EST, 2021-04-16 10:00:00 EST, EXO*, c(24:44), 5, c(66:84), Repositioned the EXO buoy to make sure it was floating
 BVR, 2021-05-03 10:10:00 EST, 2021-05-03 10:30:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning 
 BVR, 2021-05-14 10:40:00 EST, 2021-05-14 11:00:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
