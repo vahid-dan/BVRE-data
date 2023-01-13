@@ -66,5 +66,7 @@ BVR, 2022-09-19 09:30:00 EST, 2022-09-19 10:20:00 EST, All_BVR, c(1:46), 1, c(47
 BVR, 2022-10-11 10:50:00 EST, 2022-10-11 11:30:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
 BVR, 2022-10-24 11:00:00 EST, 2022-10-24 11:30:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
 BVR, 2022-11-01 16:10:00 EST, 2022-11-01 16:10:00 EST, c(EXOChla:EXOBGAPC), c(32:35), 2, c(72:75), high chla and phyco values removed 
-BVR, 2022-01-26 15:10:00 EST, 2022-12-16 11:40:00 EST, Cond*, c(27:29), 9, c(67:69), correcting conductivity, specific conductvity and TDS from bad calibration
+BVR, 2022-01-26 15:10:00 EST, 2022-12-16 11:40:00 EST, Cond*, 27, 9, 67, correcting conductivity with linear realtionship with CTD Cond. 
+BVR, 2022-01-26 15:10:00 EST, 2022-12-16 11:40:00 EST, SpCond*, 28, 9, 68, correcting spcond with cond
+BVR, 2022-01-26 15:10:00 EST, 2022-12-16 11:40:00 EST, TDS*, 29, 9, 69, correcting TDS from SpCond 
 BVR, 2022-12-16 11:00:00 EST, 2022-12-16 11:40:00 EST, EXO*, c(24:44), 1, c(66:84), EXO up and replaced with the EXO2 from CCR after it was calibrated
