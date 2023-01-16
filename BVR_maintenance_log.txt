@@ -24,7 +24,7 @@ BVR, 2020-10-29 10:10:00 EST, 2020-10-29 12:00:00 EST, c(EXOChla:EXOBGAPC), c(32
 BVR, 2020-10-26 12:10:00 EST, 2020-10-30 09:40:00 EST, Lvl_psi, 45, 7, 85, wire into the data logger came loose and did not record data
 BVR, 2020-10-26 12:10:00 EST, 2020-10-30 09:40:00 EST, wtr_pt_13, 46, 7, 86, wire into the data logger came loose and did not record data
 BVR, 2020-11-10 11:28:00 EST, 2020-11-10 12:00:00 EST, All_BVR, c(1:46), 1, c(46:86), sensor string up for cleaning 
-BVR, 2020-11-12 20:30:00 EST, 2020-11-12 20:40:00 EST, Cond*, c(27:29), 5, c(67:69), questionable high values on conductivity sensor
+BVR, 2020-11-12 20:30:00 EST, 2020-11-12 20:40:00 EST, c(EXOSpCond:EXOTDS), c(27:29), 5, c(67:69), questionable high values on conductivity sensor
 BVR, 2020-10-22 09:00:00 EST, 2020-12-02 11:30:00 EST, wtr_1, 5, 1, 47, no thermoster connected took thermoster from BVR to replace a broken one at FCR
 BVR, 2020-12-28 03:15:00 EST, 2020-12-28 03:25:00 EST, c(EXOChla:EXOBGAPC), c(32:35), 2, c(72:75), high chla and phyco values removed
 BVR, 2021-01-12 04:10:00 EST, 2021-01-12 04:10:00 EST, Lvl_psi, 45, 5, 85, low psi value 
@@ -52,9 +52,9 @@ BVR, 2021-11-09 12:20:00 EST, 2021-11-09 12:40:00 EST, All_BVR, c(1:46), 1, c(47
 BVR, 2021-11-22 11:00:00 EST, 2021-11-22 11:20:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
 BVR, 2021-12-06 11:00:00 EST, 2021-12-06 11:20:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning
 BVR, 2021-12-06 11:00:00 EST, 2022-01-26 15:10:00 EST, EXO*, c(24:44), 1, c(66:84), EXO returned for maintenance and calibration
-BVR, 2022-01-26 15:10:00 EST, 2022-12-16 11:40:00 EST, Cond*, 27, 4, 67, correcting conductivity with linear realtionship with CTD Cond. 
-BVR, 2022-01-26 15:10:00 EST, 2022-12-16 11:40:00 EST, SpCond*, 28, 4, 68, correcting spcond with cond
-BVR, 2022-01-26 15:10:00 EST, 2022-12-16 11:40:00 EST, TDS*, 29, 4, 69, correcting TDS from SpCond 
+BVR, 2022-01-26 15:10:00 EST, 2022-12-16 11:40:00 EST, Cond*, 27, 6, 67, correcting conductivity with linear realtionship with CTD Cond. 
+BVR, 2022-01-26 15:10:00 EST, 2022-12-16 11:40:00 EST, SpCond*, 28, 6, 68, correcting spcond with cond
+BVR, 2022-01-26 15:10:00 EST, 2022-12-16 11:40:00 EST, TDS*, 29, 6, 69, correcting TDS from SpCond 
 BVR, 2022-03-22 11:30:00 EST, 2022-03-22 12:50:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning and calibrate YSI DO and RDO sensors
 BVR, 2022-04-12 14:40:00 EST, 2022-04-12 15:00:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning 
 BVR, 2022-05-02 10:50:00 EST, 2022-05-02 11:10:00 EST, All_BVR, c(1:46), 1, c(47:86), sensor string up for cleaning 
