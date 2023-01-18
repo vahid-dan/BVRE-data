@@ -125876,3 +125876,9 @@ Logs:
 Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
 Already up to date.
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[bjorn-logs 0ff03dfa] 01/17/23 20:12:22 EST: Logs
+ 5 files changed, 192 insertions(+)
+To github.com:FLARE-forecast/BVRE-data.git
+   88f25c80..0ff03dfa  bjorn-logs -> bjorn-logs
