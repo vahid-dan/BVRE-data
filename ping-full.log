@@ -36984,3 +36984,10 @@
 
 2023-01-17 18:24:22 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 2023-01-17 18:24:22 64 bytes from 8.8.8.8: icmp_seq=1 ttl=113 time=74.9 ms
+2023-01-17 18:29:22 64 bytes from 8.8.8.8: icmp_seq=2 ttl=113 time=68.1 ms
+2023-01-17 18:34:22 64 bytes from 8.8.8.8: icmp_seq=3 ttl=113 time=63.4 ms
+
+############## bjorn - 01/17/23 20:10:22 EST -0500 ##############
+
+2023-01-17 20:10:22 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2023-01-17 20:10:22 64 bytes from 8.8.8.8: icmp_seq=1 ttl=54 time=615 ms
