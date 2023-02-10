@@ -1,10 +1,11 @@
-name: QAQC platform data
+name: QAQC catwalk data
 on:
-   workflow_dispatch:
    push:
-      branches:
-      - 'bvre-platform-data'
-      paths: ['BVRE_maintenance_log.txt','bvre-waterquality.csv']
+      branches: [ bvre-platform-data ]
+      #paths: 
+      #- 'bvre-waterquality.csv'
+   workflow_dispatch:
+
 
 jobs:
   qaqc_run:
