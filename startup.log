@@ -23463,3 +23463,15 @@ Please make sure you have the correct access rights
 and the repository exists.
 To github.com:FLARE-forecast/BVRE-data.git
    ac92516..452a156  master -> master
+[master 71df67b] Sat Mar  4 09:25:27 EST 2023
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
