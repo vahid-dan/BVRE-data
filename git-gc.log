@@ -43,3 +43,5 @@ fatal: not a git repository (or any of the parent directories): .git
 /dev/sda1        59G   27G   30G  48% /data
 ############################ bjorn - 07/28/22 18:30:57 EST ############################
 /dev/sda1        59G   27G   29G  48% /data
+############################ bjorn - 04/14/23 18:28:58 EST ############################
+/dev/sda1        59G   49G  6.8G  88% /data
