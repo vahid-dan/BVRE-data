@@ -26270,3 +26270,39 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[master b00fdbc] Mon May  8 18:26:34 EST 2023
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[master 1083e29] Mon May  8 20:12:40 EST 2023
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Current branch master is up to date.
+remote: Resolving deltas:   0% (0/4)        remote: Resolving deltas:  25% (1/4)        remote: Resolving deltas:  50% (2/4)        remote: Resolving deltas:  75% (3/4)        remote: Resolving deltas: 100% (4/4)        remote: Resolving deltas: 100% (4/4), completed with 1 local object.        
+To github.com:FLARE-forecast/BVRE-data.git
+   c9ea920..1083e29  master -> master
+[master 703c416] Tue May  9 00:26:36 EST 2023
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Current branch master is up to date.
+remote: Resolving deltas:   0% (0/1)        remote: Resolving deltas: 100% (1/1)        remote: Resolving deltas: 100% (1/1), completed with 1 local object.        
+To github.com:FLARE-forecast/BVRE-data.git
+   1083e29..703c416  master -> master
+[master 4b59ebc] Tue May  9 09:26:35 EST 2023
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
