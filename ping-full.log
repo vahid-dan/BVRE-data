@@ -39814,3 +39814,10 @@
 
 2023-05-13 18:26:37 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 2023-05-13 18:26:37 64 bytes from 8.8.8.8: icmp_seq=1 ttl=54 time=72.1 ms
+2023-05-13 18:31:37 64 bytes from 8.8.8.8: icmp_seq=2 ttl=54 time=76.4 ms
+2023-05-13 18:36:37 64 bytes from 8.8.8.8: icmp_seq=3 ttl=54 time=96.5 ms
+
+############## bjorn - 05/13/23 20:12:37 EST -0500 ##############
+
+2023-05-13 20:12:37 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2023-05-13 20:12:37 64 bytes from 8.8.8.8: icmp_seq=1 ttl=54 time=90.0 ms
