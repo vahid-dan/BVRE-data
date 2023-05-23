@@ -18,10 +18,11 @@ jobs:
          with:
            ref: bvre-platform-data-qaqc
            fetch-depth: 1
-       - name: Run QAQC script
+       - name: Download necessary files
          run: |
             wget https://github.com/FLARE-forecast/BVRE-data/blob/bvre-platform-data/bvre-waterquality.csv
             wget https://raw.githubusercontent.com/FLARE-forecast/BVRE-data/bvre-platform-data/BVR_maintenance_log.txt
+       - name: Run QAQC script
          run: | 
            R -e 'install.packages(c("EDIutils","xml2","here"))'
            Rscript $GITHUB_WORKSPACE/R/QAQC_workflow.R
