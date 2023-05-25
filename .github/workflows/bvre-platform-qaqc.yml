@@ -35,5 +35,5 @@ jobs:
          run: |
             git add bvre-waterquality_L1.csv
             git commit -m "Updating QAQC files" || echo "No changes to commit"
-            git push || echo "No changes to commit"
+            git push -f || echo "No changes to commit"
             
