@@ -7,3 +7,28 @@
 2023/06/14 10:27:59 autossh[2626]: check on child 2630
 2023/06/14 10:27:59 autossh[2626]: set alarm for 600 secs
 2023/06/14 10:27:59 autossh[2630]: execing /usr/bin/ssh
+
+############################ bjorn - 06/14/23 13:55:01 EST ############################
+
+2023/06/14 13:55:01 autossh[7254]: checking for grace period, tries = 0
+2023/06/14 13:55:01 autossh[7254]: starting ssh (count 1)
+2023/06/14 13:55:01 autossh[7254]: ssh child pid is 7255
+2023/06/14 13:55:01 autossh[7254]: check on child 7255
+2023/06/14 13:55:01 autossh[7254]: set alarm for 600 secs
+2023/06/14 13:55:01 autossh[7255]: execing /usr/bin/ssh
+
+############################ bjorn - 06/14/23 13:56:31 EST ############################
+
+2023/06/14 13:56:31 autossh[7321]: bind on 127.0.0.1:61001: Address already in use
+
+############################ bjorn - 06/14/23 14:00:01 EST ############################
+
+2023/06/14 14:00:01 autossh[7446]: bind on 127.0.0.1:61001: Address already in use
+2023/06/14 14:05:16 autossh[7254]: timeout polling to accept read connection
+2023/06/14 14:05:16 autossh[7254]: port down, restarting ssh
+2023/06/14 14:05:16 autossh[7254]: checking for grace period, tries = 0
+2023/06/14 14:05:16 autossh[7254]: starting ssh (count 2)
+2023/06/14 14:05:16 autossh[7254]: ssh child pid is 7682
+2023/06/14 14:05:16 autossh[7254]: check on child 7682
+2023/06/14 14:05:16 autossh[7254]: set alarm for 600 secs
+2023/06/14 14:05:16 autossh[7682]: execing /usr/bin/ssh
