@@ -45,3 +45,28 @@ fatal: not a git repository (or any of the parent directories): .git
 /dev/sda1        59G   27G   29G  48% /data
 ############################ bjorn - 04/14/23 18:28:58 EST ############################
 /dev/sda1        59G   49G  6.8G  88% /data
+############################ bjorn - 06/14/23 10:01:28 EST ############################
+/dev/sda1        59G   56G  132K 100% /data
+############################ bjorn - 06/14/23 10:17:39 EST ############################
+/dev/sda1        59G   56G     0 100% /data
+fatal: unable to write new packed-refs: error closing file /data/bvre-platform-data/.git/packed-refs.new: No space left on device
+error: failed to run pack-refs
+fatal: unable to write new packed-refs: error closing file /data/bjorn-logs/.git/packed-refs.new: No space left on device
+error: failed to run pack-refs
+/dev/sda1        59G   56G     0 100% /data
+############################ bjorn - 06/14/23 10:19:27 EST ############################
+/dev/sda1        59G   56G     0 100% /data
+fatal: unable to write new packed-refs: error closing file /data/bvre-platform-data/.git/packed-refs.new: No space left on device
+error: failed to run pack-refs
+fatal: unable to write new packed-refs: error closing file /data/bjorn-logs/.git/packed-refs.new: No space left on device
+error: failed to run pack-refs
+/dev/sda1        59G   56G     0 100% /data
+############################ bjorn - 06/14/23 10:20:15 EST ############################
+/dev/sda1        59G   56G     0 100% /data
+fatal: unable to write new packed-refs: error closing file /data/bvre-platform-data/.git/packed-refs.new: No space left on device
+error: failed to run pack-refs
+fatal: unable to write new packed-refs: error closing file /data/bjorn-logs/.git/packed-refs.new: No space left on device
+error: failed to run pack-refs
+/dev/sda1        59G   56G     0 100% /data
+############################ bjorn - 06/14/23 10:20:57 EST ############################
+/dev/sda1        59G   56G   19M 100% /data
