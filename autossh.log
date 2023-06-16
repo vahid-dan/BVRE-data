@@ -287,3 +287,36 @@
 2023/06/16 08:02:01 autossh[2219]: check on child 2221
 2023/06/16 08:02:01 autossh[2219]: set alarm for 600 secs
 2023/06/16 08:02:01 autossh[2221]: execing /usr/bin/ssh
+2023/06/16 08:12:16 autossh[2219]: timeout polling to accept read connection
+2023/06/16 08:12:16 autossh[2219]: port down, restarting ssh
+2023/06/16 08:12:16 autossh[2219]: checking for grace period, tries = 0
+2023/06/16 08:12:16 autossh[2219]: starting ssh (count 2)
+2023/06/16 08:12:16 autossh[2219]: ssh child pid is 2871
+2023/06/16 08:12:16 autossh[2219]: check on child 2871
+2023/06/16 08:12:16 autossh[2219]: set alarm for 600 secs
+2023/06/16 08:12:16 autossh[2871]: execing /usr/bin/ssh
+2023/06/16 08:22:31 autossh[2219]: timeout polling to accept read connection
+2023/06/16 08:22:31 autossh[2219]: port down, restarting ssh
+2023/06/16 08:22:31 autossh[2219]: checking for grace period, tries = 0
+2023/06/16 08:22:31 autossh[2219]: starting ssh (count 3)
+2023/06/16 08:22:31 autossh[2219]: ssh child pid is 3218
+2023/06/16 08:22:31 autossh[2219]: check on child 3218
+2023/06/16 08:22:31 autossh[2219]: set alarm for 600 secs
+2023/06/16 08:22:31 autossh[3218]: execing /usr/bin/ssh
+2023/06/16 08:32:46 autossh[2219]: timeout polling to accept read connection
+2023/06/16 08:32:46 autossh[2219]: port down, restarting ssh
+2023/06/16 08:32:46 autossh[2219]: checking for grace period, tries = 0
+2023/06/16 08:32:46 autossh[2219]: starting ssh (count 4)
+2023/06/16 08:32:46 autossh[2219]: ssh child pid is 3535
+2023/06/16 08:32:46 autossh[2219]: check on child 3535
+2023/06/16 08:32:46 autossh[2219]: set alarm for 600 secs
+2023/06/16 08:32:46 autossh[3535]: execing /usr/bin/ssh
+
+############################ bjorn - 06/16/23 14:02:03 EST ############################
+
+2023/06/16 14:02:03 autossh[2239]: checking for grace period, tries = 0
+2023/06/16 14:02:03 autossh[2239]: starting ssh (count 1)
+2023/06/16 14:02:03 autossh[2239]: ssh child pid is 2240
+2023/06/16 14:02:03 autossh[2239]: check on child 2240
+2023/06/16 14:02:03 autossh[2239]: set alarm for 600 secs
+2023/06/16 14:02:03 autossh[2240]: execing /usr/bin/ssh
