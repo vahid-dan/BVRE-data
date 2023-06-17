@@ -320,3 +320,40 @@
 2023/06/16 14:02:03 autossh[2239]: check on child 2240
 2023/06/16 14:02:03 autossh[2239]: set alarm for 600 secs
 2023/06/16 14:02:03 autossh[2240]: execing /usr/bin/ssh
+2023/06/16 14:12:18 autossh[2239]: timeout polling to accept read connection
+2023/06/16 14:12:18 autossh[2239]: port down, restarting ssh
+2023/06/16 14:12:18 autossh[2239]: checking for grace period, tries = 0
+2023/06/16 14:12:18 autossh[2239]: starting ssh (count 2)
+2023/06/16 14:12:18 autossh[2239]: ssh child pid is 2877
+2023/06/16 14:12:18 autossh[2239]: check on child 2877
+2023/06/16 14:12:18 autossh[2239]: set alarm for 600 secs
+2023/06/16 14:12:18 autossh[2877]: execing /usr/bin/ssh
+2023/06/16 14:22:33 autossh[2239]: timeout polling to accept read connection
+2023/06/16 14:22:33 autossh[2239]: port down, restarting ssh
+2023/06/16 14:22:33 autossh[2239]: checking for grace period, tries = 0
+2023/06/16 14:22:33 autossh[2239]: starting ssh (count 3)
+2023/06/16 14:22:33 autossh[2239]: ssh child pid is 3227
+2023/06/16 14:22:33 autossh[2239]: check on child 3227
+2023/06/16 14:22:33 autossh[2239]: set alarm for 600 secs
+2023/06/16 14:22:33 autossh[3227]: execing /usr/bin/ssh
+2023/06/16 14:32:33 autossh[2239]: not what I sent: "bjorn autossh 2239 260636341 
+" : ""
+2023/06/16 14:32:33 autossh[2239]: not what I sent: "bjorn autossh 2239 260636341 
+" : ""
+2023/06/16 14:32:33 autossh[2239]: tried connection 3 times and failed
+2023/06/16 14:32:33 autossh[2239]: port down, restarting ssh
+2023/06/16 14:32:33 autossh[2239]: checking for grace period, tries = 0
+2023/06/16 14:32:33 autossh[2239]: starting ssh (count 4)
+2023/06/16 14:32:33 autossh[2239]: ssh child pid is 3542
+2023/06/16 14:32:33 autossh[2239]: check on child 3542
+2023/06/16 14:32:33 autossh[2239]: set alarm for 600 secs
+2023/06/16 14:32:33 autossh[3542]: execing /usr/bin/ssh
+
+############################ bjorn - 06/17/23 00:02:03 EST ############################
+
+2023/06/17 00:02:03 autossh[2208]: checking for grace period, tries = 0
+2023/06/17 00:02:03 autossh[2208]: starting ssh (count 1)
+2023/06/17 00:02:03 autossh[2208]: ssh child pid is 2209
+2023/06/17 00:02:03 autossh[2208]: check on child 2209
+2023/06/17 00:02:03 autossh[2208]: set alarm for 600 secs
+2023/06/17 00:02:03 autossh[2209]: execing /usr/bin/ssh
