@@ -863,3 +863,8 @@
 2023/06/18 14:03:02 autossh[2260]: expired child, returning 1
 2023/06/18 14:03:02 autossh[2260]: checking for grace period, tries = 10
 2023/06/18 14:03:02 autossh[2260]: sleeping for grace time 50 secs
+2023/06/18 14:03:52 autossh[2260]: starting ssh (count 11)
+2023/06/18 14:03:52 autossh[2260]: ssh child pid is 2532
+2023/06/18 14:03:52 autossh[2260]: check on child 2532
+2023/06/18 14:03:52 autossh[2260]: set alarm for 490 secs
+2023/06/18 14:03:52 autossh[2532]: execing /usr/bin/ssh
