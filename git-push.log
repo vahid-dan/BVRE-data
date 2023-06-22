@@ -37,3 +37,12 @@ To github.com:vahid-dan/BVRE-data.git
 
 Logs:
 
+[diana2-logs ac14ff0] 06/22/23 12:20:01 EST -0500: Logs
+ 6 files changed, 181 insertions(+)
+ create mode 100644 git-garbage-collector.log
+ create mode 100644 ping-monitor-full.log
+ create mode 100644 ping-monitor-stat.log
+ create mode 100644 reverse-ssh.log
+ create mode 100644 status-monitor.log
+To github.com:vahid-dan/BVRE-data.git
+   dbe2c08..ac14ff0  diana2-logs -> diana2-logs
