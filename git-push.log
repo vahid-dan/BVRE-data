@@ -17,3 +17,23 @@ Logs:
  create mode 100644 startup-notifier.log
 To github.com:vahid-dan/BVRE-data.git
    9bba4e0..f5cbe1f  diana2-logs -> diana2-logs
+[diana2-logs dbe2c08] 06/22/23 11:27:15 EST -0500: Logs
+ 1 file changed, 6 insertions(+)
+To github.com:vahid-dan/BVRE-data.git
+   f5cbe1f..dbe2c08  diana2-logs -> diana2-logs
+
+Completed at 06/22/23 11:27:17 EST
+
+
+############################ diana2 - 06/22/23 12:20:01 EST -0500 ############################
+
+Data:
+
+[bvre-test-data 6c40074] 06/22/23 12:20:01 EST -0500: Git Backup
+ 1 file changed, 1 insertion(+)
+ create mode 120000 bvre-test-data
+To github.com:vahid-dan/BVRE-data.git
+   9bba4e0..6c40074  bvre-test-data -> bvre-test-data
+
+Logs:
+

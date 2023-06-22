@@ -1,0 +1,74 @@
+
+############################ diana2 - 06/22/23 11:31:17 EST -0500 ############################
+
+2023/06/22 11:31:17 autossh[20733]: bind on 127.0.0.1:61001: Address already in use
+
+############################ diana2 - 06/22/23 11:36:17 EST -0500 ############################
+
+2023/06/22 11:36:17 autossh[20970]: checking for grace period, tries = 0
+2023/06/22 11:36:17 autossh[20970]: starting ssh (count 1)
+2023/06/22 11:36:17 autossh[20970]: ssh child pid is 20971
+2023/06/22 11:36:17 autossh[20970]: check on child 20971
+2023/06/22 11:36:17 autossh[20970]: clear alarm timer (0 secs left)
+2023/06/22 11:36:17 autossh[20970]: set alarm for 600 secs
+2023/06/22 11:36:17 autossh[20971]: child of 20970 execing /usr/bin/ssh
+2023/06/22 11:46:17 autossh[20970]: received SIGALRM (end-of-life 0)
+2023/06/22 11:46:17 autossh[20970]: not what I sent: "diana2 autossh 20970 336047045 
+" : ""
+2023/06/22 11:46:17 autossh[20970]: not what I sent: "diana2 autossh 20970 336047045 
+" : ""
+2023/06/22 11:46:17 autossh[20970]: tried connection 3 times and failed
+2023/06/22 11:46:17 autossh[20970]: port down, restarting ssh
+2023/06/22 11:46:17 autossh[20970]: clear alarm timer (0 secs left)
+2023/06/22 11:46:17 autossh[20970]: checking for grace period, tries = 0
+2023/06/22 11:46:17 autossh[20970]: starting ssh (count 2)
+2023/06/22 11:46:17 autossh[20970]: ssh child pid is 21115
+2023/06/22 11:46:17 autossh[20970]: check on child 21115
+2023/06/22 11:46:17 autossh[20970]: clear alarm timer (0 secs left)
+2023/06/22 11:46:17 autossh[20970]: set alarm for 600 secs
+2023/06/22 11:46:17 autossh[21115]: child of 20970 execing /usr/bin/ssh
+2023/06/22 11:56:17 autossh[20970]: received SIGALRM (end-of-life 0)
+2023/06/22 11:56:17 autossh[20970]: not what I sent: "diana2 autossh 20970 233851481 
+" : ""
+2023/06/22 11:56:17 autossh[20970]: not what I sent: "diana2 autossh 20970 233851481 
+" : ""
+2023/06/22 11:56:17 autossh[20970]: tried connection 3 times and failed
+2023/06/22 11:56:17 autossh[20970]: port down, restarting ssh
+2023/06/22 11:56:17 autossh[20970]: clear alarm timer (0 secs left)
+2023/06/22 11:56:17 autossh[20970]: checking for grace period, tries = 0
+2023/06/22 11:56:17 autossh[20970]: starting ssh (count 3)
+2023/06/22 11:56:17 autossh[20970]: ssh child pid is 21239
+2023/06/22 11:56:17 autossh[20970]: check on child 21239
+2023/06/22 11:56:17 autossh[20970]: clear alarm timer (0 secs left)
+2023/06/22 11:56:17 autossh[20970]: set alarm for 600 secs
+2023/06/22 11:56:17 autossh[21239]: child of 20970 execing /usr/bin/ssh
+2023/06/22 12:06:17 autossh[20970]: received SIGALRM (end-of-life 0)
+2023/06/22 12:06:17 autossh[20970]: not what I sent: "diana2 autossh 20970 1304414310 
+" : ""
+2023/06/22 12:06:17 autossh[20970]: not what I sent: "diana2 autossh 20970 1304414310 
+" : ""
+2023/06/22 12:06:17 autossh[20970]: tried connection 3 times and failed
+2023/06/22 12:06:17 autossh[20970]: port down, restarting ssh
+2023/06/22 12:06:17 autossh[20970]: clear alarm timer (0 secs left)
+2023/06/22 12:06:17 autossh[20970]: checking for grace period, tries = 0
+2023/06/22 12:06:17 autossh[20970]: starting ssh (count 4)
+2023/06/22 12:06:17 autossh[20970]: ssh child pid is 21351
+2023/06/22 12:06:17 autossh[20970]: check on child 21351
+2023/06/22 12:06:17 autossh[20970]: clear alarm timer (0 secs left)
+2023/06/22 12:06:17 autossh[20970]: set alarm for 600 secs
+2023/06/22 12:06:17 autossh[21351]: child of 20970 execing /usr/bin/ssh
+2023/06/22 12:16:17 autossh[20970]: received SIGALRM (end-of-life 0)
+2023/06/22 12:16:17 autossh[20970]: not what I sent: "diana2 autossh 20970 493667331 
+" : ""
+2023/06/22 12:16:17 autossh[20970]: not what I sent: "diana2 autossh 20970 493667331 
+" : ""
+2023/06/22 12:16:17 autossh[20970]: tried connection 3 times and failed
+2023/06/22 12:16:17 autossh[20970]: port down, restarting ssh
+2023/06/22 12:16:17 autossh[20970]: clear alarm timer (0 secs left)
+2023/06/22 12:16:17 autossh[20970]: checking for grace period, tries = 0
+2023/06/22 12:16:17 autossh[20970]: starting ssh (count 5)
+2023/06/22 12:16:17 autossh[20970]: ssh child pid is 21461
+2023/06/22 12:16:17 autossh[20970]: check on child 21461
+2023/06/22 12:16:17 autossh[20970]: clear alarm timer (0 secs left)
+2023/06/22 12:16:17 autossh[20970]: set alarm for 600 secs
+2023/06/22 12:16:17 autossh[21461]: child of 20970 execing /usr/bin/ssh
