@@ -11,3 +11,9 @@ Everything up-to-date
 
 Logs:
 
+[diana2-logs f5cbe1f] 06/22/23 11:27:15 EST -0500: Logs
+ 2 files changed, 19 insertions(+)
+ create mode 100644 git-push.log
+ create mode 100644 startup-notifier.log
+To github.com:vahid-dan/BVRE-data.git
+   9bba4e0..f5cbe1f  diana2-logs -> diana2-logs
